@@ -352,7 +352,8 @@ def linearize_amr(args):
     phrase_map = {}
 
     amr_file = os.path.join(args.data_dir, 'amr')
-    alignment_file = os.path.join(args.data_dir, 'alignment')
+    # The initial alinment files (one per line and as specified by the AMR project)
+    alignment_file = os.path.join(args.data_dir, 'alignment.amr')
     tok_file = os.path.join(args.data_dir, 'token')
     lem_file = os.path.join(args.data_dir, 'lemma')
     pos_file = os.path.join(args.data_dir, 'pos')
@@ -365,7 +366,7 @@ def linearize_amr(args):
 
     multi_map = defaultdict(int)
 
-    assert len(amr_graphs) == len(alignments) and len(amr_graphs) == len(toks) and len(amr_graphs) == len(poss), '%d %d %d %d %d' % (len(amr_graphs), len(alignments), len(toks), len(poss))
+    assert len(amr_graphs) == len(alignments) and len(amr_graphs) == len(toks) and len(amr_graphs) == len(poss), '%d %d %d %d' % (len(amr_graphs), len(alignments), len(toks), len(poss))
 
     amr_statistics = AMR_stats()
 
@@ -802,11 +803,11 @@ def linearize_amr(args):
         saveSetorList(ambiguous_toks, ambiguousToksStats)
         saveSetorList(ambiguous_lems, ambiguousLemsStats)
 
-        mle_map = filterNoise(mle_map, './conceptIDCounts.dict.weird.txt')
-        mleLemmaMap = filterNoise(mleLemmaMap, './lemConceptIDCounts.dict.weird.txt')
+        #mle_map = filterNoise(mle_map, './conceptIDCounts.dict.weird.txt')
+        #mleLemmaMap = filterNoise(mleLemmaMap, './lemConceptIDCounts.dict.weird.txt')
 
-        dumpMap(mle_map, conceptIDStats)
-        dumpMap(mleLemmaMap, lemmaConceptStats)
+        #dumpMap(mle_map, conceptIDStats)
+        #dumpMap(mleLemmaMap, lemmaConceptStats)
 
     # linearizeData(mle_map, mleLemmaMap, phrases, args.dev_dir, args.dev_output)
     # linearizeData(mle_map, mleLemmaMap, phrases, args.test_dir, args.test_output)

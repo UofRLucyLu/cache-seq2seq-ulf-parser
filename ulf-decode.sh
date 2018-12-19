@@ -11,7 +11,7 @@ module load tensorflow/1.4.1
 
 #python ./oracle/oracle.py --data_dir ./ulfdata/12-15-dev --output_dir ./ulfdata/12-15-dev-decode --cache_size 4 --decode --ulf
 
-cache_size=2
+cache_size=4
 beam_size=10
 model_prefix=./logs_cache_size${cache_size}_hard_ulf/NP2P.base_separate
 #model_prefix=./logs_decode_dev/NP2P.base_separate

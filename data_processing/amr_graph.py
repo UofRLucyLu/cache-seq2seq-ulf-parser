@@ -1225,8 +1225,8 @@ class AMRGraph(object):
                 curr_node = self.nodes[curr_node_idx]
             else:
                 try:
-                    #print curr_node
-                    #print curr_node.v_edges
+                    print curr_node
+                    print curr_node.v_edges
                     curr_edge_index = curr_node.v_edges[curr_index]
                 except:
                     print "Exception in amr_graph.py get_concept_relation()"
