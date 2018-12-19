@@ -1,0 +1,14 @@
+Input data directory: ../data/train_categorized
+Output directory: ../data/train_oracle
+def buildEdgeMap(self):
+        right_edges_list = defaultdict(list)
+        for (i, concept) in enumerate(self.concepts):
+            for tail_v in concept.tail_ids:
+                if tail_v > i:
+                    right_edges_list[i].append(tail_v)
+                elif tail_v < i:
+                    right_edges_list[tail_v].append(i)
+        for left_idx in right_edges_list:
+            sorted_right_list = sorted(right_edges_list[left_idx])
+            assert sorted_right_list[0] > left_idx
+            self.right_edges[left_idx] = sorted_right_list

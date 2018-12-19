@@ -1,0 +1,286 @@
+# tok:: 2008-05-14
+# sentence-0
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-05-15
+# sentence-31
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-05-15
+# sentence-44
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-07-10
+# sentence-75
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-07-13
+# sentence-88
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-07-17
+# sentence-105
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-07-17
+# sentence-116
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-07-28
+# sentence-138
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-08-25
+# sentence-167
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-08-26
+# sentence-182
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-09-03
+# sentence-196
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: Europe
+# sentence-197
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(c0 / continent
+	:wiki "Europe"
+	:name (n0 / name
+		:op1 "Europe"))
+
+# tok:: 2008-09-03
+# sentence-224
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-09-12
+# sentence-233
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-09-26
+# sentence-251
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-09-26
+# sentence-262
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-10-20
+# sentence-281
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-10-23
+# sentence-307
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-10-31
+# sentence-334
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-11-18
+# sentence-362
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-11-21
+# sentence-374
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-11-25
+# sentence-394
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-11-27
+# sentence-406
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2003-10-21
+# sentence-424
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2004-02-12
+# sentence-449
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2004-06-28
+# sentence-466
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2007-03-04
+# sentence-489
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-01-28
+# sentence-502
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-02-15
+# sentence-515
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2008-04-08
+# sentence-533
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 1995-12-18
+# sentence-551
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 1999-06-30
+# sentence-580
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2007-01-23
+# sentence-657
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2007-02-02
+# sentence-693
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2007-05-14
+# sentence-740
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: 2007-06-09
+# sentence-769
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(d0 / date-entity)
+
+# tok:: - turn
+# sentence-866
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(t0 / turn-01)
+
+# tok:: Very attractive
+# sentence-837
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC SHIFT PUSH:0 ARC L-degree NOARC NOARC NOARC NOARC NOARC NOARC POP POP
+(a0 / attract-01
+	:degree (v0 / very))
+
+# tok:: Passing through ...
+# sentence-911
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(p0 / pass-01)
+
+# tok:: ( End )
+# sentence-1274
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(e0 / end-01)
+
+# tok:: ( End )
+# sentence-1295
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(e0 / end-01)
+
+# tok:: ( End )
+# sentence-1303
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(e0 / end-01)
+
+# tok:: ( End )
+# sentence-1313
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(e0 / end-01)
+
+# tok:: ( End )
+# sentence-1325
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(e0 / end-01)
+
+# tok:: ( End )
+# sentence-1332
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(e0 / end-01)
+
+# tok:: ( End )
+# sentence-1350
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(e0 / end-01)
+
+# tok:: ( End )
+# sentence-1356
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(e0 / end-01)
+
+# tok:: ( End )
+# sentence-1367
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC POP
+(e0 / end-01)
+
+# tok:: Oguz stated --
+# sentence-154
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC SHIFT PUSH:0 ARC L-ARG0 NOARC NOARC NOARC NOARC NOARC NOARC POP POP
+(s0 / state-01
+	:ARG0 (p0 / person
+		:wiki "-"
+		:name (n0 / name
+			:op1 "Oguz")))
+
+# tok:: Medvedev stated --
+# sentence-271
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC SHIFT PUSH:0 ARC L-ARG0 NOARC NOARC NOARC NOARC NOARC NOARC POP POP
+(s0 / state-01
+	:ARG0 (p0 / person
+		:wiki "Dmitry_Medvedev"
+		:name (n0 / name
+			:op1 "Medvedev")))
+
+# tok:: Lee stated --
+# sentence-509
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC SHIFT PUSH:0 ARC L-ARG0 NOARC NOARC NOARC NOARC NOARC NOARC POP POP
+(s0 / state-01
+	:ARG0 (p0 / person
+		:wiki "-"
+		:name (n0 / name
+			:op1 "Lee")))
+
+# tok:: taking a look
+# sentence-828
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC SHIFT PUSH:0 ARC R-ARG1 NOARC NOARC NOARC NOARC NOARC NOARC POP POP
+(t0 / take-01
+	:ARG1 (l0 / look-01))
+
+# tok:: Support , bump
+# sentence-859
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC SHIFT PUSH:0 ARC L-ARG1-of NOARC NOARC NOARC NOARC NOARC NOARC POP POP
+(b0 / bump-02
+	:ARG1-of (s0 / support-01))
+
+# tok:: Racially insensitive ?
+# sentence-1083
+# Hyp-0:: <s> SHIFT PUSH:0 NOARC NOARC NOARC NOARC NOARC NOARC NOARC SHIFT PUSH:0 ARC R-mode NOARC NOARC NOARC NOARC NOARC NOARC POP POP

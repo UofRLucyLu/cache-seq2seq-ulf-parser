@@ -1,0 +1,1138 @@
+Sentence #0
+0 ||| care ||| CARE.V ||| NONE
+1 ||| for ||| FOR.P-ARG ||| NONE
+2 ||| a ||| A.D ||| NONE
+3 ||| smoke ||| SMOKE.N ||| NONE
+4 ||| ? ||| ? ||| NONE
+
+Sentence #1
+0 ||| what ||| WHAT.PRO ||| NONE
+1 ||| did ||| DO.AUX-S ||| NONE
+2 ||| you ||| YOU.PRO ||| NONE
+3 ||| do ||| DO.V ||| NONE
+4 ||| with ||| WITH.P ||| NONE
+5 ||| your ||| YOUR.D ||| NONE
+6 ||| camera ||| CAMERA.N ||| NONE
+7 ||| ? ||| ? ||| NONE
+
+Sentence #2
+0 ||| if ||| IF.PS ||| NONE
+1 ||| i ||| NONE ||| NONE
+2 ||| 'd ||| NONE ||| NONE
+3 ||| known ||| KNOW.V ||| NONE
+4 ||| the ||| THE.D ||| NONE
+5 ||| truth ||| TRUTH.N ||| NONE
+6 ||| , ||| NONE ||| NONE
+7 ||| i ||| I.PRO ||| NONE
+8 ||| would ||| NONE ||| NONE
+9 ||| 've ||| TELL.V ||| NONE
+10 ||| told ||| NONE ||| NONE
+11 ||| it ||| IT.PRO ||| NONE
+12 ||| to ||| TO.P ||| NONE
+13 ||| you ||| NONE ||| NONE
+14 ||| . ||| NONE ||| NONE
+
+Sentence #3
+0 ||| margaret ||| "|Margaret|" ||| NONE
+1 ||| , ||| NONE ||| NONE
+2 ||| what ||| WHAT.D ||| NONE
+3 ||| comment ||| COMMENT.N ||| NONE
+4 ||| can ||| CAN.AUX-S ||| NONE
+5 ||| i ||| I.PRO ||| NONE
+6 ||| make ||| MAKE.V ||| NONE
+7 ||| on ||| ON.P ||| NONE
+8 ||| the ||| THE.D ||| NONE
+9 ||| untimely ||| UNTIMELY.A ||| NONE
+10 ||| extinction ||| EXTINCTION.N ||| NONE
+11 ||| of ||| OF.P ||| NONE
+12 ||| this ||| THIS.D ||| NONE
+13 ||| glorious ||| GLORIOUS.A ||| NONE
+14 ||| spirit ||| SPIRIT.N ||| NONE
+15 ||| ? ||| ? ||| NONE
+
+Sentence #4
+0 ||| you ||| YOU.PRO ||| NONE
+1 ||| must ||| MUST.AUX-V ||| NONE
+2 ||| work ||| WORK.V ||| NONE
+3 ||| more ||| MORE.ADV-A ||| NONE
+4 ||| . ||| NONE ||| NONE
+
+Sentence #5
+0 ||| name ||| NAME.V ||| NONE
+1 ||| a ||| A.D ||| NONE
+2 ||| flying ||| FLYING.A ||| NONE
+3 ||| mammal ||| MAMMAL.N ||| NONE
+4 ||| . ||| NONE ||| NONE
+
+Sentence #6
+0 ||| i ||| I.PRO ||| NONE
+1 ||| 'm ||| NONE ||| NONE
+2 ||| going ||| GO.V ||| NONE
+3 ||| to ||| NONE ||| NONE
+4 ||| sit ||| SIT.V ||| NONE
+5 ||| on ||| ON.P ||| NONE
+6 ||| the ||| THE.D ||| NONE
+7 ||| bench ||| BENCH.N ||| NONE
+8 ||| over ||| OVER.P ||| NONE
+9 ||| there ||| THERE.PRO ||| NONE
+10 ||| next ||| NEXT_TO.P ||| NONE
+11 ||| to ||| TO ||| NONE
+12 ||| the ||| THE.D ||| NONE
+13 ||| street ||| STREET.N ||| NONE
+14 ||| lamp ||| LAMP.N ||| NONE
+15 ||| . ||| NONE ||| NONE
+
+Sentence #7
+0 ||| you ||| YOU.PRO ||| NONE
+1 ||| can ||| CAN.AUX-S ||| NONE
+2 ||| rely ||| RELY.V ||| NONE
+3 ||| on ||| ON.P-ARG ||| NONE
+4 ||| him ||| HIM.PRO ||| NONE
+5 ||| . ||| NONE ||| NONE
+
+Sentence #8
+0 ||| what ||| WHAT.PRO ||| NONE
+1 ||| 's ||| BE.V ||| NONE
+2 ||| behind ||| BEHIND.P ||| NONE
+3 ||| the ||| THE.D ||| NONE
+4 ||| door ||| DOOR.N ||| NONE
+5 ||| ? ||| ? ||| NONE
+
+Sentence #9
+0 ||| why ||| WHY.ADV-S ||| NONE
+1 ||| do ||| DO.AUX-S ||| NONE
+2 ||| you ||| YOU.PRO ||| NONE
+3 ||| want ||| WANT.V ||| NONE
+4 ||| to ||| TO ||| NONE
+5 ||| leave ||| LEAVE.V ||| NONE
+6 ||| today ||| TODAY.ADV-E ||| NONE
+7 ||| ? ||| ? ||| NONE
+
+Sentence #10
+0 ||| how ||| HOW.PQ ||| NONE
+1 ||| can ||| CAN.AUX-V ||| NONE
+2 ||| anyone ||| ANYONE.PRO ||| NONE
+3 ||| tell ||| TELL.V ||| NONE
+4 ||| if ||| NONE ||| NONE
+5 ||| a ||| A.D ||| NONE
+6 ||| female ||| FEMALE.N ||| NONE
+7 ||| had ||| HAVE.V ||| NONE
+8 ||| sexual ||| SEXUAL.A ||| NONE
+9 ||| intercourse ||| INTERCOURSE.N ||| NONE
+10 ||| ? ||| ? ||| NONE
+
+Sentence #11
+0 ||| `` ||| NONE ||| NONE
+1 ||| could ||| COULD.AUX-S ||| NONE
+2 ||| you ||| YOU.PRO ||| NONE
+3 ||| do ||| DO.V ||| NONE
+4 ||| this ||| THIS.PRO ||| NONE
+5 ||| instead ||| INSTEAD.ADV-E ||| NONE
+6 ||| of ||| OF ||| NONE
+7 ||| me ||| NONE ||| NONE
+8 ||| ? ||| ? ||| NONE
+9 ||| '' ||| NONE ||| NONE
+10 ||| `` ||| NONE ||| NONE
+11 ||| sorry ||| SORRY.A ||| NONE
+12 ||| , ||| NONE ||| NONE
+13 ||| i ||| I.PRO ||| NONE
+14 ||| 'm ||| BE.V ||| NONE
+15 ||| too ||| TOO.ADV-E ||| NONE
+16 ||| busy ||| BUSY.A ||| NONE
+17 ||| . ||| NONE ||| NONE
+18 ||| '' ||| NONE ||| NONE
+
+Sentence #12
+0 ||| u.s. ||| "|U.S.|" ||| NONE
+1 ||| district ||| DISTRICT.N ||| NONE
+2 ||| judge ||| JUDGE.N ||| NONE
+3 ||| gerhard ||| NONE ||| NONE
+4 ||| gesell ||| NONE ||| NONE
+5 ||| is ||| NONE ||| NONE
+6 ||| expected ||| EXPECT.V ||| NONE
+7 ||| to ||| TO ||| NONE
+8 ||| act ||| ACT.V ||| NONE
+9 ||| on ||| ON.P-ARG ||| NONE
+10 ||| walsh ||| "|Walsh|" ||| NONE
+11 ||| 's ||| S ||| NONE
+12 ||| request ||| REQUEST.N ||| NONE
+13 ||| this ||| THIS.D ||| NONE
+14 ||| week ||| WEEK.N ||| NONE
+15 ||| . ||| NONE ||| NONE
+
+Sentence #13
+0 ||| can ||| CAN.AUX-S ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| prevent ||| PREVENT.V ||| NONE
+3 ||| it ||| IT.PRO ||| NONE
+4 ||| ? ||| ? ||| NONE
+
+Sentence #14
+0 ||| where ||| WHERE.PRO ||| NONE
+1 ||| can ||| CAN.AUX-V ||| NONE
+2 ||| i ||| I.PRO ||| NONE
+3 ||| find ||| FIND.V ||| NONE
+4 ||| a ||| A.D ||| NONE
+5 ||| case ||| CASE.N ||| NONE
+6 ||| on ||| ON.P ||| NONE
+7 ||| individuals ||| "|Individuals.N|" ||| NONE
+8 ||| with ||| WITH.P ||| NONE
+9 ||| disabilities ||| "|Disabilities.N|" ||| NONE
+10 ||| education ||| "|Education.N|" ||| NONE
+11 ||| act ||| "|Act.N|" ||| NONE
+12 ||| of ||| OF.P ||| NONE
+13 ||| 1991 ||| "|1991|" ||| NONE
+14 ||| ? ||| ? ||| NONE
+
+Sentence #15
+0 ||| you ||| YOU.PRO ||| NONE
+1 ||| can ||| CAN.AUX-V ||| NONE
+2 ||| understand ||| UNDERSTAND.V ||| NONE
+3 ||| french ||| "|French|" ||| NONE
+4 ||| , ||| NONE ||| NONE
+5 ||| right ||| NONE ||| NONE
+6 ||| ? ||| NONE ||| NONE
+
+Sentence #16
+0 ||| i ||| NONE ||| NONE
+1 ||| want ||| WANT.V ||| NONE
+2 ||| you ||| YOU.PRO ||| NONE
+3 ||| to ||| TO ||| NONE
+4 ||| tell ||| TELL.V ||| NONE
+5 ||| me ||| I.PRO ||| NONE
+6 ||| the ||| THE.D ||| NONE
+7 ||| truth ||| TRUTH.N ||| NONE
+8 ||| . ||| NONE ||| NONE
+
+Sentence #17
+0 ||| do ||| DO.AUX-S ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| believe ||| BELIEVE_IN.V ||| NONE
+3 ||| in ||| NONE ||| NONE
+4 ||| guiding ||| GUIDING.A ||| NONE
+5 ||| stars ||| STAR.N ||| NONE
+6 ||| ? ||| ? ||| NONE
+
+Sentence #18
+0 ||| who ||| WHO.PRO ||| NONE
+1 ||| is ||| BE.V ||| NONE
+2 ||| the ||| THE.D ||| NONE
+3 ||| actress ||| ACTRESS.N ||| NONE
+4 ||| bette ||| "|BetteDavis|" ||| NONE
+5 ||| davis ||| NONE ||| NONE
+6 ||| once ||| ONCE.ADV-E ||| NONE
+7 ||| said ||| SAY.V ||| NONE
+8 ||| she ||| SHE.PRO ||| NONE
+9 ||| wished ||| WISH.V ||| NONE
+10 ||| she ||| SHE.PRO ||| NONE
+11 ||| looked ||| LOOK.V ||| NONE
+12 ||| like ||| LIKE.A ||| NONE
+13 ||| ? ||| ? ||| NONE
+
+Sentence #19
+0 ||| the ||| THE.D ||| NONE
+1 ||| dog ||| DOG.N ||| NONE
+2 ||| traced ||| TRACE.V ||| NONE
+3 ||| the ||| THE.D ||| NONE
+4 ||| rabbit ||| RABBIT.N ||| NONE
+5 ||| into ||| INTO.P ||| NONE
+6 ||| the ||| THE.D ||| NONE
+7 ||| forest ||| FOREST.N ||| NONE
+8 ||| . ||| NONE ||| NONE
+
+Sentence #20
+0 ||| do ||| DO.AUX-S ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| think ||| THINK.V ||| NONE
+3 ||| i ||| I.PRO ||| NONE
+4 ||| did ||| DO.V ||| NONE
+5 ||| it ||| IT.PRO ||| NONE
+6 ||| ? ||| ? ||| NONE
+
+Sentence #21
+0 ||| we ||| WE.PRO ||| NONE
+1 ||| are ||| BE.V ||| NONE
+2 ||| what ||| WHAT.PRO ||| NONE
+3 ||| we ||| WE.PRO ||| NONE
+4 ||| pretend ||| PRETEND.V ||| NONE
+5 ||| to ||| TO ||| NONE
+6 ||| be ||| BE.V ||| NONE
+7 ||| , ||| NONE ||| NONE
+8 ||| so ||| SO.PS ||| NONE
+9 ||| we ||| WE.PRO ||| NONE
+10 ||| must ||| MUST.AUX-V ||| NONE
+11 ||| be ||| BE.V ||| NONE
+12 ||| careful ||| CAREFUL.A ||| NONE
+13 ||| what ||| WHAT.PRO ||| NONE
+14 ||| we ||| WE.PRO ||| NONE
+15 ||| pretend ||| PRES ||| NONE
+16 ||| to ||| TO ||| NONE
+17 ||| be ||| BE.V ||| NONE
+18 ||| . ||| NONE ||| NONE
+
+Sentence #22
+0 ||| what ||| WHAT.PRO ||| NONE
+1 ||| 's ||| BE.V ||| NONE
+2 ||| the ||| THE.D ||| NONE
+3 ||| name ||| NAME.N ||| NONE
+4 ||| of ||| OF.P ||| NONE
+5 ||| my ||| MY.D ||| NONE
+6 ||| doctor ||| DOCTOR.N ||| NONE
+7 ||| ? ||| ? ||| NONE
+
+Sentence #23
+0 ||| `` ||| NONE ||| NONE
+1 ||| maybe ||| MAYBE.ADV-S ||| NONE
+2 ||| this ||| THIS.D ||| NONE
+3 ||| time ||| TIME.N ||| NONE
+4 ||| he ||| HE.PRO ||| NONE
+5 ||| will ||| WILL.AUX-S ||| NONE
+6 ||| finally ||| FINALLY.ADV-S ||| NONE
+7 ||| get ||| GET.V ||| NONE
+8 ||| it ||| IT.PRO ||| NONE
+9 ||| straight ||| STRAIGHT.A ||| NONE
+10 ||| : ||| NONE ||| NONE
+11 ||| whenever ||| WHENEVER.PS ||| NONE
+12 ||| he ||| HE.PRO ||| NONE
+13 ||| threatens ||| THREATEN.V ||| NONE
+14 ||| american ||| "|American.A|" ||| NONE
+15 ||| forces ||| FORCE.N ||| NONE
+16 ||| , ||| NONE ||| NONE
+17 ||| we ||| WE.PRO ||| NONE
+18 ||| will ||| WILL.AUX-V ||| NONE
+19 ||| defend ||| DEFEND.V ||| NONE
+20 ||| ourselves ||| OURSELVES.PRO ||| NONE
+21 ||| . ||| NONE ||| NONE
+22 ||| '' ||| NONE ||| NONE
+
+Sentence #24
+0 ||| how ||| HOW.ADV-A ||| NONE
+1 ||| did ||| DO.AUX-V ||| NONE
+2 ||| you ||| YOU.PRO ||| NONE
+3 ||| like ||| LIKE.V ||| NONE
+4 ||| the ||| THE.D ||| NONE
+5 ||| food ||| FOOD.N ||| NONE
+6 ||| at ||| AT.P ||| NONE
+7 ||| that ||| NONE ||| NONE
+8 ||| restaurant ||| RESTAURANT.N ||| NONE
+9 ||| ? ||| ? ||| NONE
+
+Sentence #25
+0 ||| since ||| SINCE.PS ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| look ||| LOOK.V ||| NONE
+3 ||| tired ||| TIRED.A ||| NONE
+4 ||| , ||| NONE ||| NONE
+5 ||| you ||| YOU.PRO ||| NONE
+6 ||| had ||| NONE ||| NONE
+7 ||| better ||| HAD_BETTER.AUX-S ||| NONE
+8 ||| take ||| TAKE.V ||| NONE
+9 ||| a ||| A.D ||| NONE
+10 ||| rest ||| REST.N ||| NONE
+11 ||| . ||| NONE ||| NONE
+
+Sentence #26
+0 ||| when ||| WHEN.PRO ||| NONE
+1 ||| does ||| DO.AUX-S ||| NONE
+2 ||| tony ||| "|Tony|" ||| NONE
+3 ||| study ||| STUDY.V ||| NONE
+4 ||| ? ||| ? ||| NONE
+
+Sentence #27
+0 ||| ah ||| AH.X ||| NONE
+1 ||| ! ||| NONE ||| NONE
+2 ||| if ||| IF.PS ||| NONE
+3 ||| i ||| NONE ||| NONE
+4 ||| were ||| BE.V ||| NONE
+5 ||| rich ||| RICH.A ||| NONE
+6 ||| , ||| NONE ||| NONE
+7 ||| i ||| I.PRO ||| NONE
+8 ||| 'd ||| WOULD.AUX-S ||| NONE
+9 ||| buy ||| BUY.V ||| NONE
+10 ||| myself ||| MYSELF.PRO ||| NONE
+11 ||| a ||| A.D ||| NONE
+12 ||| house ||| HOUSE.N ||| NONE
+13 ||| in ||| IN.P ||| NONE
+14 ||| spain ||| NONE ||| NONE
+15 ||| . ||| NONE ||| NONE
+
+Sentence #28
+0 ||| do ||| DO.AUX-S ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| have ||| HAVE.V ||| NONE
+3 ||| a ||| A-GEN.D ||| NONE
+4 ||| solution ||| SOLUTION.N ||| NONE
+5 ||| ? ||| ? ||| NONE
+
+Sentence #29
+0 ||| i ||| I.PRO ||| NONE
+1 ||| reflected ||| REFLECT.V ||| NONE
+2 ||| for ||| FOR.P ||| NONE
+3 ||| some ||| SOME.D ||| NONE
+4 ||| time ||| TIME.N ||| NONE
+5 ||| , ||| NONE ||| NONE
+6 ||| and ||| AND ||| NONE
+7 ||| then ||| THEN.ADV-E ||| NONE
+8 ||| answered ||| ANSWER.V ||| NONE
+9 ||| as ||| PAST ||| NONE
+10 ||| if ||| AS_IF.PS ||| NONE
+11 ||| i ||| NONE ||| NONE
+12 ||| had ||| DISCOVER.V ||| NONE
+13 ||| discovered ||| NONE ||| NONE
+14 ||| a ||| A.D ||| NONE
+15 ||| new ||| NEW.A ||| NONE
+16 ||| idea ||| IDEA.N ||| NONE
+17 ||| , ||| NONE ||| NONE
+18 ||| '' ||| NONE ||| NONE
+19 ||| i ||| I.PRO ||| NONE
+20 ||| mean ||| MEAN.V ||| NONE
+21 ||| pretty ||| PRETTY.ADV-A ||| NONE
+22 ||| well ||| WELL.A ||| NONE
+23 ||| . ||| NONE ||| NONE
+24 ||| '' ||| NONE ||| NONE
+
+Sentence #30
+0 ||| `` ||| NONE ||| NONE
+1 ||| we ||| WE.PRO ||| NONE
+2 ||| try ||| TRY.V ||| NONE
+3 ||| very ||| VERY.ADV-A ||| NONE
+4 ||| hard ||| HARD.ADV-A ||| NONE
+5 ||| to ||| TO ||| NONE
+6 ||| keep ||| KEEP.V ||| NONE
+7 ||| some ||| SOME.N ||| NONE
+8 ||| of ||| OF.P ||| NONE
+9 ||| the ||| THE.D ||| NONE
+10 ||| hotels ||| HOTEL.N ||| NONE
+11 ||| in ||| IN.P ||| NONE
+12 ||| a ||| A.D ||| NONE
+13 ||| decent ||| DECENT.A ||| NONE
+14 ||| state ||| STATE.N ||| NONE
+15 ||| so ||| SO.CC ||| NONE
+16 ||| the ||| THE.D ||| NONE
+17 ||| foreign ||| FOREIGN.A ||| NONE
+18 ||| investors ||| INVESTOR.N ||| NONE
+19 ||| can ||| CAN.AUX-V ||| NONE
+20 ||| come ||| COMPLEX ||| NONE
+21 ||| in ||| IN.ADV-E ||| NONE
+22 ||| . ||| NONE ||| NONE
+
+Sentence #31
+0 ||| can ||| CAN.AUX-V ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| miss ||| MISS.V ||| NONE
+3 ||| the ||| THE.D ||| NONE
+4 ||| present ||| PRESENT.A ||| NONE
+5 ||| moment ||| MOMENT.N ||| NONE
+6 ||| ? ||| ? ||| NONE
+
+Sentence #32
+0 ||| you ||| YOU.PRO ||| NONE
+1 ||| can ||| CAN.AUX-V ||| NONE
+2 ||| not ||| NOT ||| NONE
+3 ||| expect ||| EXPECT.V ||| NONE
+4 ||| much ||| MUCH.N ||| NONE
+5 ||| of ||| OF.P-ARG ||| NONE
+6 ||| him ||| HIM.PRO ||| NONE
+7 ||| . ||| NONE ||| NONE
+
+Sentence #33
+0 ||| the ||| THE.D ||| NONE
+1 ||| cfm56s ||| "|CFM56.N|" ||| NONE
+2 ||| used ||| USE.V ||| NONE
+3 ||| on ||| ON.P-ARG ||| NONE
+4 ||| 737s ||| "|737.N|" ||| NONE
+5 ||| have ||| ADV-E ||| NONE
+6 ||| been ||| BE.V ||| NONE
+7 ||| in ||| IN.P ||| NONE
+8 ||| service ||| SERVICE.N ||| NONE
+9 ||| for ||| FOR.P ||| NONE
+10 ||| about ||| ABOUT.ADV-A ||| NONE
+11 ||| five ||| FIVE.A ||| NONE
+12 ||| years ||| YEAR.N ||| NONE
+13 ||| . ||| NONE ||| NONE
+
+Sentence #34
+0 ||| i ||| NONE ||| NONE
+1 ||| could ||| COULD.AUX-V ||| NONE
+2 ||| n't ||| NOT ||| NONE
+3 ||| say ||| SAY.V ||| NONE
+4 ||| when ||| WHICH.PRO ||| NONE
+5 ||| exactly ||| EXACTLY.ADV-S ||| NONE
+6 ||| in ||| IN.P ||| NONE
+7 ||| my ||| MY.D ||| NONE
+8 ||| life ||| LIFE.N ||| NONE
+9 ||| it ||| IT.PRO ||| NONE
+10 ||| occurred ||| OCCUR.V ||| NONE
+11 ||| to ||| TO.P-ARG ||| NONE
+12 ||| me ||| I.PRO ||| NONE
+13 ||| that ||| THAT ||| NONE
+14 ||| i ||| I.PRO ||| NONE
+15 ||| would ||| NONE ||| NONE
+16 ||| be ||| BE.V ||| NONE
+17 ||| a ||| A.D ||| NONE
+18 ||| pilot ||| PILOT.N ||| NONE
+19 ||| someday ||| SOMEDAY.ADV-E ||| NONE
+20 ||| . ||| NONE ||| NONE
+
+Sentence #35
+0 ||| let ||| LET.V ||| NONE
+1 ||| 's ||| US.PRO ||| NONE
+2 ||| try ||| TRY.V ||| NONE
+3 ||| something ||| SOMETHING.PRO ||| NONE
+4 ||| . ||| NONE ||| NONE
+
+Sentence #36
+0 ||| could ||| COULD.AUX-V ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| exchange ||| EXCHANGE.V ||| NONE
+3 ||| it ||| IT.PRO ||| NONE
+4 ||| with ||| WITH.P-ARG ||| NONE
+5 ||| another ||| ANOTHER.D ||| NONE
+6 ||| one ||| NONE ||| NONE
+7 ||| ? ||| ? ||| NONE
+
+Sentence #37
+0 ||| if ||| IF.PS ||| NONE
+1 ||| you ||| NONE ||| NONE
+2 ||| see ||| SEE.V ||| NONE
+3 ||| a ||| A.D ||| NONE
+4 ||| man ||| MAN.N ||| NONE
+5 ||| approaching ||| APPROACH.V ||| NONE
+6 ||| you ||| YOU.PRO ||| NONE
+7 ||| with ||| WITH.P ||| NONE
+8 ||| the ||| NONE ||| NONE
+9 ||| obvious ||| OBVIOUS.A ||| NONE
+10 ||| intention ||| INTENTION.N ||| NONE
+11 ||| of ||| NONE ||| NONE
+12 ||| doing ||| DO.V ||| NONE
+13 ||| you ||| YOU.PRO ||| NONE
+14 ||| good ||| GOOD.ADV-A ||| NONE
+15 ||| , ||| NONE ||| NONE
+16 ||| you ||| YOU.PRO ||| NONE
+17 ||| should ||| SHOULD.AUX-V ||| NONE
+18 ||| run ||| RUN.V ||| NONE
+19 ||| for ||| FOR.P ||| NONE
+20 ||| your ||| YOU.PRO ||| NONE
+21 ||| life ||| LIFE.N ||| NONE
+22 ||| . ||| NONE ||| NONE
+
+Sentence #38
+0 ||| name ||| NAME.V ||| NONE
+1 ||| the ||| TWO.D ||| NONE
+2 ||| two ||| NONE ||| NONE
+3 ||| mystical ||| MYSTICAL.A ||| NONE
+4 ||| ravens ||| RAVEN.N ||| NONE
+5 ||| odin ||| "|Odin|" ||| NONE
+6 ||| has ||| HAVE.V ||| NONE
+7 ||| at ||| AT.P-ARG ||| NONE
+8 ||| his ||| NONE ||| NONE
+9 ||| command ||| COMMAND.N ||| NONE
+10 ||| . ||| NONE ||| NONE
+
+Sentence #39
+0 ||| what ||| WHAT.PRO ||| NONE
+1 ||| are ||| NONE ||| NONE
+2 ||| you ||| YOU.PRO ||| NONE
+3 ||| thinking ||| THINK.V ||| NONE
+4 ||| about ||| ABOUT.P-ARG ||| NONE
+5 ||| ? ||| ? ||| NONE
+6 ||| '' ||| NONE ||| NONE
+
+Sentence #40
+0 ||| do ||| DO.AUX-S ||| NONE
+1 ||| n't ||| NOT ||| NONE
+2 ||| give ||| GIVE.V ||| NONE
+3 ||| me ||| NONE ||| NONE
+4 ||| that ||| THAT.D ||| NONE
+5 ||| crap ||| CRAP.N ||| NONE
+6 ||| ! ||| ! ||| NONE
+
+Sentence #41
+0 ||| you ||| YOU.PRO ||| NONE
+1 ||| can ||| CAN.AUX-S ||| NONE
+2 ||| rely ||| RELY.V ||| NONE
+3 ||| on ||| ON.P-ARG ||| NONE
+4 ||| her ||| HER.PRO ||| NONE
+5 ||| . ||| NONE ||| NONE
+
+Sentence #42
+0 ||| '' ||| NONE ||| NONE
+1 ||| ah ||| AH.X ||| NONE
+2 ||| , ||| NONE ||| NONE
+3 ||| you ||| YOU.PRO ||| NONE
+4 ||| see ||| SEE.V ||| NONE
+5 ||| -- ||| NONE ||| NONE
+6 ||| '' ||| NONE ||| NONE
+
+Sentence #43
+0 ||| it ||| IT.PRO ||| NONE
+1 ||| was ||| NONE ||| NONE
+2 ||| raining ||| RAIN.V ||| NONE
+3 ||| when ||| WHEN.PS ||| NONE
+4 ||| we ||| WE.PRO ||| NONE
+5 ||| left ||| LEAVE.V ||| NONE
+6 ||| , ||| NONE ||| NONE
+7 ||| but ||| BUT.CC ||| NONE
+8 ||| by ||| BY.P ||| NONE
+9 ||| the ||| THE.D ||| NONE
+10 ||| time ||| TIME.N ||| NONE
+11 ||| we ||| WE.PRO ||| NONE
+12 ||| arrived ||| ARRIVE.V ||| NONE
+13 ||| , ||| NONE ||| NONE
+14 ||| it ||| IT.PRO ||| NONE
+15 ||| was ||| BE.V ||| NONE
+16 ||| sunny ||| SUNNY.A ||| NONE
+17 ||| . ||| NONE ||| NONE
+
+Sentence #44
+0 ||| do ||| DO.AUX-S ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| have ||| HAVE.V ||| NONE
+3 ||| any ||| ANY.D ||| NONE
+4 ||| rock ||| ROCK.N ||| NONE
+5 ||| cds ||| CD.N ||| NONE
+6 ||| ? ||| ? ||| NONE
+
+Sentence #45
+0 ||| is ||| BE.V ||| NONE
+1 ||| this ||| THIS.PRO ||| NONE
+2 ||| your ||| YOUR.D ||| NONE
+3 ||| first ||| FIRST.A ||| NONE
+4 ||| convention ||| CONVENTION.N ||| NONE
+5 ||| ? ||| ? ||| NONE
+
+Sentence #46
+0 ||| the ||| THE.D ||| NONE
+1 ||| president ||| PRESIDENT.N ||| NONE
+2 ||| 's ||| NONE ||| NONE
+3 ||| bowl ||| BOWL.N ||| NONE
+4 ||| rests ||| PRES ||| NONE
+5 ||| on ||| ON.P-ARG ||| NONE
+6 ||| a ||| A.D ||| NONE
+7 ||| 14-pound ||| POUND.N ||| NONE
+8 ||| , ||| NONE ||| NONE
+9 ||| beveled ||| BEVELED.A ||| NONE
+10 ||| , ||| NONE ||| NONE
+11 ||| lead ||| GLASS.N ||| NONE
+12 ||| glass ||| NONE ||| NONE
+13 ||| plinth ||| PLINTH.N ||| NONE
+14 ||| , ||| NONE ||| NONE
+15 ||| or ||| OR ||| NONE
+16 ||| flat ||| FLAT.A ||| NONE
+17 ||| base ||| BASE.N ||| NONE
+18 ||| . ||| NONE ||| NONE
+
+Sentence #47
+0 ||| it ||| IT.PRO ||| NONE
+1 ||| said ||| SAY.V ||| NONE
+2 ||| all ||| ALL.D ||| NONE
+3 ||| refugee ||| REFUGEE.A ||| NONE
+4 ||| boats ||| BOAT.N ||| NONE
+5 ||| were ||| NONE ||| NONE
+6 ||| permitted ||| PERMIT.V ||| NONE
+7 ||| to ||| TO.P-ARG ||| NONE
+8 ||| land ||| LAND.V ||| NONE
+9 ||| and ||| AND ||| NONE
+10 ||| that ||| THAT ||| NONE
+11 ||| arrivals ||| ARRIVAL.N ||| NONE
+12 ||| were ||| TAKE.V ||| NONE
+13 ||| taken ||| NONE ||| NONE
+14 ||| to ||| TO.P-ARG ||| NONE
+15 ||| a ||| A.D ||| NONE
+16 ||| special ||| SPECIAL.A ||| NONE
+17 ||| camp ||| CAMP.N ||| NONE
+18 ||| in ||| IN.P ||| NONE
+19 ||| cooperation ||| COOPERATION.N ||| NONE
+20 ||| with ||| WITH.P-ARG ||| NONE
+21 ||| the ||| NONE ||| NONE
+22 ||| u.n. ||| "|U.N..N|" ||| NONE
+23 ||| high ||| NONE ||| NONE
+24 ||| commissioner ||| "|HighCommissioner.N|" ||| NONE
+25 ||| for ||| FOR.P ||| NONE
+26 ||| refugees ||| "|Refugee.N|" ||| NONE
+27 ||| . ||| NONE ||| NONE
+
+Sentence #48
+0 ||| can ||| CAN.AUX-S ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| keep ||| KEEP.V ||| NONE
+3 ||| a ||| A.D ||| NONE
+4 ||| secret ||| SECRET.N ||| NONE
+5 ||| ? ||| ? ||| NONE
+
+Sentence #49
+0 ||| it ||| IT.PRO ||| NONE
+1 ||| 's ||| BE.V ||| NONE
+2 ||| ok ||| OK.A ||| NONE
+3 ||| with ||| WITH.P ||| NONE
+4 ||| me ||| IF.PS ||| NONE
+5 ||| if ||| NONE ||| NONE
+6 ||| you ||| YOU.PRO ||| NONE
+7 ||| take ||| TAKE.V ||| NONE
+8 ||| that ||| THAT.D ||| NONE
+9 ||| book ||| BOOK.N ||| NONE
+10 ||| . ||| NONE ||| NONE
+
+Sentence #50
+0 ||| be ||| BE.V ||| NONE
+1 ||| sure ||| SURE.A ||| NONE
+2 ||| to ||| TO ||| NONE
+3 ||| put ||| PUT_OUT.V ||| NONE
+4 ||| out ||| NONE ||| NONE
+5 ||| the ||| THE.D ||| NONE
+6 ||| fire ||| FIRE.N ||| NONE
+7 ||| before ||| BEFORE.ADV-E ||| NONE
+8 ||| you ||| YOU.PRO ||| NONE
+9 ||| leave ||| LEAVE.V ||| NONE
+10 ||| . ||| NONE ||| NONE
+
+Sentence #51
+0 ||| how ||| HOW.PQ ||| NONE
+1 ||| can ||| CAN.AUX-V ||| NONE
+2 ||| anyone ||| ANYONE.PRO ||| NONE
+3 ||| tell ||| TELL.V ||| NONE
+4 ||| if ||| NONE ||| NONE
+5 ||| a ||| A.D ||| NONE
+6 ||| female ||| FEMALE.N ||| NONE
+7 ||| had ||| HAVE.V ||| NONE
+8 ||| sexual ||| SEXUAL.A ||| NONE
+9 ||| intercourse ||| INTERCOURSE.N ||| NONE
+10 ||| ? ||| ? ||| NONE
+
+Sentence #52
+0 ||| can ||| CAN.AUX-V ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| tell ||| TELL.V ||| NONE
+3 ||| the ||| NONE ||| NONE
+4 ||| position ||| POSITION.N ||| NONE
+5 ||| of ||| OF.P ||| NONE
+6 ||| the ||| THE.D ||| NONE
+7 ||| rooms ||| ROOM.N ||| NONE
+8 ||| ? ||| ? ||| NONE
+9 ||| what ||| WHAT.PRO ||| NONE
+10 ||| are ||| BE.V ||| NONE
+11 ||| those ||| THOSE.D ||| NONE
+12 ||| latticed ||| LATTICED.A ||| NONE
+13 ||| windows ||| WINDOW.N ||| NONE
+14 ||| at ||| AT.P ||| NONE
+15 ||| this ||| THIS.D ||| NONE
+16 ||| end ||| END.N ||| NONE
+17 ||| ? ||| ? ||| NONE
+18 ||| '' ||| NONE ||| NONE
+
+Sentence #53
+0 ||| name ||| NAME.V ||| NONE
+1 ||| a ||| A.D ||| NONE
+2 ||| tiger ||| TIGER.N ||| NONE
+3 ||| that ||| THAT.REL ||| NONE
+4 ||| is ||| BE.V ||| NONE
+5 ||| extinct ||| EXTINCT.A ||| NONE
+6 ||| . ||| NONE ||| NONE
+
+Sentence #54
+0 ||| have ||| NONE ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| been ||| BE.V ||| NONE
+3 ||| there ||| THERE.PRO ||| NONE
+4 ||| ? ||| ? ||| NONE
+
+Sentence #55
+0 ||| how ||| HOW.ADV-A ||| NONE
+1 ||| does ||| DO.AUX-S ||| NONE
+2 ||| a ||| A.D ||| NONE
+3 ||| hurricane ||| HURRICANE.N ||| NONE
+4 ||| form ||| FORM.V ||| NONE
+5 ||| ? ||| ? ||| NONE
+
+Sentence #56
+0 ||| it ||| IT.PRO ||| NONE
+1 ||| 's ||| BE.V ||| NONE
+2 ||| not ||| NOT.ADV-S ||| NONE
+3 ||| serious ||| SERIOUS.A ||| NONE
+4 ||| , ||| NONE ||| NONE
+5 ||| i ||| I.PRO ||| NONE
+6 ||| do ||| DO.AUX-S ||| NONE
+7 ||| n't ||| NOT.ADV-S ||| NONE
+8 ||| bear ||| BEAR.V ||| NONE
+9 ||| him ||| HIM.PRO ||| NONE
+10 ||| a ||| A.D ||| NONE
+11 ||| grudge ||| GRUDGE.N ||| NONE
+12 ||| . ||| NONE ||| NONE
+
+Sentence #57
+0 ||| i ||| I.PRO ||| NONE
+1 ||| could ||| NONE ||| NONE
+2 ||| n't ||| NOT ||| NONE
+3 ||| sleep ||| SLEEP.V ||| NONE
+4 ||| on ||| ON.P ||| NONE
+5 ||| the ||| THE.D ||| NONE
+6 ||| plane ||| PLANE.N ||| NONE
+7 ||| . ||| NONE ||| NONE
+
+Sentence #58
+0 ||| who ||| WHO.PRO ||| NONE
+1 ||| would ||| WOULD.AUX-S ||| NONE
+2 ||| you ||| YOU.PRO ||| NONE
+3 ||| use ||| USE.V ||| NONE
+4 ||| the ||| THE.D ||| NONE
+5 ||| heimlich ||| HEIMLICH.N ||| NONE
+6 ||| maneuver ||| MANEUVER.N ||| NONE
+7 ||| on ||| ON.P ||| NONE
+8 ||| ? ||| ? ||| NONE
+
+Sentence #59
+0 ||| name ||| NAME.V ||| NONE
+1 ||| the ||| THE.D ||| NONE
+2 ||| only ||| ONLY.A ||| NONE
+3 ||| extant ||| EXTANT.A ||| NONE
+4 ||| trilogy ||| TRILOGY.N ||| NONE
+5 ||| of ||| OF.P ||| NONE
+6 ||| classical ||| CLASSICAL.A ||| NONE
+7 ||| greek ||| "|Greek.N|" ||| NONE
+8 ||| plays ||| PLAY.N ||| NONE
+9 ||| . ||| NONE ||| NONE
+
+Sentence #60
+0 ||| we ||| WE.PRO ||| NONE
+1 ||| left ||| LEAVE.V ||| NONE
+2 ||| by ||| BY.P ||| NONE
+3 ||| train ||| TRAIN.N ||| NONE
+4 ||| . ||| NONE ||| NONE
+
+Sentence #61
+0 ||| when ||| WHEN.PS ||| NONE
+1 ||| a ||| A.D ||| NONE
+2 ||| u.s. ||| "|U.S..N|" ||| NONE
+3 ||| ambassador ||| AMBASSADOR.N ||| NONE
+4 ||| sat ||| PAST ||| NONE
+5 ||| down ||| DOWN.ADV-A ||| NONE
+6 ||| with ||| WITH.P ||| NONE
+7 ||| a ||| A.D ||| NONE
+8 ||| plo ||| DELEGATION.N ||| NONE
+9 ||| delegation ||| NONE ||| NONE
+10 ||| for ||| FOR.P ||| NONE
+11 ||| the ||| THE.D ||| NONE
+12 ||| first ||| FIRST.A ||| NONE
+13 ||| official ||| OFFICIAL.A ||| NONE
+14 ||| meeting ||| MEETING.N ||| NONE
+15 ||| in ||| IN.P-ARG ||| NONE
+16 ||| 13 ||| "|13|" ||| NONE
+17 ||| years ||| YEAR.N ||| NONE
+18 ||| , ||| NONE ||| NONE
+19 ||| sweden ||| "|Sweden|" ||| NONE
+20 ||| scored ||| SCORE.V ||| NONE
+21 ||| a ||| A.D ||| NONE
+22 ||| triumph ||| TRIUMPH.N ||| NONE
+23 ||| for ||| FOR.P ||| NONE
+24 ||| a ||| A.D ||| NONE
+25 ||| foreign ||| FOREIGN.A ||| NONE
+26 ||| policy ||| POLICY.N ||| NONE
+27 ||| variously ||| VARIOSLY.ADV-A ||| NONE
+28 ||| described ||| DESCRIBED.V ||| NONE
+29 ||| as ||| AS.P-ARG ||| NONE
+30 ||| magnanimous ||| MAGNANIMOUS.A ||| NONE
+31 ||| or ||| OR ||| NONE
+32 ||| meddlesome ||| MEDDLESOME.A ||| NONE
+33 ||| . ||| NONE ||| NONE
+
+Sentence #62
+0 ||| he ||| HE.PRO ||| NONE
+1 ||| has ||| NONE ||| NONE
+2 ||| been ||| NONE ||| NONE
+3 ||| warned ||| WARN.V ||| NONE
+4 ||| on ||| ON.P ||| NONE
+5 ||| several ||| SEVERAL.D ||| NONE
+6 ||| occasions ||| OCCASION.N ||| NONE
+7 ||| . ||| NONE ||| NONE
+
+Sentence #63
+0 ||| nothing ||| NOTHING.PRO ||| NONE
+1 ||| great ||| GREAT.A ||| NONE
+2 ||| has ||| NONE ||| NONE
+3 ||| been ||| NONE ||| NONE
+4 ||| achieved ||| ACHIEVE.V ||| NONE
+5 ||| by ||| BY.P-ARG ||| NONE
+6 ||| playing ||| PLAY.V ||| NONE
+7 ||| it ||| IT.PRO ||| NONE
+8 ||| safe ||| SAFE.A ||| NONE
+9 ||| . ||| NONE ||| NONE
+
+Sentence #64
+0 ||| should ||| SHOULD.AUX-S ||| NONE
+1 ||| he ||| HE.PRO ||| NONE
+2 ||| be ||| GIVE.V ||| NONE
+3 ||| given ||| NONE ||| NONE
+4 ||| another ||| ANOTHER.A ||| NONE
+5 ||| chance ||| CHANCE.N ||| NONE
+6 ||| , ||| NONE ||| NONE
+7 ||| he ||| HE.PRO ||| NONE
+8 ||| would ||| WOULD.AUX-S ||| NONE
+9 ||| do ||| DO.V ||| NONE
+10 ||| his ||| NONE ||| NONE
+11 ||| best ||| BEST.A ||| NONE
+12 ||| . ||| NONE ||| NONE
+
+Sentence #65
+0 ||| are ||| BE.V ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| my ||| MY.D ||| NONE
+3 ||| mommy ||| NONE ||| NONE
+4 ||| ? ||| ? ||| NONE
+
+Sentence #66
+0 ||| how ||| HOW.ADV-A ||| NONE
+1 ||| fast ||| FAST.A ||| NONE
+2 ||| he ||| HE.PRO ||| NONE
+3 ||| runs ||| RUN.V ||| NONE
+4 ||| ! ||| NONE ||| NONE
+
+Sentence #67
+0 ||| will ||| WILL.AUX-S ||| NONE
+1 ||| your ||| YOUR.D ||| NONE
+2 ||| parents ||| PARENT.N ||| NONE
+3 ||| let ||| LET.V ||| NONE
+4 ||| you ||| YOU.PRO ||| NONE
+5 ||| stay ||| STAY.V ||| NONE
+6 ||| home ||| HOME.N ||| NONE
+7 ||| today ||| TODAY.ADV-E ||| NONE
+8 ||| ? ||| ? ||| NONE
+
+Sentence #68
+0 ||| has ||| NONE ||| NONE
+1 ||| tom ||| "|Tom|" ||| NONE
+2 ||| been ||| NONE ||| NONE
+3 ||| fighting ||| FIGHT.V ||| NONE
+4 ||| with ||| WITH.P ||| NONE
+5 ||| mary ||| "|Mary|" ||| NONE
+6 ||| ? ||| ? ||| NONE
+
+Sentence #69
+0 ||| name ||| NAME.V ||| NONE
+1 ||| a ||| A.D ||| NONE
+2 ||| gaelic ||| GAELIC.A ||| NONE
+3 ||| language ||| LANGUAGE.N ||| NONE
+4 ||| . ||| NONE ||| NONE
+
+Sentence #70
+0 ||| ca ||| CAN.AUX-V ||| NONE
+1 ||| n't ||| NOT ||| NONE
+2 ||| you ||| YOU.PRO ||| NONE
+3 ||| just ||| JUST.ADV-S ||| NONE
+4 ||| picture ||| PICTURE.V ||| NONE
+5 ||| ed ||| "|Ed|" ||| NONE
+6 ||| in ||| IN.P ||| NONE
+7 ||| woman ||| WOMAN.N ||| NONE
+8 ||| 's ||| S ||| NONE
+9 ||| disguise ||| DISGUISE.N ||| NONE
+10 ||| ? ||| ? ||| NONE
+
+Sentence #71
+0 ||| i ||| I.PRO ||| NONE
+1 ||| managed ||| MANAGE.V ||| NONE
+2 ||| to ||| TO ||| NONE
+3 ||| get ||| GET.V ||| NONE
+4 ||| in ||| IN.P ||| NONE
+5 ||| . ||| NONE ||| NONE
+
+Sentence #72
+0 ||| '' ||| NONE ||| NONE
+1 ||| who ||| WHO.PRO ||| NONE
+2 ||| has ||| NONE ||| NONE
+3 ||| made ||| MADE.V ||| NONE
+4 ||| me ||| NONE ||| NONE
+5 ||| a ||| A.D ||| NONE
+6 ||| judge ||| JUDGE.N ||| NONE
+7 ||| over ||| OVER.P ||| NONE
+8 ||| them ||| THEM.PRO ||| NONE
+9 ||| ? ||| ? ||| NONE
+10 ||| '' ||| NONE ||| NONE
+11 ||| was ||| BE.V ||| NONE
+12 ||| all ||| ALL.D ||| NONE
+13 ||| he ||| HE.PRO ||| NONE
+14 ||| said ||| SAY.V ||| NONE
+15 ||| , ||| NONE ||| NONE
+16 ||| smilingly ||| SMILINGLY.ADV-A ||| NONE
+17 ||| , ||| NONE ||| NONE
+18 ||| to ||| TO.P ||| NONE
+19 ||| alyosha ||| "|Alyosha|" ||| NONE
+20 ||| . ||| NONE ||| NONE
+
+Sentence #73
+0 ||| how ||| HOW.PQ ||| NONE
+1 ||| can ||| CAN.AUX-V ||| NONE
+2 ||| anyone ||| ANYONE.PRO ||| NONE
+3 ||| tell ||| TELL.V ||| NONE
+4 ||| if ||| NONE ||| NONE
+5 ||| a ||| A.D ||| NONE
+6 ||| female ||| FEMALE.N ||| NONE
+7 ||| had ||| HAVE.V ||| NONE
+8 ||| sexual ||| SEXUAL.A ||| NONE
+9 ||| intercourse ||| INTERCOURSE.N ||| NONE
+10 ||| ? ||| ? ||| NONE
+
+Sentence #74
+0 ||| are ||| BE.V ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| the ||| THE.D ||| NONE
+3 ||| runner ||| RUNNER.N ||| NONE
+4 ||| who ||| WHO.REL ||| NONE
+5 ||| escaped ||| ESCAPE.V ||| NONE
+6 ||| the ||| THE.D ||| NONE
+7 ||| underground ||| UNDERGROUND.A ||| NONE
+8 ||| city ||| CITY.N ||| NONE
+9 ||| ? ||| ? ||| NONE
+
+Sentence #75
+0 ||| you ||| YOU.PRO ||| NONE
+1 ||| do ||| DO.AUX-S ||| NONE
+2 ||| n't ||| NOT ||| NONE
+3 ||| worry ||| WORRY.V ||| NONE
+4 ||| . ||| NONE ||| NONE
+
+Sentence #76
+0 ||| do ||| DO.AUX-S ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| think ||| THINK.V ||| NONE
+3 ||| tom ||| "|Tom|" ||| NONE
+4 ||| can ||| CAN.AUX-V ||| NONE
+5 ||| speak ||| SPEAK.V ||| NONE
+6 ||| french ||| "|French.N|" ||| NONE
+7 ||| ? ||| ? ||| NONE
+
+Sentence #77
+0 ||| do ||| DO.AUX-S ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| want ||| WANT.V ||| NONE
+3 ||| fruit ||| JUICE.N ||| NONE
+4 ||| juice ||| NONE ||| NONE
+5 ||| ? ||| ? ||| NONE
+
+Sentence #78
+0 ||| name ||| NAME.V ||| NONE
+1 ||| the ||| THE.D ||| NONE
+2 ||| fast ||| FAST.A ||| NONE
+3 ||| food ||| FOOD.N ||| NONE
+4 ||| chain ||| CHAIN.N ||| NONE
+5 ||| with ||| WITH.P ||| NONE
+6 ||| the ||| NONE ||| NONE
+7 ||| golden ||| GOLDEN.A ||| NONE
+8 ||| arches ||| ARCH.N ||| NONE
+9 ||| . ||| NONE ||| NONE
+
+Sentence #79
+0 ||| ask ||| ASK.V ||| NONE
+1 ||| trang ||| "|Trang|" ||| NONE
+2 ||| if ||| NONE ||| NONE
+3 ||| he ||| HE.PRO ||| NONE
+4 ||| 's ||| NONE ||| NONE
+5 ||| going ||| GO_OUT.V ||| NONE
+6 ||| out ||| YOU.PRO ||| NONE
+7 ||| this ||| THIS.D ||| NONE
+8 ||| evening ||| EVENING.N ||| NONE
+9 ||| . ||| NONE ||| NONE
+
+Sentence #80
+0 ||| what ||| WHAT.D ||| NONE
+1 ||| curriculum ||| CURRICULUM.N ||| NONE
+2 ||| does ||| DO.AUX-S ||| NONE
+3 ||| fadil ||| "|Fadil|" ||| NONE
+4 ||| use ||| USE.V ||| NONE
+5 ||| to ||| TO ||| NONE
+6 ||| teach ||| TEACH.V ||| NONE
+7 ||| arabic ||| "|Arabic|" ||| NONE
+8 ||| ? ||| ? ||| NONE
+
+Sentence #81
+0 ||| enjoy ||| ENJOY.V ||| NONE
+1 ||| your ||| YOU.PRO ||| NONE
+2 ||| meal ||| MEAL.N ||| NONE
+3 ||| ! ||| ! ||| NONE
+
+Sentence #82
+0 ||| what ||| WHAT.PRO ||| NONE
+1 ||| do ||| DO.AUX-S ||| NONE
+2 ||| goldfish ||| GOLDFISH.N ||| NONE
+3 ||| lose ||| LOSE.V ||| NONE
+4 ||| if ||| IF.PS ||| NONE
+5 ||| kept ||| KEEP.V ||| NONE
+6 ||| in ||| IN.P ||| NONE
+7 ||| dimly-lit ||| DIMLY.ADV-A ||| NONE
+8 ||| or ||| OR ||| NONE
+9 ||| running ||| RUNNING.A ||| NONE
+10 ||| water ||| WATER.N ||| NONE
+11 ||| ? ||| ? ||| NONE
+
+Sentence #83
+0 ||| '' ||| NONE ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| 're ||| BE.V ||| NONE
+3 ||| not ||| NOT.P-ARG ||| NONE
+4 ||| asleep ||| ASLEEP.A ||| NONE
+5 ||| ? ||| ? ||| NONE
+6 ||| '' ||| NONE ||| NONE
+
+Sentence #84
+0 ||| what ||| WHAT.D ||| NONE
+1 ||| 's ||| BE.V ||| NONE
+2 ||| wrong ||| WRONG.A ||| NONE
+3 ||| with ||| WITH.P ||| NONE
+4 ||| this ||| THIS.D ||| NONE
+5 ||| plan ||| PLAN.N ||| NONE
+6 ||| ? ||| ? ||| NONE
+
+Sentence #85
+0 ||| tom ||| "|Tom|" ||| NONE
+1 ||| seemed ||| SEEM.V ||| NONE
+2 ||| somewhat ||| SOMEWHAT.ADV-A ||| NONE
+3 ||| annoyed ||| ANNOYED.A ||| NONE
+4 ||| by ||| BY.P-ARG ||| NONE
+5 ||| that ||| THAT.PRO ||| NONE
+6 ||| . ||| NONE ||| NONE
+
+Sentence #86
+0 ||| i ||| I.PRO ||| NONE
+1 ||| ca ||| CAN.AUX-V ||| NONE
+2 ||| n't ||| NOT ||| NONE
+3 ||| believe ||| BELIEVE.V ||| NONE
+4 ||| my ||| MY.D ||| NONE
+5 ||| eyes ||| EYE.N ||| NONE
+6 ||| . ||| NONE ||| NONE
+
+Sentence #87
+0 ||| how ||| HOW.ADV-S ||| NONE
+1 ||| are ||| NONE ||| NONE
+2 ||| you ||| YOU.PRO ||| NONE
+3 ||| getting ||| GET_ALONG.V ||| NONE
+4 ||| along ||| NONE ||| NONE
+5 ||| ? ||| ? ||| NONE
+
+Sentence #88
+0 ||| can ||| CAN.AUX-V ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| prove ||| PROVE.V ||| NONE
+3 ||| which ||| WHICH.PRO ||| NONE
+4 ||| was ||| BE.V ||| NONE
+5 ||| the ||| THE.D ||| NONE
+6 ||| original ||| ORIGINAL.A ||| NONE
+7 ||| language ||| LANGUAGE.N ||| NONE
+8 ||| of ||| OF.P ||| NONE
+9 ||| your ||| NONE ||| NONE
+10 ||| holy ||| HOLY.A ||| NONE
+11 ||| writings ||| WRITING.N ||| NONE
+12 ||| ? ||| ? ||| NONE
+
+Sentence #89
+0 ||| do ||| DO.AUX-S ||| NONE
+1 ||| you ||| YOU.PRO ||| NONE
+2 ||| know ||| KNOW.V ||| NONE
+3 ||| of ||| OF.P-ARG ||| NONE
+4 ||| a ||| A.D ||| NONE
+5 ||| dish ||| DISH.N ||| NONE
+6 ||| that ||| THAT.REL ||| NONE
+7 ||| has ||| HAVE.V ||| NONE
+8 ||| laurel ||| LAUREL.A ||| NONE
+9 ||| leaves ||| LEAF.N ||| NONE
+10 ||| in ||| IN.P ||| NONE
+11 ||| it ||| NONE ||| NONE
+12 ||| ? ||| ? ||| NONE
+
