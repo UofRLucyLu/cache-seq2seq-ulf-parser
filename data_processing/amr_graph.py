@@ -1216,6 +1216,9 @@ class AMRGraph(object):
     def get_concept_relation(self, s_rep):
         #print "s_rep: {}".format(s_rep) 
         #print "self.nodes: {}".format([(n.node_label(), n.node_str()) for n in self.nodes])
+        #print "e.head {}".format(self.edges[0].head)
+        #print "e.tail {}".format(self.edges[0].tail)
+        #print "self.edges: {}".format([(self.nodes[e.head].node_label(), self.nodes[e.tail].node_label() if e.tail else "NONE") for e in self.edges])
         path = s_rep.split('.')
         for (i, curr_index) in enumerate(path):
             curr_index = int(curr_index)
@@ -1225,8 +1228,14 @@ class AMRGraph(object):
                 curr_node = self.nodes[curr_node_idx]
             else:
                 try:
-                    print curr_node
-                    print curr_node.v_edges
+                    #print curr_index
+                    #if curr_index >= len(curr_node.v_edges):
+                    #  print "This index is too big!!!! WHY!!!!!"
+                    #  print "curr_index {}".format(curr_index)
+                    #  print "curr_node.v_edges {}".format(curr_node.v_edges)
+                    #  curr_index = len(curr_node.v_edges) - 1
+                    #print curr_node
+                    #print curr_node.v_edges
                     curr_edge_index = curr_node.v_edges[curr_index]
                 except:
                     print "Exception in amr_graph.py get_concept_relation()"
@@ -1238,6 +1247,9 @@ class AMRGraph(object):
                 curr_node_idx = curr_edge.tail
                 if i + 1 != len(path):
                     curr_node = self.nodes[curr_node_idx]
+                    print "curr_index {}".format(curr_index)
+                    print "curr_node: {}".format(curr_node)
+                    
 
         return ('c', curr_node_idx)
 

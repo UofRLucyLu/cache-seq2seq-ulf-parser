@@ -11,14 +11,15 @@ module load tensorflow/1.4.1
 
 #python ./oracle/oracle.py --data_dir ./ulfdata/12-15-dev --output_dir ./ulfdata/12-15-dev-decode --cache_size 4 --decode --ulf
 
-cache_size=4
+cache_size=6
+split="test"
 beam_size=10
 model_prefix=./logs_cache_size${cache_size}_hard_ulf/NP2P.base_separate
 #model_prefix=./logs_decode_dev/NP2P.base_separate
 #python soft_beam_decoder.py --model_prefix ${model_prefix} \
 python NP2P_beam_decoder.py --model_prefix ${model_prefix} \
-        --in_path ./ulfdata/oracle/12-15-dev_cache${cache_size} \
-        --out_path decode_results/ulf/decode_dev_hard_${cache_size}_instance.amr \
+        --in_path ./ulfdata/oracle/12-15-${split}_cache${cache_size} \
+        --out_path decode_results/ulf/decode_${split}_hard_${cache_size}_instance.amr \
         --mode beam_decode \
         --decode True \
         --cache_size ${cache_size} \

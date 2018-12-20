@@ -1,0 +1,5734 @@
+{
+    "token2atom": {
+        "raining": [
+            [
+                "RAIN.V", 
+                1
+            ]
+        ], 
+        "all": [
+            [
+                "ALL.D", 
+                2
+            ]
+        ], 
+        "writings": [
+            [
+                "WRITING.N", 
+                1
+            ]
+        ], 
+        "managed": [
+            [
+                "MANAGE.V", 
+                1
+            ]
+        ], 
+        "rabbit": [
+            [
+                "RABBIT.N", 
+                1
+            ]
+        ], 
+        "chain": [
+            [
+                "CHAIN.N", 
+                1
+            ]
+        ], 
+        "sleep": [
+            [
+                "SLEEP.V", 
+                1
+            ]
+        ], 
+        "dish": [
+            [
+                "DISH.N", 
+                1
+            ]
+        ], 
+        "seemed": [
+            [
+                "SEEM.V", 
+                1
+            ]
+        ], 
+        "ravens": [
+            [
+                "RAVEN.N", 
+                1
+            ]
+        ], 
+        "to": [
+            [
+                "TO.P", 
+                2
+            ], 
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "TO.P-ARG", 
+                3
+            ], 
+            [
+                "TO", 
+                10
+            ]
+        ], 
+        "finally": [
+            [
+                "FINALLY.ADV-S", 
+                1
+            ]
+        ], 
+        "present": [
+            [
+                "PRESENT.A", 
+                1
+            ]
+        ], 
+        "me": [
+            [
+                "NONE", 
+                6
+            ]
+        ], 
+        "woman": [
+            [
+                "WOMAN.N", 
+                1
+            ]
+        ], 
+        "wished": [
+            [
+                "WISH.V", 
+                1
+            ]
+        ], 
+        "very": [
+            [
+                "VERY.ADV-A", 
+                1
+            ]
+        ], 
+        "Where": [
+            [
+                "WHERE.PRO", 
+                1
+            ]
+        ], 
+        "Enjoy": [
+            [
+                "ENJOY.V", 
+                1
+            ]
+        ], 
+        "did": [
+            [
+                "DO.AUX-V", 
+                1
+            ], 
+            [
+                "DO.V", 
+                1
+            ], 
+            [
+                "DO.AUX-S", 
+                1
+            ]
+        ], 
+        "solution": [
+            [
+                "SOLUTION.N", 
+                1
+            ]
+        ], 
+        "leave": [
+            [
+                "LEAVE.V", 
+                2
+            ]
+        ], 
+        "guiding": [
+            [
+                "GUIDING.A", 
+                1
+            ]
+        ], 
+        "mammal": [
+            [
+                "MAMMAL.N", 
+                1
+            ]
+        ], 
+        "Ca": [
+            [
+                "CAN.AUX-V", 
+                1
+            ]
+        ], 
+        "triumph": [
+            [
+                "TRIUMPH.N", 
+                1
+            ]
+        ], 
+        "prevent": [
+            [
+                "PREVENT.V", 
+                1
+            ]
+        ], 
+        "pretend": [
+            [
+                "PRETEND.V", 
+                1
+            ], 
+            [
+                "PRES", 
+                1
+            ]
+        ], 
+        "tired": [
+            [
+                "TIRED.A", 
+                1
+            ]
+        ], 
+        "Should": [
+            [
+                "SHOULD.AUX-S", 
+                1
+            ]
+        ], 
+        "street": [
+            [
+                "STREET.N", 
+                1
+            ]
+        ], 
+        "will": [
+            [
+                "WILL.AUX-V", 
+                1
+            ], 
+            [
+                "WILL.AUX-S", 
+                1
+            ]
+        ], 
+        "what": [
+            [
+                "WHAT.PRO", 
+                2
+            ], 
+            [
+                "WHAT.D", 
+                1
+            ]
+        ], 
+        "plays": [
+            [
+                "PLAY.N", 
+                1
+            ]
+        ], 
+        "new": [
+            [
+                "NEW.A", 
+                1
+            ]
+        ], 
+        "told": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "exchange": [
+            [
+                "EXCHANGE.V", 
+                1
+            ]
+        ], 
+        "water": [
+            [
+                "WATER.N", 
+                1
+            ]
+        ], 
+        "Greek": [
+            [
+                "\"|Greek.N|\"", 
+                1
+            ]
+        ], 
+        "untimely": [
+            [
+                "UNTIMELY.A", 
+                1
+            ]
+        ], 
+        "let": [
+            [
+                "LET.V", 
+                1
+            ]
+        ], 
+        "goldfish": [
+            [
+                "GOLDFISH.N", 
+                1
+            ]
+        ], 
+        "along": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "great": [
+            [
+                "GREAT.A", 
+                1
+            ]
+        ], 
+        "rests": [
+            [
+                "PRES", 
+                1
+            ]
+        ], 
+        "study": [
+            [
+                "STUDY.V", 
+                1
+            ]
+        ], 
+        "smoke": [
+            [
+                "SMOKE.N", 
+                1
+            ]
+        ], 
+        "Arabic": [
+            [
+                "\"|Arabic|\"", 
+                1
+            ]
+        ], 
+        "golden": [
+            [
+                "GOLDEN.A", 
+                1
+            ]
+        ], 
+        "When": [
+            [
+                "WHEN.PS", 
+                1
+            ], 
+            [
+                "WHEN.PRO", 
+                1
+            ]
+        ], 
+        "Tom": [
+            [
+                "\"|Tom|\"", 
+                3
+            ]
+        ], 
+        "extinction": [
+            [
+                "EXTINCTION.N", 
+                1
+            ]
+        ], 
+        "hotels": [
+            [
+                "HOTEL.N", 
+                1
+            ]
+        ], 
+        "use": [
+            [
+                "USE.V", 
+                2
+            ]
+        ], 
+        "crap": [
+            [
+                "CRAP.N", 
+                1
+            ]
+        ], 
+        "would": [
+            [
+                "NONE", 
+                2
+            ], 
+            [
+                "WOULD.AUX-S", 
+                2
+            ]
+        ], 
+        "answered": [
+            [
+                "ANSWER.V", 
+                1
+            ]
+        ], 
+        "two": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "next": [
+            [
+                "NEXT_TO.P", 
+                1
+            ]
+        ], 
+        "camera": [
+            [
+                "CAMERA.N", 
+                1
+            ]
+        ], 
+        "taken": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "tell": [
+            [
+                "TELL.V", 
+                5
+            ]
+        ], 
+        "today": [
+            [
+                "TODAY.ADV-E", 
+                2
+            ]
+        ], 
+        "more": [
+            [
+                "MORE.ADV-A", 
+                1
+            ]
+        ], 
+        "mystical": [
+            [
+                "MYSTICAL.A", 
+                1
+            ]
+        ], 
+        "flat": [
+            [
+                "FLAT.A", 
+                1
+            ]
+        ], 
+        "``": [
+            [
+                "NONE", 
+                4
+            ]
+        ], 
+        "door": [
+            [
+                "DOOR.N", 
+                1
+            ]
+        ], 
+        "rich": [
+            [
+                "RICH.A", 
+                1
+            ]
+        ], 
+        "holy": [
+            [
+                "HOLY.A", 
+                1
+            ]
+        ], 
+        "curriculum": [
+            [
+                "CURRICULUM.N", 
+                1
+            ]
+        ], 
+        "occurred": [
+            [
+                "OCCUR.V", 
+                1
+            ]
+        ], 
+        "glass": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "American": [
+            [
+                "\"|American.A|\"", 
+                1
+            ]
+        ], 
+        "train": [
+            [
+                "TRAIN.N", 
+                1
+            ]
+        ], 
+        "magnanimous": [
+            [
+                "MAGNANIMOUS.A", 
+                1
+            ]
+        ], 
+        "known": [
+            [
+                "KNOW.V", 
+                1
+            ]
+        ], 
+        "must": [
+            [
+                "MUST.AUX-V", 
+                2
+            ]
+        ], 
+        "1991": [
+            [
+                "\"|1991|\"", 
+                1
+            ]
+        ], 
+        "this": [
+            [
+                "THIS.D", 
+                6
+            ], 
+            [
+                "THIS.PRO", 
+                2
+            ]
+        ], 
+        "work": [
+            [
+                "WORK.V", 
+                1
+            ]
+        ], 
+        "arches": [
+            [
+                "ARCH.N", 
+                1
+            ]
+        ], 
+        "plinth": [
+            [
+                "PLINTH.N", 
+                1
+            ]
+        ], 
+        "Walsh": [
+            [
+                "\"|Walsh|\"", 
+                1
+            ]
+        ], 
+        "can": [
+            [
+                "CAN.AUX-V", 
+                8
+            ], 
+            [
+                "CAN.AUX-S", 
+                3
+            ]
+        ], 
+        "my": [
+            [
+                "MY.D", 
+                4
+            ]
+        ], 
+        "could": [
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "COULD.AUX-V", 
+                1
+            ]
+        ], 
+        "give": [
+            [
+                "GIVE.V", 
+                1
+            ]
+        ], 
+        "escaped": [
+            [
+                "ESCAPE.V", 
+                1
+            ]
+        ], 
+        "something": [
+            [
+                "SOMETHING.PRO", 
+                1
+            ]
+        ], 
+        "want": [
+            [
+                "WANT.V", 
+                3
+            ]
+        ], 
+        "!": [
+            [
+                "!", 
+                2
+            ], 
+            [
+                "NONE", 
+                2
+            ]
+        ], 
+        "end": [
+            [
+                "END.N", 
+                1
+            ]
+        ], 
+        "sit": [
+            [
+                "SIT.V", 
+                1
+            ]
+        ], 
+        "Who": [
+            [
+                "WHO.PRO", 
+                3
+            ]
+        ], 
+        "lamp": [
+            [
+                "LAMP.N", 
+                1
+            ]
+        ], 
+        "forest": [
+            [
+                "FOREST.N", 
+                1
+            ]
+        ], 
+        "boats": [
+            [
+                "BOAT.N", 
+                1
+            ]
+        ], 
+        "instead": [
+            [
+                "INSTEAD.ADV-E", 
+                1
+            ]
+        ], 
+        "Why": [
+            [
+                "WHY.ADV-S", 
+                1
+            ]
+        ], 
+        "act": [
+            [
+                "ACT.V", 
+                1
+            ]
+        ], 
+        "Will": [
+            [
+                "WILL.AUX-S", 
+                1
+            ]
+        ], 
+        "wrong": [
+            [
+                "WRONG.A", 
+                1
+            ]
+        ], 
+        "plane": [
+            [
+                "PLANE.N", 
+                1
+            ]
+        ], 
+        "latticed": [
+            [
+                "LATTICED.A", 
+                1
+            ]
+        ], 
+        "president": [
+            [
+                "PRESIDENT.N", 
+                1
+            ]
+        ], 
+        "man": [
+            [
+                "MAN.N", 
+                1
+            ]
+        ], 
+        "a": [
+            [
+                "A.D", 
+                25
+            ], 
+            [
+                "A-GEN.D", 
+                1
+            ]
+        ], 
+        "so": [
+            [
+                "SO.PS", 
+                1
+            ], 
+            [
+                "SO.CC", 
+                1
+            ]
+        ], 
+        "playing": [
+            [
+                "PLAY.V", 
+                1
+            ]
+        ], 
+        "What": [
+            [
+                "WHAT.PRO", 
+                6
+            ], 
+            [
+                "WHAT.D", 
+                2
+            ]
+        ], 
+        "over": [
+            [
+                "OVER.P", 
+                2
+            ]
+        ], 
+        "years": [
+            [
+                "YEAR.N", 
+                2
+            ]
+        ], 
+        "before": [
+            [
+                "BEFORE.ADV-E", 
+                1
+            ]
+        ], 
+        ",": [
+            [
+                "NONE", 
+                22
+            ]
+        ], 
+        "better": [
+            [
+                "HAD_BETTER.AUX-S", 
+                1
+            ]
+        ], 
+        "Judge": [
+            [
+                "JUDGE.N", 
+                1
+            ]
+        ], 
+        "into": [
+            [
+                "INTO.P", 
+                1
+            ]
+        ], 
+        "Spain": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "then": [
+            [
+                "THEN.ADV-E", 
+                1
+            ]
+        ], 
+        "them": [
+            [
+                "THEM.PRO", 
+                1
+            ]
+        ], 
+        "good": [
+            [
+                "GOOD.ADV-A", 
+                1
+            ]
+        ], 
+        "food": [
+            [
+                "FOOD.N", 
+                2
+            ]
+        ], 
+        "safe": [
+            [
+                "SAFE.A", 
+                1
+            ]
+        ], 
+        "Can": [
+            [
+                "CAN.AUX-V", 
+                3
+            ], 
+            [
+                "CAN.AUX-S", 
+                2
+            ]
+        ], 
+        "not": [
+            [
+                "NOT", 
+                1
+            ], 
+            [
+                "NOT.P-ARG", 
+                1
+            ], 
+            [
+                "NOT.ADV-S", 
+                1
+            ]
+        ], 
+        "Gerhard": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "name": [
+            [
+                "NAME.N", 
+                1
+            ]
+        ], 
+        "occasions": [
+            [
+                "OCCASION.N", 
+                1
+            ]
+        ], 
+        "traced": [
+            [
+                "TRACE.V", 
+                1
+            ]
+        ], 
+        "--": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "truth": [
+            [
+                "TRUTH.N", 
+                2
+            ]
+        ], 
+        "rock": [
+            [
+                "ROCK.N", 
+                1
+            ]
+        ], 
+        "beveled": [
+            [
+                "BEVELED.A", 
+                1
+            ]
+        ], 
+        "meal": [
+            [
+                "MEAL.N", 
+                1
+            ]
+        ], 
+        "mean": [
+            [
+                "MEAN.V", 
+                1
+            ]
+        ], 
+        "doing": [
+            [
+                "DO.V", 
+                1
+            ]
+        ], 
+        "house": [
+            [
+                "HOUSE.N", 
+                1
+            ]
+        ], 
+        "hard": [
+            [
+                "HARD.ADV-A", 
+                1
+            ]
+        ], 
+        "idea": [
+            [
+                "IDEA.N", 
+                1
+            ]
+        ], 
+        "expect": [
+            [
+                "EXPECT.V", 
+                1
+            ]
+        ], 
+        "sexual": [
+            [
+                "SEXUAL.A", 
+                3
+            ]
+        ], 
+        "special": [
+            [
+                "SPECIAL.A", 
+                1
+            ]
+        ], 
+        "out": [
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "YOU.PRO", 
+                1
+            ]
+        ], 
+        "try": [
+            [
+                "TRY.V", 
+                2
+            ]
+        ], 
+        "by": [
+            [
+                "BY.P", 
+                2
+            ], 
+            [
+                "BY.P-ARG", 
+                2
+            ]
+        ], 
+        "intercourse": [
+            [
+                "INTERCOURSE.N", 
+                3
+            ]
+        ], 
+        "defend": [
+            [
+                "DEFEND.V", 
+                1
+            ]
+        ], 
+        "maneuver": [
+            [
+                "MANEUVER.N", 
+                1
+            ]
+        ], 
+        "base": [
+            [
+                "BASE.N", 
+                1
+            ]
+        ], 
+        "put": [
+            [
+                "PUT_OUT.V", 
+                1
+            ]
+        ], 
+        "teach": [
+            [
+                "TEACH.V", 
+                1
+            ]
+        ], 
+        "language": [
+            [
+                "LANGUAGE.N", 
+                2
+            ]
+        ], 
+        "Ed": [
+            [
+                "\"|Ed|\"", 
+                1
+            ]
+        ], 
+        "refugee": [
+            [
+                "REFUGEE.A", 
+                1
+            ]
+        ], 
+        "moment": [
+            [
+                "MOMENT.N", 
+                1
+            ]
+        ], 
+        "keep": [
+            [
+                "KEEP.V", 
+                2
+            ]
+        ], 
+        "Gesell": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "think": [
+            [
+                "THINK.V", 
+                2
+            ]
+        ], 
+        "first": [
+            [
+                "FIRST.A", 
+                2
+            ]
+        ], 
+        "flying": [
+            [
+                "FLYING.A", 
+                1
+            ]
+        ], 
+        "someday": [
+            [
+                "SOMEDAY.ADV-E", 
+                1
+            ]
+        ], 
+        "reflected": [
+            [
+                "REFLECT.V", 
+                1
+            ]
+        ], 
+        "one": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "another": [
+            [
+                "ANOTHER.D", 
+                1
+            ], 
+            [
+                "ANOTHER.A", 
+                1
+            ]
+        ], 
+        "miss": [
+            [
+                "MISS.V", 
+                1
+            ]
+        ], 
+        "city": [
+            [
+                "CITY.N", 
+                1
+            ]
+        ], 
+        "given": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "service": [
+            [
+                "SERVICE.N", 
+                1
+            ]
+        ], 
+        "anyone": [
+            [
+                "ANYONE.PRO", 
+                3
+            ]
+        ], 
+        "too": [
+            [
+                "TOO.ADV-E", 
+                1
+            ]
+        ], 
+        "convention": [
+            [
+                "CONVENTION.N", 
+                1
+            ]
+        ], 
+        "eyes": [
+            [
+                "EYE.N", 
+                1
+            ]
+        ], 
+        "that": [
+            [
+                "THAT.PRO", 
+                1
+            ], 
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "THAT.D", 
+                2
+            ], 
+            [
+                "THAT.REL", 
+                2
+            ], 
+            [
+                "THAT", 
+                2
+            ]
+        ], 
+        "exactly": [
+            [
+                "EXACTLY.ADV-S", 
+                1
+            ]
+        ], 
+        "somewhat": [
+            [
+                "SOMEWHAT.ADV-A", 
+                1
+            ]
+        ], 
+        "believe": [
+            [
+                "BELIEVE.V", 
+                1
+            ], 
+            [
+                "BELIEVE_IN.V", 
+                1
+            ]
+        ], 
+        "13": [
+            [
+                "\"|13|\"", 
+                1
+            ]
+        ], 
+        "were": [
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "TAKE.V", 
+                1
+            ], 
+            [
+                "BE.V", 
+                1
+            ]
+        ], 
+        "and": [
+            [
+                "AND", 
+                2
+            ]
+        ], 
+        "investors": [
+            [
+                "INVESTOR.N", 
+                1
+            ]
+        ], 
+        "runner": [
+            [
+                "RUNNER.N", 
+                1
+            ]
+        ], 
+        "It": [
+            [
+                "IT.PRO", 
+                4
+            ]
+        ], 
+        "juice": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "say": [
+            [
+                "SAY.V", 
+                1
+            ]
+        ], 
+        "have": [
+            [
+                "HAVE.V", 
+                2
+            ], 
+            [
+                "ADV-E", 
+                1
+            ]
+        ], 
+        "any": [
+            [
+                "ANY.D", 
+                1
+            ]
+        ], 
+        "sat": [
+            [
+                "PAST", 
+                1
+            ]
+        ], 
+        "Do": [
+            [
+                "DO.AUX-S", 
+                8
+            ]
+        ], 
+        "Alyosha": [
+            [
+                "\"|Alyosha|\"", 
+                1
+            ]
+        ], 
+        "dimly-lit": [
+            [
+                "DIMLY.ADV-A", 
+                1
+            ]
+        ], 
+        "take": [
+            [
+                "TAKE.V", 
+                2
+            ]
+        ], 
+        "forces": [
+            [
+                "FORCE.N", 
+                1
+            ]
+        ], 
+        "Ask": [
+            [
+                "ASK.V", 
+                1
+            ]
+        ], 
+        "sure": [
+            [
+                "SURE.A", 
+                1
+            ]
+        ], 
+        "Name": [
+            [
+                "NAME.V", 
+                6
+            ]
+        ], 
+        "14-pound": [
+            [
+                "POUND.N", 
+                1
+            ]
+        ], 
+        "who": [
+            [
+                "WHO.REL", 
+                1
+            ]
+        ], 
+        "plan": [
+            [
+                "PLAN.N", 
+                1
+            ]
+        ], 
+        "The": [
+            [
+                "THE.D", 
+                3
+            ]
+        ], 
+        "windows": [
+            [
+                "WINDOW.N", 
+                1
+            ]
+        ], 
+        "camp": [
+            [
+                "CAMP.N", 
+                1
+            ]
+        ], 
+        "request": [
+            [
+                "REQUEST.N", 
+                1
+            ]
+        ], 
+        "dog": [
+            [
+                "DOG.N", 
+                1
+            ]
+        ], 
+        "CFM56s": [
+            [
+                "\"|CFM56.N|\"", 
+                1
+            ]
+        ], 
+        "High": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "If": [
+            [
+                "IF.PS", 
+                3
+            ]
+        ], 
+        "annoyed": [
+            [
+                "ANNOYED.A", 
+                1
+            ]
+        ], 
+        "discovered": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "Has": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "find": [
+            [
+                "FIND.V", 
+                1
+            ]
+        ], 
+        "We": [
+            [
+                "WE.PRO", 
+                3
+            ]
+        ], 
+        "busy": [
+            [
+                "BUSY.A", 
+                1
+            ]
+        ], 
+        "state": [
+            [
+                "STATE.N", 
+                1
+            ]
+        ], 
+        "French": [
+            [
+                "\"|French.N|\"", 
+                1
+            ], 
+            [
+                "\"|French|\"", 
+                1
+            ]
+        ], 
+        "should": [
+            [
+                "SHOULD.AUX-V", 
+                1
+            ]
+        ], 
+        "only": [
+            [
+                "ONLY.A", 
+                1
+            ]
+        ], 
+        "going": [
+            [
+                "GO.V", 
+                1
+            ], 
+            [
+                "GO_OUT.V", 
+                1
+            ]
+        ], 
+        "pretty": [
+            [
+                "PRETTY.ADV-A", 
+                1
+            ]
+        ], 
+        "do": [
+            [
+                "DO.AUX-S", 
+                4
+            ], 
+            [
+                "DO.V", 
+                3
+            ]
+        ], 
+        "his": [
+            [
+                "NONE", 
+                2
+            ]
+        ], 
+        "get": [
+            [
+                "GET.V", 
+                2
+            ]
+        ], 
+        "sunny": [
+            [
+                "SUNNY.A", 
+                1
+            ]
+        ], 
+        "bear": [
+            [
+                "BEAR.V", 
+                1
+            ]
+        ], 
+        "actress": [
+            [
+                "ACTRESS.N", 
+                1
+            ]
+        ], 
+        "him": [
+            [
+                "HIM.PRO", 
+                3
+            ]
+        ], 
+        "runs": [
+            [
+                "RUN.V", 
+                1
+            ]
+        ], 
+        "she": [
+            [
+                "SHE.PRO", 
+                2
+            ]
+        ], 
+        "Education": [
+            [
+                "\"|Education.N|\"", 
+                1
+            ]
+        ], 
+        "approaching": [
+            [
+                "APPROACH.V", 
+                1
+            ]
+        ], 
+        "District": [
+            [
+                "DISTRICT.N", 
+                1
+            ]
+        ], 
+        "achieved": [
+            [
+                "ACHIEVE.V", 
+                1
+            ]
+        ], 
+        "see": [
+            [
+                "SEE.V", 
+                2
+            ]
+        ], 
+        "asleep": [
+            [
+                "ASLEEP.A", 
+                1
+            ]
+        ], 
+        "are": [
+            [
+                "NONE", 
+                2
+            ], 
+            [
+                "BE.V", 
+                2
+            ]
+        ], 
+        "best": [
+            [
+                "BEST.A", 
+                1
+            ]
+        ], 
+        "said": [
+            [
+                "SAY.V", 
+                3
+            ]
+        ], 
+        "behind": [
+            [
+                "BEHIND.P", 
+                1
+            ]
+        ], 
+        "cooperation": [
+            [
+                "COOPERATION.N", 
+                1
+            ]
+        ], 
+        "U.S.": [
+            [
+                "\"|U.S.|\"", 
+                1
+            ], 
+            [
+                "\"|U.S..N|\"", 
+                1
+            ]
+        ], 
+        "smilingly": [
+            [
+                "SMILINGLY.ADV-A", 
+                1
+            ]
+        ], 
+        "we": [
+            [
+                "WE.PRO", 
+                6
+            ]
+        ], 
+        "Could": [
+            [
+                "COULD.AUX-S", 
+                1
+            ], 
+            [
+                "COULD.AUX-V", 
+                1
+            ]
+        ], 
+        "Gaelic": [
+            [
+                "GAELIC.A", 
+                1
+            ]
+        ], 
+        "Refugees": [
+            [
+                "\"|Refugee.N|\"", 
+                1
+            ]
+        ], 
+        "restaurant": [
+            [
+                "RESTAURANT.N", 
+                1
+            ]
+        ], 
+        "foreign": [
+            [
+                "FOREIGN.A", 
+                2
+            ]
+        ], 
+        "glorious": [
+            [
+                "GLORIOUS.A", 
+                1
+            ]
+        ], 
+        "comment": [
+            [
+                "COMMENT.N", 
+                1
+            ]
+        ], 
+        "ca": [
+            [
+                "CAN.AUX-V", 
+                1
+            ]
+        ], 
+        "extinct": [
+            [
+                "EXTINCT.A", 
+                1
+            ]
+        ], 
+        "speak": [
+            [
+                "SPEAK.V", 
+                1
+            ]
+        ], 
+        "described": [
+            [
+                "DESCRIBED.V", 
+                1
+            ]
+        ], 
+        "come": [
+            [
+                "COMPLEX", 
+                1
+            ]
+        ], 
+        "trilogy": [
+            [
+                "TRILOGY.N", 
+                1
+            ]
+        ], 
+        "been": [
+            [
+                "NONE", 
+                3
+            ], 
+            [
+                "BE.V", 
+                2
+            ]
+        ], 
+        ".": [
+            [
+                "NONE", 
+                44
+            ]
+        ], 
+        "secret": [
+            [
+                "SECRET.N", 
+                1
+            ]
+        ], 
+        "much": [
+            [
+                "MUCH.N", 
+                1
+            ]
+        ], 
+        "expected": [
+            [
+                "EXPECT.V", 
+                1
+            ]
+        ], 
+        "meeting": [
+            [
+                "MEETING.N", 
+                1
+            ]
+        ], 
+        "Care": [
+            [
+                "CARE.V", 
+                1
+            ]
+        ], 
+        "life": [
+            [
+                "LIFE.N", 
+                2
+            ]
+        ], 
+        "fire": [
+            [
+                "FIRE.N", 
+                1
+            ]
+        ], 
+        "Trang": [
+            [
+                "\"|Trang|\"", 
+                1
+            ]
+        ], 
+        "tiger": [
+            [
+                "TIGER.N", 
+                1
+            ]
+        ], 
+        "policy": [
+            [
+                "POLICY.N", 
+                1
+            ]
+        ], 
+        "understand": [
+            [
+                "UNDERSTAND.V", 
+                1
+            ]
+        ], 
+        "CDs": [
+            [
+                "CD.N", 
+                1
+            ]
+        ], 
+        "extant": [
+            [
+                "EXTANT.A", 
+                1
+            ]
+        ], 
+        "careful": [
+            [
+                "CAREFUL.A", 
+                1
+            ]
+        ], 
+        "spirit": [
+            [
+                "SPIRIT.N", 
+                1
+            ]
+        ], 
+        "those": [
+            [
+                "THOSE.D", 
+                1
+            ]
+        ], 
+        "pilot": [
+            [
+                "PILOT.N", 
+                1
+            ]
+        ], 
+        "case": [
+            [
+                "CASE.N", 
+                1
+            ]
+        ], 
+        "myself": [
+            [
+                "MYSELF.PRO", 
+                1
+            ]
+        ], 
+        "look": [
+            [
+                "LOOK.V", 
+                1
+            ]
+        ], 
+        "straight": [
+            [
+                "STRAIGHT.A", 
+                1
+            ]
+        ], 
+        "n't": [
+            [
+                "NOT", 
+                6
+            ], 
+            [
+                "NOT.ADV-S", 
+                1
+            ]
+        ], 
+        "PLO": [
+            [
+                "DELEGATION.N", 
+                1
+            ]
+        ], 
+        "leaves": [
+            [
+                "LEAF.N", 
+                1
+            ]
+        ], 
+        "is": [
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "BE.V", 
+                2
+            ]
+        ], 
+        "it": [
+            [
+                "IT.PRO", 
+                8
+            ], 
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "evening": [
+            [
+                "EVENING.N", 
+                1
+            ]
+        ], 
+        "in": [
+            [
+                "IN.P-ARG", 
+                1
+            ], 
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "IN.ADV-E", 
+                1
+            ], 
+            [
+                "IN.P", 
+                9
+            ]
+        ], 
+        "You": [
+            [
+                "YOU.PRO", 
+                7
+            ]
+        ], 
+        "worry": [
+            [
+                "WORRY.V", 
+                1
+            ]
+        ], 
+        "if": [
+            [
+                "NONE", 
+                4
+            ], 
+            [
+                "AS_IF.PS", 
+                1
+            ], 
+            [
+                "IF.PS", 
+                2
+            ]
+        ], 
+        "doctor": [
+            [
+                "DOCTOR.N", 
+                1
+            ]
+        ], 
+        "threatens": [
+            [
+                "THREATEN.V", 
+                1
+            ]
+        ], 
+        "make": [
+            [
+                "MAKE.V", 
+                1
+            ]
+        ], 
+        "bowl": [
+            [
+                "BOWL.N", 
+                1
+            ]
+        ], 
+        "underground": [
+            [
+                "UNDERGROUND.A", 
+                1
+            ]
+        ], 
+        "several": [
+            [
+                "SEVERAL.D", 
+                1
+            ]
+        ], 
+        "week": [
+            [
+                "WEEK.N", 
+                1
+            ]
+        ], 
+        "used": [
+            [
+                "USE.V", 
+                1
+            ]
+        ], 
+        "I": [
+            [
+                "NONE", 
+                3
+            ], 
+            [
+                "I.PRO", 
+                16
+            ]
+        ], 
+        "Maybe": [
+            [
+                "MAYBE.ADV-S", 
+                1
+            ]
+        ], 
+        "running": [
+            [
+                "RUNNING.A", 
+                1
+            ]
+        ], 
+        "fruit": [
+            [
+                "JUICE.N", 
+                1
+            ]
+        ], 
+        "arrived": [
+            [
+                "ARRIVE.V", 
+                1
+            ]
+        ], 
+        "kept": [
+            [
+                "KEEP.V", 
+                1
+            ]
+        ], 
+        "Is": [
+            [
+                "BE.V", 
+                1
+            ]
+        ], 
+        "well": [
+            [
+                "WELL.A", 
+                1
+            ]
+        ], 
+        "meddlesome": [
+            [
+                "MEDDLESOME.A", 
+                1
+            ]
+        ], 
+        "fighting": [
+            [
+                "FIGHT.V", 
+                1
+            ]
+        ], 
+        "command": [
+            [
+                "COMMAND.N", 
+                1
+            ]
+        ], 
+        "Have": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "position": [
+            [
+                "POSITION.N", 
+                1
+            ]
+        ], 
+        "the": [
+            [
+                "NONE", 
+                4
+            ], 
+            [
+                "TWO.D", 
+                1
+            ], 
+            [
+                "THE.D", 
+                25
+            ]
+        ], 
+        "left": [
+            [
+                "LEAVE.V", 
+                2
+            ]
+        ], 
+        "ambassador": [
+            [
+                "AMBASSADOR.N", 
+                1
+            ]
+        ], 
+        "just": [
+            [
+                "JUST.ADV-S", 
+                1
+            ]
+        ], 
+        "rest": [
+            [
+                "REST.N", 
+                1
+            ]
+        ], 
+        "disguise": [
+            [
+                "DISGUISE.N", 
+                1
+            ]
+        ], 
+        "rooms": [
+            [
+                "ROOM.N", 
+                1
+            ]
+        ], 
+        "laurel": [
+            [
+                "LAUREL.A", 
+                1
+            ]
+        ], 
+        "Be": [
+            [
+                "BE.V", 
+                1
+            ]
+        ], 
+        "thinking": [
+            [
+                "THINK.V", 
+                1
+            ]
+        ], 
+        "had": [
+            [
+                "HAVE.V", 
+                3
+            ], 
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "DISCOVER.V", 
+                1
+            ]
+        ], 
+        "bench": [
+            [
+                "BENCH.N", 
+                1
+            ]
+        ], 
+        "Margaret": [
+            [
+                "\"|Margaret|\"", 
+                1
+            ]
+        ], 
+        "Fadil": [
+            [
+                "\"|Fadil|\"", 
+                1
+            ]
+        ], 
+        "parents": [
+            [
+                "PARENT.N", 
+                1
+            ]
+        ], 
+        "has": [
+            [
+                "HAVE.V", 
+                2
+            ], 
+            [
+                "NONE", 
+                3
+            ]
+        ], 
+        "which": [
+            [
+                "WHICH.PRO", 
+                1
+            ]
+        ], 
+        "Bette": [
+            [
+                "\"|BetteDavis|\"", 
+                1
+            ]
+        ], 
+        "five": [
+            [
+                "FIVE.A", 
+                1
+            ]
+        ], 
+        "know": [
+            [
+                "KNOW.V", 
+                1
+            ]
+        ], 
+        "judge": [
+            [
+                "JUDGE.N", 
+                1
+            ]
+        ], 
+        "U.N.": [
+            [
+                "\"|U.N..N|\"", 
+                1
+            ]
+        ], 
+        "OK": [
+            [
+                "OK.A", 
+                1
+            ]
+        ], 
+        "like": [
+            [
+                "LIKE.A", 
+                1
+            ], 
+            [
+                "LIKE.V", 
+                1
+            ]
+        ], 
+        "obvious": [
+            [
+                "OBVIOUS.A", 
+                1
+            ]
+        ], 
+        "arrivals": [
+            [
+                "ARRIVAL.N", 
+                1
+            ]
+        ], 
+        "'ve": [
+            [
+                "TELL.V", 
+                1
+            ]
+        ], 
+        "Are": [
+            [
+                "BE.V", 
+                2
+            ]
+        ], 
+        "warned": [
+            [
+                "WARN.V", 
+                1
+            ]
+        ], 
+        "Heimlich": [
+            [
+                "HEIMLICH.N", 
+                1
+            ]
+        ], 
+        "right": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "classical": [
+            [
+                "CLASSICAL.A", 
+                1
+            ]
+        ], 
+        "Since": [
+            [
+                "SINCE.PS", 
+                1
+            ]
+        ], 
+        "some": [
+            [
+                "SOME.D", 
+                1
+            ], 
+            [
+                "SOME.N", 
+                1
+            ]
+        ], 
+        "delegation": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "home": [
+            [
+                "HOME.N", 
+                1
+            ]
+        ], 
+        "Sorry": [
+            [
+                "SORRY.A", 
+                1
+            ]
+        ], 
+        "lead": [
+            [
+                "GLASS.N", 
+                1
+            ]
+        ], 
+        "737s": [
+            [
+                "\"|737.N|\"", 
+                1
+            ]
+        ], 
+        "hurricane": [
+            [
+                "HURRICANE.N", 
+                1
+            ]
+        ], 
+        "does": [
+            [
+                "DO.AUX-S", 
+                3
+            ]
+        ], 
+        "Let": [
+            [
+                "LET.V", 
+                1
+            ]
+        ], 
+        "Nothing": [
+            [
+                "NOTHING.PRO", 
+                1
+            ]
+        ], 
+        "Odin": [
+            [
+                "\"|Odin|\"", 
+                1
+            ]
+        ], 
+        "?": [
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "?", 
+                44
+            ]
+        ], 
+        "He": [
+            [
+                "HE.PRO", 
+                1
+            ]
+        ], 
+        "be": [
+            [
+                "GIVE.V", 
+                1
+            ], 
+            [
+                "BE.V", 
+                4
+            ]
+        ], 
+        "run": [
+            [
+                "RUN.V", 
+                1
+            ]
+        ], 
+        "lose": [
+            [
+                "LOSE.V", 
+                1
+            ]
+        ], 
+        "Sweden": [
+            [
+                "\"|Sweden|\"", 
+                1
+            ]
+        ], 
+        "Davis": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "permitted": [
+            [
+                "PERMIT.V", 
+                1
+            ]
+        ], 
+        "on": [
+            [
+                "ON.P", 
+                6
+            ], 
+            [
+                "ON.P-ARG", 
+                5
+            ]
+        ], 
+        "about": [
+            [
+                "ABOUT.ADV-A", 
+                1
+            ], 
+            [
+                "ABOUT.P-ARG", 
+                1
+            ]
+        ], 
+        "getting": [
+            [
+                "GET_ALONG.V", 
+                1
+            ]
+        ], 
+        "of": [
+            [
+                "OF.P", 
+                7
+            ], 
+            [
+                "OF.P-ARG", 
+                2
+            ], 
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "OF", 
+                1
+            ]
+        ], 
+        "prove": [
+            [
+                "PROVE.V", 
+                1
+            ]
+        ], 
+        "decent": [
+            [
+                "DECENT.A", 
+                1
+            ]
+        ], 
+        "or": [
+            [
+                "OR", 
+                3
+            ]
+        ], 
+        "mommy": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "down": [
+            [
+                "DOWN.ADV-A", 
+                1
+            ]
+        ], 
+        "female": [
+            [
+                "FEMALE.N", 
+                3
+            ]
+        ], 
+        "variously": [
+            [
+                "VARIOSLY.ADV-A", 
+                1
+            ]
+        ], 
+        "your": [
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "YOUR.D", 
+                3
+            ], 
+            [
+                "YOU.PRO", 
+                2
+            ]
+        ], 
+        "rely": [
+            [
+                "RELY.V", 
+                2
+            ]
+        ], 
+        "her": [
+            [
+                "HER.PRO", 
+                1
+            ]
+        ], 
+        "there": [
+            [
+                "THERE.PRO", 
+                2
+            ]
+        ], 
+        "fast": [
+            [
+                "FAST.A", 
+                2
+            ]
+        ], 
+        "intention": [
+            [
+                "INTENTION.N", 
+                1
+            ]
+        ], 
+        "stars": [
+            [
+                "STAR.N", 
+                1
+            ]
+        ], 
+        ":": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "was": [
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "BE.V", 
+                3
+            ]
+        ], 
+        "buy": [
+            [
+                "BUY.V", 
+                1
+            ]
+        ], 
+        "form": [
+            [
+                "FORM.V", 
+                1
+            ]
+        ], 
+        "Disabilities": [
+            [
+                "\"|Disabilities.N|\"", 
+                1
+            ]
+        ], 
+        "but": [
+            [
+                "BUT.CC", 
+                1
+            ]
+        ], 
+        "Individuals": [
+            [
+                "\"|Individuals.N|\"", 
+                1
+            ]
+        ], 
+        "with": [
+            [
+                "WITH.P-ARG", 
+                2
+            ], 
+            [
+                "WITH.P", 
+                8
+            ]
+        ], 
+        "he": [
+            [
+                "HE.PRO", 
+                7
+            ]
+        ], 
+        "made": [
+            [
+                "MADE.V", 
+                1
+            ]
+        ], 
+        "official": [
+            [
+                "OFFICIAL.A", 
+                1
+            ]
+        ], 
+        "'re": [
+            [
+                "BE.V", 
+                1
+            ]
+        ], 
+        "Tony": [
+            [
+                "\"|Tony|\"", 
+                1
+            ]
+        ], 
+        "''": [
+            [
+                "NONE", 
+                13
+            ]
+        ], 
+        "How": [
+            [
+                "HOW.ADV-A", 
+                3
+            ], 
+            [
+                "HOW.ADV-S", 
+                1
+            ], 
+            [
+                "HOW.PQ", 
+                3
+            ]
+        ], 
+        "as": [
+            [
+                "PAST", 
+                1
+            ], 
+            [
+                "AS.P-ARG", 
+                1
+            ]
+        ], 
+        "at": [
+            [
+                "AT.P", 
+                2
+            ], 
+            [
+                "AT.P-ARG", 
+                1
+            ]
+        ], 
+        "looked": [
+            [
+                "LOOK.V", 
+                1
+            ]
+        ], 
+        "Commissioner": [
+            [
+                "\"|HighCommissioner.N|\"", 
+                1
+            ]
+        ], 
+        "when": [
+            [
+                "WHICH.PRO", 
+                1
+            ], 
+            [
+                "WHEN.PS", 
+                1
+            ]
+        ], 
+        "ourselves": [
+            [
+                "OURSELVES.PRO", 
+                1
+            ]
+        ], 
+        "Whenever": [
+            [
+                "WHENEVER.PS", 
+                1
+            ]
+        ], 
+        "book": [
+            [
+                "BOOK.N", 
+                1
+            ]
+        ], 
+        "you": [
+            [
+                "NONE", 
+                2
+            ], 
+            [
+                "YOU.PRO", 
+                34
+            ]
+        ], 
+        "scored": [
+            [
+                "SCORE.V", 
+                1
+            ]
+        ], 
+        "picture": [
+            [
+                "PICTURE.V", 
+                1
+            ]
+        ], 
+        "'s": [
+            [
+                "US.PRO", 
+                1
+            ], 
+            [
+                "S", 
+                2
+            ], 
+            [
+                "NONE", 
+                2
+            ], 
+            [
+                "BE.V", 
+                5
+            ]
+        ], 
+        "stay": [
+            [
+                "STAY.V", 
+                1
+            ]
+        ], 
+        "chance": [
+            [
+                "CHANCE.N", 
+                1
+            ]
+        ], 
+        "'d": [
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "WOULD.AUX-S", 
+                1
+            ]
+        ], 
+        "Act": [
+            [
+                "\"|Act.N|\"", 
+                1
+            ]
+        ], 
+        "'m": [
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "BE.V", 
+                1
+            ]
+        ], 
+        "Mary": [
+            [
+                "\"|Mary|\"", 
+                1
+            ]
+        ], 
+        "grudge": [
+            [
+                "GRUDGE.N", 
+                1
+            ]
+        ], 
+        "land": [
+            [
+                "LAND.V", 
+                1
+            ]
+        ], 
+        "for": [
+            [
+                "FOR.P-ARG", 
+                1
+            ], 
+            [
+                "FOR.P", 
+                6
+            ]
+        ], 
+        "Ah": [
+            [
+                "AH.X", 
+                2
+            ]
+        ], 
+        "time": [
+            [
+                "TIME.N", 
+                3
+            ]
+        ], 
+        "serious": [
+            [
+                "SERIOUS.A", 
+                1
+            ]
+        ], 
+        "original": [
+            [
+                "ORIGINAL.A", 
+                1
+            ]
+        ], 
+        "once": [
+            [
+                "ONCE.ADV-E", 
+                1
+            ]
+        ]
+    }, 
+    "pos2ext": {
+        "PRP$": [
+            [
+                "PRO", 
+                2
+            ], 
+            [
+                "D", 
+                7
+            ]
+        ], 
+        "VBG": [
+            [
+                "A", 
+                3
+            ], 
+            [
+                "V", 
+                9
+            ]
+        ], 
+        "VBD": [
+            [
+                "AUX-V", 
+                1
+            ], 
+            [
+                "V", 
+                25
+            ], 
+            [
+                null, 
+                1
+            ], 
+            [
+                "AUX-S", 
+                1
+            ]
+        ], 
+        "VBN": [
+            [
+                "A", 
+                1
+            ], 
+            [
+                "V", 
+                12
+            ]
+        ], 
+        "VBP": [
+            [
+                "AUX-S", 
+                6
+            ], 
+            [
+                null, 
+                2
+            ], 
+            [
+                "V", 
+                20
+            ]
+        ], 
+        "WDT": [
+            [
+                "PRO", 
+                1
+            ], 
+            [
+                "D", 
+                2
+            ], 
+            [
+                "REL", 
+                2
+            ]
+        ], 
+        "JJ": [
+            [
+                "A", 
+                42
+            ], 
+            [
+                "ADV-A", 
+                2
+            ], 
+            [
+                "name", 
+                3
+            ], 
+            [
+                "D", 
+                1
+            ], 
+            [
+                "N", 
+                3
+            ]
+        ], 
+        "WP": [
+            [
+                "PRO", 
+                11
+            ], 
+            [
+                "D", 
+                1
+            ], 
+            [
+                "REL", 
+                1
+            ]
+        ], 
+        "VBZ": [
+            [
+                "N", 
+                1
+            ], 
+            [
+                "AUX-S", 
+                3
+            ], 
+            [
+                null, 
+                1
+            ], 
+            [
+                "V", 
+                12
+            ]
+        ], 
+        "DT": [
+            [
+                "A", 
+                1
+            ], 
+            [
+                "PRO", 
+                3
+            ], 
+            [
+                "D", 
+                68
+            ], 
+            [
+                "N", 
+                1
+            ]
+        ], 
+        "RP": [
+            [
+                "ADV-A", 
+                1
+            ], 
+            [
+                "PRO", 
+                1
+            ]
+        ], 
+        "NN": [
+            [
+                "A", 
+                2
+            ], 
+            [
+                "ADV-A", 
+                1
+            ], 
+            [
+                "PRO", 
+                5
+            ], 
+            [
+                "ADV-E", 
+                2
+            ], 
+            [
+                "N", 
+                88
+            ], 
+            [
+                "V", 
+                2
+            ]
+        ], 
+        "POS": [
+            [
+                null, 
+                2
+            ]
+        ], 
+        ".": [
+            [
+                null, 
+                46
+            ]
+        ], 
+        "TO": [
+            [
+                "P", 
+                2
+            ], 
+            [
+                "P-ARG", 
+                3
+            ], 
+            [
+                null, 
+                10
+            ]
+        ], 
+        "PRP": [
+            [
+                "PRO", 
+                96
+            ]
+        ], 
+        "RB": [
+            [
+                "A", 
+                4
+            ], 
+            [
+                "ADV-A", 
+                5
+            ], 
+            [
+                "PRO", 
+                1
+            ], 
+            [
+                "ADV-E", 
+                5
+            ], 
+            [
+                "P-ARG", 
+                1
+            ], 
+            [
+                null, 
+                7
+            ], 
+            [
+                "ADV-S", 
+                6
+            ]
+        ], 
+        "NNS": [
+            [
+                "name", 
+                4
+            ], 
+            [
+                "N", 
+                18
+            ]
+        ], 
+        "NNP": [
+            [
+                "A", 
+                1
+            ], 
+            [
+                "PS", 
+                1
+            ], 
+            [
+                "N", 
+                4
+            ], 
+            [
+                "name", 
+                22
+            ], 
+            [
+                "V", 
+                1
+            ]
+        ], 
+        "VB": [
+            [
+                "N", 
+                1
+            ], 
+            [
+                "AUX-S", 
+                6
+            ], 
+            [
+                null, 
+                1
+            ], 
+            [
+                "V", 
+                66
+            ]
+        ], 
+        "WRB": [
+            [
+                "ADV-A", 
+                3
+            ], 
+            [
+                "PS", 
+                2
+            ], 
+            [
+                "ADV-S", 
+                2
+            ], 
+            [
+                "PQ", 
+                3
+            ], 
+            [
+                "PRO", 
+                3
+            ]
+        ], 
+        "CC": [
+            [
+                "CC", 
+                1
+            ], 
+            [
+                null, 
+                5
+            ]
+        ], 
+        "RBR": [
+            [
+                "ADV-A", 
+                1
+            ], 
+            [
+                "AUX-S", 
+                1
+            ]
+        ], 
+        "CD": [
+            [
+                "A", 
+                1
+            ], 
+            [
+                "name", 
+                2
+            ]
+        ], 
+        "EX": [
+            [
+                "PRO", 
+                1
+            ]
+        ], 
+        "IN": [
+            [
+                "A", 
+                1
+            ], 
+            [
+                "PS", 
+                8
+            ], 
+            [
+                "D", 
+                1
+            ], 
+            [
+                "CC", 
+                1
+            ], 
+            [
+                "ADV-A", 
+                1
+            ], 
+            [
+                "ADV-E", 
+                2
+            ], 
+            [
+                "P", 
+                45
+            ], 
+            [
+                "P-ARG", 
+                16
+            ], 
+            [
+                null, 
+                4
+            ], 
+            [
+                "V", 
+                1
+            ]
+        ], 
+        "MD": [
+            [
+                "AUX-V", 
+                19
+            ], 
+            [
+                "AUX-S", 
+                12
+            ]
+        ], 
+        "NNPS": [
+            [
+                "name", 
+                1
+            ]
+        ], 
+        "JJS": [
+            [
+                "A", 
+                1
+            ]
+        ], 
+        "UH": [
+            [
+                "X", 
+                2
+            ]
+        ]
+    }, 
+    "lemma2atom": {
+        "all": [
+            [
+                "ALL.D", 
+                2
+            ]
+        ], 
+        "writings": [
+            [
+                "WRITING.N", 
+                1
+            ]
+        ], 
+        "magnanimous": [
+            [
+                "MAGNANIMOUS.A", 
+                1
+            ]
+        ], 
+        "chain": [
+            [
+                "CHAIN.N", 
+                1
+            ]
+        ], 
+        "sleep": [
+            [
+                "SLEEP.V", 
+                1
+            ]
+        ], 
+        "dish": [
+            [
+                "DISH.N", 
+                1
+            ]
+        ], 
+        "disability": [
+            [
+                "\"|Disabilities.N|\"", 
+                1
+            ]
+        ], 
+        "to": [
+            [
+                "TO.P", 
+                2
+            ], 
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "TO.P-ARG", 
+                3
+            ], 
+            [
+                "TO", 
+                10
+            ]
+        ], 
+        "finally": [
+            [
+                "FINALLY.ADV-S", 
+                1
+            ]
+        ], 
+        "present": [
+            [
+                "PRESENT.A", 
+                1
+            ]
+        ], 
+        "annoy": [
+            [
+                "ANNOYED.A", 
+                1
+            ]
+        ], 
+        "woman": [
+            [
+                "WOMAN.N", 
+                1
+            ]
+        ], 
+        "very": [
+            [
+                "VERY.ADV-A", 
+                1
+            ]
+        ], 
+        "--": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "solution": [
+            [
+                "SOLUTION.N", 
+                1
+            ]
+        ], 
+        "leave": [
+            [
+                "LEAVE.V", 
+                4
+            ], 
+            [
+                "LEAF.N", 
+                1
+            ]
+        ], 
+        "gaelic": [
+            [
+                "GAELIC.A", 
+                1
+            ]
+        ], 
+        "mammal": [
+            [
+                "MAMMAL.N", 
+                1
+            ]
+        ], 
+        "triumph": [
+            [
+                "TRIUMPH.N", 
+                1
+            ]
+        ], 
+        "enjoy": [
+            [
+                "ENJOY.V", 
+                1
+            ]
+        ], 
+        "prevent": [
+            [
+                "PREVENT.V", 
+                1
+            ]
+        ], 
+        "pretend": [
+            [
+                "PRETEND.V", 
+                1
+            ], 
+            [
+                "PRES", 
+                1
+            ]
+        ], 
+        "force": [
+            [
+                "FORCE.N", 
+                1
+            ]
+        ], 
+        "tired": [
+            [
+                "TIRED.A", 
+                1
+            ]
+        ], 
+        "discover": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "go": [
+            [
+                "GO.V", 
+                1
+            ], 
+            [
+                "GO_OUT.V", 
+                1
+            ]
+        ], 
+        "street": [
+            [
+                "STREET.N", 
+                1
+            ]
+        ], 
+        "what": [
+            [
+                "WHAT.PRO", 
+                8
+            ], 
+            [
+                "WHAT.D", 
+                3
+            ]
+        ], 
+        "new": [
+            [
+                "NEW.A", 
+                1
+            ]
+        ], 
+        "exchange": [
+            [
+                "EXCHANGE.V", 
+                1
+            ]
+        ], 
+        "french": [
+            [
+                "\"|French|\"", 
+                1
+            ]
+        ], 
+        "water": [
+            [
+                "WATER.N", 
+                1
+            ]
+        ], 
+        "busy": [
+            [
+                "BUSY.A", 
+                1
+            ]
+        ], 
+        "let": [
+            [
+                "LET.V", 
+                2
+            ]
+        ], 
+        "goldfish": [
+            [
+                "GOLDFISH.N", 
+                1
+            ]
+        ], 
+        "along": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "great": [
+            [
+                "GREAT.A", 
+                1
+            ]
+        ], 
+        "study": [
+            [
+                "STUDY.V", 
+                1
+            ]
+        ], 
+        "smoke": [
+            [
+                "SMOKE.N", 
+                1
+            ]
+        ], 
+        "permit": [
+            [
+                "PERMIT.V", 
+                1
+            ]
+        ], 
+        "Arabic": [
+            [
+                "\"|Arabic|\"", 
+                1
+            ]
+        ], 
+        "golden": [
+            [
+                "GOLDEN.A", 
+                1
+            ]
+        ], 
+        "manage": [
+            [
+                "MANAGE.V", 
+                1
+            ]
+        ], 
+        "put": [
+            [
+                "PUT_OUT.V", 
+                1
+            ]
+        ], 
+        "Tom": [
+            [
+                "\"|Tom|\"", 
+                3
+            ]
+        ], 
+        "extinction": [
+            [
+                "EXTINCTION.N", 
+                1
+            ]
+        ], 
+        "use": [
+            [
+                "USE.V", 
+                3
+            ]
+        ], 
+        "eye": [
+            [
+                "EYE.N", 
+                1
+            ]
+        ], 
+        "would": [
+            [
+                "NONE", 
+                3
+            ], 
+            [
+                "WOULD.AUX-S", 
+                3
+            ]
+        ], 
+        "prove": [
+            [
+                "PROVE.V", 
+                1
+            ]
+        ], 
+        "two": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "variously": [
+            [
+                "VARIOSLY.ADV-A", 
+                1
+            ]
+        ], 
+        "camera": [
+            [
+                "CAMERA.N", 
+                1
+            ]
+        ], 
+        "come": [
+            [
+                "COMPLEX", 
+                1
+            ]
+        ], 
+        "Sorry": [
+            [
+                "SORRY.A", 
+                1
+            ]
+        ], 
+        "tell": [
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "TELL.V", 
+                5
+            ]
+        ], 
+        "today": [
+            [
+                "TODAY.ADV-E", 
+                2
+            ]
+        ], 
+        "more": [
+            [
+                "MORE.ADV-A", 
+                1
+            ]
+        ], 
+        "mystical": [
+            [
+                "MYSTICAL.A", 
+                1
+            ]
+        ], 
+        "flat": [
+            [
+                "FLAT.A", 
+                1
+            ]
+        ], 
+        "``": [
+            [
+                "NONE", 
+                4
+            ]
+        ], 
+        "door": [
+            [
+                "DOOR.N", 
+                1
+            ]
+        ], 
+        "rich": [
+            [
+                "RICH.A", 
+                1
+            ]
+        ], 
+        "holy": [
+            [
+                "HOLY.A", 
+                1
+            ]
+        ], 
+        "curriculum": [
+            [
+                "CURRICULUM.N", 
+                1
+            ]
+        ], 
+        "warn": [
+            [
+                "WARN.V", 
+                1
+            ]
+        ], 
+        "glass": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "train": [
+            [
+                "TRAIN.N", 
+                1
+            ]
+        ], 
+        "rabbit": [
+            [
+                "RABBIT.N", 
+                1
+            ]
+        ], 
+        "must": [
+            [
+                "MUST.AUX-V", 
+                2
+            ]
+        ], 
+        "1991": [
+            [
+                "\"|1991|\"", 
+                1
+            ]
+        ], 
+        "room": [
+            [
+                "ROOM.N", 
+                1
+            ]
+        ], 
+        "this": [
+            [
+                "THIS.D", 
+                6
+            ], 
+            [
+                "THIS.PRO", 
+                2
+            ]
+        ], 
+        "work": [
+            [
+                "WORK.V", 
+                1
+            ]
+        ], 
+        "plinth": [
+            [
+                "PLINTH.N", 
+                1
+            ]
+        ], 
+        "Walsh": [
+            [
+                "\"|Walsh|\"", 
+                1
+            ]
+        ], 
+        "can": [
+            [
+                "CAN.AUX-V", 
+                13
+            ], 
+            [
+                "CAN.AUX-S", 
+                5
+            ]
+        ], 
+        "arrive": [
+            [
+                "ARRIVE.V", 
+                1
+            ]
+        ], 
+        "my": [
+            [
+                "MY.D", 
+                4
+            ]
+        ], 
+        "refugee": [
+            [
+                "REFUGEE.A", 
+                1
+            ]
+        ], 
+        "give": [
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "GIVE.V", 
+                1
+            ]
+        ], 
+        "something": [
+            [
+                "SOMETHING.PRO", 
+                1
+            ]
+        ], 
+        "want": [
+            [
+                "WANT.V", 
+                3
+            ]
+        ], 
+        "occur": [
+            [
+                "OCCUR.V", 
+                1
+            ]
+        ], 
+        "!": [
+            [
+                "!", 
+                2
+            ], 
+            [
+                "NONE", 
+                2
+            ]
+        ], 
+        "end": [
+            [
+                "END.N", 
+                1
+            ]
+        ], 
+        "sit": [
+            [
+                "PAST", 
+                1
+            ], 
+            [
+                "SIT.V", 
+                1
+            ]
+        ], 
+        "Gesell": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "how": [
+            [
+                "HOW.ADV-A", 
+                3
+            ], 
+            [
+                "HOW.ADV-S", 
+                1
+            ], 
+            [
+                "HOW.PQ", 
+                3
+            ]
+        ], 
+        "lamp": [
+            [
+                "LAMP.N", 
+                1
+            ]
+        ], 
+        "forest": [
+            [
+                "FOREST.N", 
+                1
+            ]
+        ], 
+        "answer": [
+            [
+                "ANSWER.V", 
+                1
+            ]
+        ], 
+        "instead": [
+            [
+                "INSTEAD.ADV-E", 
+                1
+            ]
+        ], 
+        "reflect": [
+            [
+                "REFLECT.V", 
+                1
+            ]
+        ], 
+        "wrong": [
+            [
+                "WRONG.A", 
+                1
+            ]
+        ], 
+        "plane": [
+            [
+                "PLANE.N", 
+                1
+            ]
+        ], 
+        "latticed": [
+            [
+                "LATTICED.A", 
+                1
+            ]
+        ], 
+        "president": [
+            [
+                "PRESIDENT.N", 
+                1
+            ]
+        ], 
+        "arch": [
+            [
+                "ARCH.N", 
+                1
+            ]
+        ], 
+        "man": [
+            [
+                "MAN.N", 
+                1
+            ]
+        ], 
+        "a": [
+            [
+                "A.D", 
+                25
+            ], 
+            [
+                "A-GEN.D", 
+                1
+            ]
+        ], 
+        "maybe": [
+            [
+                "MAYBE.ADV-S", 
+                1
+            ]
+        ], 
+        "greek": [
+            [
+                "\"|Greek.N|\"", 
+                1
+            ]
+        ], 
+        "so": [
+            [
+                "SO.PS", 
+                1
+            ], 
+            [
+                "SO.CC", 
+                1
+            ]
+        ], 
+        "over": [
+            [
+                "OVER.P", 
+                2
+            ]
+        ], 
+        "before": [
+            [
+                "BEFORE.ADV-E", 
+                1
+            ]
+        ], 
+        ",": [
+            [
+                "NONE", 
+                22
+            ]
+        ], 
+        "better": [
+            [
+                "HAD_BETTER.AUX-S", 
+                1
+            ]
+        ], 
+        "window": [
+            [
+                "WINDOW.N", 
+                1
+            ]
+        ], 
+        "policy": [
+            [
+                "POLICY.N", 
+                1
+            ]
+        ], 
+        "into": [
+            [
+                "INTO.P", 
+                1
+            ]
+        ], 
+        "Spain": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "then": [
+            [
+                "THEN.ADV-E", 
+                1
+            ]
+        ], 
+        "evening": [
+            [
+                "EVENING.N", 
+                1
+            ]
+        ], 
+        "food": [
+            [
+                "FOOD.N", 
+                2
+            ]
+        ], 
+        "safe": [
+            [
+                "SAFE.A", 
+                1
+            ]
+        ], 
+        "they": [
+            [
+                "THEM.PRO", 
+                1
+            ]
+        ], 
+        "not": [
+            [
+                "NOT", 
+                7
+            ], 
+            [
+                "NOT.P-ARG", 
+                1
+            ], 
+            [
+                "NOT.ADV-S", 
+                2
+            ]
+        ], 
+        "Gerhard": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "investor": [
+            [
+                "INVESTOR.N", 
+                1
+            ]
+        ], 
+        "name": [
+            [
+                "NAME.N", 
+                1
+            ], 
+            [
+                "NAME.V", 
+                6
+            ]
+        ], 
+        "truth": [
+            [
+                "TRUTH.N", 
+                2
+            ]
+        ], 
+        "rock": [
+            [
+                "ROCK.N", 
+                1
+            ]
+        ], 
+        "beveled": [
+            [
+                "BEVELED.A", 
+                1
+            ]
+        ], 
+        "meal": [
+            [
+                "MEAL.N", 
+                1
+            ]
+        ], 
+        "mean": [
+            [
+                "MEAN.V", 
+                1
+            ]
+        ], 
+        "house": [
+            [
+                "HOUSE.N", 
+                1
+            ]
+        ], 
+        "hard": [
+            [
+                "HARD.ADV-A", 
+                1
+            ]
+        ], 
+        "idea": [
+            [
+                "IDEA.N", 
+                1
+            ]
+        ], 
+        "expect": [
+            [
+                "EXPECT.V", 
+                2
+            ]
+        ], 
+        "year": [
+            [
+                "YEAR.N", 
+                2
+            ]
+        ], 
+        "sexual": [
+            [
+                "SEXUAL.A", 
+                3
+            ]
+        ], 
+        "special": [
+            [
+                "SPECIAL.A", 
+                1
+            ]
+        ], 
+        "out": [
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "YOU.PRO", 
+                1
+            ]
+        ], 
+        "try": [
+            [
+                "TRY.V", 
+                2
+            ]
+        ], 
+        "intercourse": [
+            [
+                "INTERCOURSE.N", 
+                3
+            ]
+        ], 
+        "defend": [
+            [
+                "DEFEND.V", 
+                1
+            ]
+        ], 
+        "since": [
+            [
+                "SINCE.PS", 
+                1
+            ]
+        ], 
+        "maneuver": [
+            [
+                "MANEUVER.N", 
+                1
+            ]
+        ], 
+        "base": [
+            [
+                "BASE.N", 
+                1
+            ]
+        ], 
+        "ask": [
+            [
+                "ASK.V", 
+                1
+            ]
+        ], 
+        "teach": [
+            [
+                "TEACH.V", 
+                1
+            ]
+        ], 
+        "language": [
+            [
+                "LANGUAGE.N", 
+                2
+            ]
+        ], 
+        "Ed": [
+            [
+                "\"|Ed|\"", 
+                1
+            ]
+        ], 
+        "could": [
+            [
+                "COULD.AUX-S", 
+                1
+            ], 
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "COULD.AUX-V", 
+                2
+            ]
+        ], 
+        "keep": [
+            [
+                "KEEP.V", 
+                3
+            ]
+        ], 
+        "american": [
+            [
+                "\"|American.A|\"", 
+                1
+            ]
+        ], 
+        "star": [
+            [
+                "STAR.N", 
+                1
+            ]
+        ], 
+        "think": [
+            [
+                "THINK.V", 
+                3
+            ]
+        ], 
+        "first": [
+            [
+                "FIRST.A", 
+                2
+            ]
+        ], 
+        "someday": [
+            [
+                "SOMEDAY.ADV-E", 
+                1
+            ]
+        ], 
+        "one": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "another": [
+            [
+                "ANOTHER.D", 
+                1
+            ], 
+            [
+                "ANOTHER.A", 
+                1
+            ]
+        ], 
+        "miss": [
+            [
+                "MISS.V", 
+                1
+            ]
+        ], 
+        "city": [
+            [
+                "CITY.N", 
+                1
+            ]
+        ], 
+        "service": [
+            [
+                "SERVICE.N", 
+                1
+            ]
+        ], 
+        "anyone": [
+            [
+                "ANYONE.PRO", 
+                3
+            ]
+        ], 
+        "too": [
+            [
+                "TOO.ADV-E", 
+                1
+            ]
+        ], 
+        "convention": [
+            [
+                "CONVENTION.N", 
+                1
+            ]
+        ], 
+        "that": [
+            [
+                "THAT.PRO", 
+                1
+            ], 
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "THAT.D", 
+                2
+            ], 
+            [
+                "THAT.REL", 
+                2
+            ], 
+            [
+                "THAT", 
+                2
+            ]
+        ], 
+        "hotel": [
+            [
+                "HOTEL.N", 
+                1
+            ]
+        ], 
+        "somewhat": [
+            [
+                "SOMEWHAT.ADV-A", 
+                1
+            ]
+        ], 
+        "believe": [
+            [
+                "BELIEVE.V", 
+                1
+            ], 
+            [
+                "BELIEVE_IN.V", 
+                1
+            ]
+        ], 
+        "13": [
+            [
+                "\"|13|\"", 
+                1
+            ]
+        ], 
+        "and": [
+            [
+                "AND", 
+                2
+            ]
+        ], 
+        "runner": [
+            [
+                "RUNNER.N", 
+                1
+            ]
+        ], 
+        "juice": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "say": [
+            [
+                "SAY.V", 
+                4
+            ]
+        ], 
+        "have": [
+            [
+                "HAVE.V", 
+                7
+            ], 
+            [
+                "NONE", 
+                6
+            ], 
+            [
+                "DISCOVER.V", 
+                1
+            ], 
+            [
+                "ADV-E", 
+                1
+            ], 
+            [
+                "TELL.V", 
+                1
+            ]
+        ], 
+        "seem": [
+            [
+                "SEEM.V", 
+                1
+            ]
+        ], 
+        "any": [
+            [
+                "ANY.D", 
+                1
+            ]
+        ], 
+        "Alyosha": [
+            [
+                "\"|Alyosha|\"", 
+                1
+            ]
+        ], 
+        "dimly-lit": [
+            [
+                "DIMLY.ADV-A", 
+                1
+            ]
+        ], 
+        "take": [
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "TAKE.V", 
+                2
+            ]
+        ], 
+        "which": [
+            [
+                "WHICH.PRO", 
+                1
+            ]
+        ], 
+        "play": [
+            [
+                "PLAY.V", 
+                1
+            ], 
+            [
+                "PLAY.N", 
+                1
+            ]
+        ], 
+        "exactly": [
+            [
+                "EXACTLY.ADV-S", 
+                1
+            ]
+        ], 
+        "trace": [
+            [
+                "TRACE.V", 
+                1
+            ]
+        ], 
+        "who": [
+            [
+                "WHO.REL", 
+                1
+            ], 
+            [
+                "WHO.PRO", 
+                3
+            ]
+        ], 
+        "plan": [
+            [
+                "PLAN.N", 
+                1
+            ]
+        ], 
+        "nothing": [
+            [
+                "NOTHING.PRO", 
+                1
+            ]
+        ], 
+        "why": [
+            [
+                "WHY.ADV-S", 
+                1
+            ]
+        ], 
+        "camp": [
+            [
+                "CAMP.N", 
+                1
+            ]
+        ], 
+        "request": [
+            [
+                "REQUEST.N", 
+                1
+            ]
+        ], 
+        "dog": [
+            [
+                "DOG.N", 
+                1
+            ]
+        ], 
+        "High": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "occasion": [
+            [
+                "OCCASION.N", 
+                1
+            ]
+        ], 
+        "find": [
+            [
+                "FIND.V", 
+                1
+            ]
+        ], 
+        "untimely": [
+            [
+                "UNTIMELY.A", 
+                1
+            ]
+        ], 
+        "state": [
+            [
+                "STATE.N", 
+                1
+            ]
+        ], 
+        "French": [
+            [
+                "\"|French.N|\"", 
+                1
+            ]
+        ], 
+        "should": [
+            [
+                "SHOULD.AUX-S", 
+                1
+            ], 
+            [
+                "SHOULD.AUX-V", 
+                1
+            ]
+        ], 
+        "only": [
+            [
+                "ONLY.A", 
+                1
+            ]
+        ], 
+        "pretty": [
+            [
+                "PRETTY.ADV-A", 
+                1
+            ]
+        ], 
+        "achieve": [
+            [
+                "ACHIEVE.V", 
+                1
+            ]
+        ], 
+        "do": [
+            [
+                "DO.AUX-V", 
+                1
+            ], 
+            [
+                "DO.V", 
+                5
+            ], 
+            [
+                "DO.AUX-S", 
+                16
+            ]
+        ], 
+        "get": [
+            [
+                "GET.V", 
+                2
+            ], 
+            [
+                "GET_ALONG.V", 
+                1
+            ]
+        ], 
+        "sunny": [
+            [
+                "SUNNY.A", 
+                1
+            ]
+        ], 
+        "bear": [
+            [
+                "BEAR.V", 
+                1
+            ]
+        ], 
+        "actress": [
+            [
+                "ACTRESS.N", 
+                1
+            ]
+        ], 
+        "cfm56": [
+            [
+                "\"|CFM56.N|\"", 
+                1
+            ]
+        ], 
+        "she": [
+            [
+                "HER.PRO", 
+                1
+            ], 
+            [
+                "SHE.PRO", 
+                2
+            ]
+        ], 
+        "Education": [
+            [
+                "\"|Education.N|\"", 
+                1
+            ]
+        ], 
+        "where": [
+            [
+                "WHERE.PRO", 
+                1
+            ]
+        ], 
+        "District": [
+            [
+                "DISTRICT.N", 
+                1
+            ]
+        ], 
+        "see": [
+            [
+                "SEE.V", 
+                2
+            ]
+        ], 
+        "individual": [
+            [
+                "\"|Individuals.N|\"", 
+                1
+            ]
+        ], 
+        "asleep": [
+            [
+                "ASLEEP.A", 
+                1
+            ]
+        ], 
+        "best": [
+            [
+                "BEST.A", 
+                1
+            ]
+        ], 
+        "behind": [
+            [
+                "BEHIND.P", 
+                1
+            ]
+        ], 
+        "score": [
+            [
+                "SCORE.V", 
+                1
+            ]
+        ], 
+        "cooperation": [
+            [
+                "COOPERATION.N", 
+                1
+            ]
+        ], 
+        "approach": [
+            [
+                "APPROACH.V", 
+                1
+            ]
+        ], 
+        "arrival": [
+            [
+                "ARRIVAL.N", 
+                1
+            ]
+        ], 
+        "smilingly": [
+            [
+                "SMILINGLY.ADV-A", 
+                1
+            ]
+        ], 
+        "we": [
+            [
+                "WE.PRO", 
+                9
+            ]
+        ], 
+        "parent": [
+            [
+                "PARENT.N", 
+                1
+            ]
+        ], 
+        "U.S.": [
+            [
+                "\"|U.S.|\"", 
+                1
+            ], 
+            [
+                "\"|U.S..N|\"", 
+                1
+            ]
+        ], 
+        "Refugees": [
+            [
+                "\"|Refugee.N|\"", 
+                1
+            ]
+        ], 
+        "restaurant": [
+            [
+                "RESTAURANT.N", 
+                1
+            ]
+        ], 
+        "foreign": [
+            [
+                "FOREIGN.A", 
+                2
+            ]
+        ], 
+        "glorious": [
+            [
+                "GLORIOUS.A", 
+                1
+            ]
+        ], 
+        "comment": [
+            [
+                "COMMENT.N", 
+                1
+            ]
+        ], 
+        "cd": [
+            [
+                "CD.N", 
+                1
+            ]
+        ], 
+        "extinct": [
+            [
+                "EXTINCT.A", 
+                1
+            ]
+        ], 
+        "boat": [
+            [
+                "BOAT.N", 
+                1
+            ]
+        ], 
+        "speak": [
+            [
+                "SPEAK.V", 
+                1
+            ]
+        ], 
+        "decent": [
+            [
+                "DECENT.A", 
+                1
+            ]
+        ], 
+        "trilogy": [
+            [
+                "TRILOGY.N", 
+                1
+            ]
+        ], 
+        ".": [
+            [
+                "NONE", 
+                44
+            ]
+        ], 
+        "secret": [
+            [
+                "SECRET.N", 
+                1
+            ]
+        ], 
+        "much": [
+            [
+                "MUCH.N", 
+                1
+            ]
+        ], 
+        "737": [
+            [
+                "\"|737.N|\"", 
+                1
+            ]
+        ], 
+        "threaten": [
+            [
+                "THREATEN.V", 
+                1
+            ]
+        ], 
+        "meeting": [
+            [
+                "MEETING.N", 
+                1
+            ]
+        ], 
+        "Care": [
+            [
+                "CARE.V", 
+                1
+            ]
+        ], 
+        "life": [
+            [
+                "LIFE.N", 
+                2
+            ]
+        ], 
+        "fire": [
+            [
+                "FIRE.N", 
+                1
+            ]
+        ], 
+        "Trang": [
+            [
+                "\"|Trang|\"", 
+                1
+            ]
+        ], 
+        "tiger": [
+            [
+                "TIGER.N", 
+                1
+            ]
+        ], 
+        "Judge": [
+            [
+                "JUDGE.N", 
+                1
+            ]
+        ], 
+        "understand": [
+            [
+                "UNDERSTAND.V", 
+                1
+            ]
+        ], 
+        "extant": [
+            [
+                "EXTANT.A", 
+                1
+            ]
+        ], 
+        "careful": [
+            [
+                "CAREFUL.A", 
+                1
+            ]
+        ], 
+        "spirit": [
+            [
+                "SPIRIT.N", 
+                1
+            ]
+        ], 
+        "those": [
+            [
+                "THOSE.D", 
+                1
+            ]
+        ], 
+        "pilot": [
+            [
+                "PILOT.N", 
+                1
+            ]
+        ], 
+        "case": [
+            [
+                "CASE.N", 
+                1
+            ]
+        ], 
+        "myself": [
+            [
+                "MYSELF.PRO", 
+                1
+            ]
+        ], 
+        "look": [
+            [
+                "LOOK.V", 
+                2
+            ]
+        ], 
+        "straight": [
+            [
+                "STRAIGHT.A", 
+                1
+            ]
+        ], 
+        "will": [
+            [
+                "WILL.AUX-V", 
+                1
+            ], 
+            [
+                "WILL.AUX-S", 
+                2
+            ]
+        ], 
+        "PLO": [
+            [
+                "DELEGATION.N", 
+                1
+            ]
+        ], 
+        "guide": [
+            [
+                "GUIDING.A", 
+                1
+            ]
+        ], 
+        "it": [
+            [
+                "IT.PRO", 
+                12
+            ], 
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "good": [
+            [
+                "GOOD.ADV-A", 
+                1
+            ]
+        ], 
+        "in": [
+            [
+                "IN.P-ARG", 
+                1
+            ], 
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "IN.ADV-E", 
+                1
+            ], 
+            [
+                "IN.P", 
+                9
+            ]
+        ], 
+        "worry": [
+            [
+                "WORRY.V", 
+                1
+            ]
+        ], 
+        "if": [
+            [
+                "NONE", 
+                4
+            ], 
+            [
+                "AS_IF.PS", 
+                1
+            ], 
+            [
+                "IF.PS", 
+                5
+            ]
+        ], 
+        "doctor": [
+            [
+                "DOCTOR.N", 
+                1
+            ]
+        ], 
+        "make": [
+            [
+                "MADE.V", 
+                1
+            ], 
+            [
+                "MAKE.V", 
+                1
+            ]
+        ], 
+        "bowl": [
+            [
+                "BOWL.N", 
+                1
+            ]
+        ], 
+        "underground": [
+            [
+                "UNDERGROUND.A", 
+                1
+            ]
+        ], 
+        "several": [
+            [
+                "SEVERAL.D", 
+                1
+            ]
+        ], 
+        "week": [
+            [
+                "WEEK.N", 
+                1
+            ]
+        ], 
+        "I": [
+            [
+                "NONE", 
+                9
+            ], 
+            [
+                "I.PRO", 
+                16
+            ]
+        ], 
+        "rain": [
+            [
+                "RAIN.V", 
+                1
+            ]
+        ], 
+        "moment": [
+            [
+                "MOMENT.N", 
+                1
+            ]
+        ], 
+        "fruit": [
+            [
+                "JUICE.N", 
+                1
+            ]
+        ], 
+        "well": [
+            [
+                "WELL.A", 
+                1
+            ]
+        ], 
+        "meddlesome": [
+            [
+                "MEDDLESOME.A", 
+                1
+            ]
+        ], 
+        "command": [
+            [
+                "COMMAND.N", 
+                1
+            ]
+        ], 
+        "position": [
+            [
+                "POSITION.N", 
+                1
+            ]
+        ], 
+        "the": [
+            [
+                "NONE", 
+                4
+            ], 
+            [
+                "TWO.D", 
+                1
+            ], 
+            [
+                "THE.D", 
+                28
+            ]
+        ], 
+        "ambassador": [
+            [
+                "AMBASSADOR.N", 
+                1
+            ]
+        ], 
+        "just": [
+            [
+                "JUST.ADV-S", 
+                1
+            ]
+        ], 
+        "rest": [
+            [
+                "REST.N", 
+                1
+            ], 
+            [
+                "PRES", 
+                1
+            ]
+        ], 
+        "disguise": [
+            [
+                "DISGUISE.N", 
+                1
+            ]
+        ], 
+        "laurel": [
+            [
+                "LAUREL.A", 
+                1
+            ]
+        ], 
+        "bench": [
+            [
+                "BENCH.N", 
+                1
+            ]
+        ], 
+        "Margaret": [
+            [
+                "\"|Margaret|\"", 
+                1
+            ]
+        ], 
+        "Fadil": [
+            [
+                "\"|Fadil|\"", 
+                1
+            ]
+        ], 
+        "raven": [
+            [
+                "RAVEN.N", 
+                1
+            ]
+        ], 
+        "Bette": [
+            [
+                "\"|BetteDavis|\"", 
+                1
+            ]
+        ], 
+        "five": [
+            [
+                "FIVE.A", 
+                1
+            ]
+        ], 
+        "know": [
+            [
+                "KNOW.V", 
+                2
+            ]
+        ], 
+        "judge": [
+            [
+                "JUDGE.N", 
+                1
+            ]
+        ], 
+        "U.N.": [
+            [
+                "\"|U.N..N|\"", 
+                1
+            ]
+        ], 
+        "like": [
+            [
+                "LIKE.A", 
+                1
+            ], 
+            [
+                "LIKE.V", 
+                1
+            ]
+        ], 
+        "obvious": [
+            [
+                "OBVIOUS.A", 
+                1
+            ]
+        ], 
+        "lose": [
+            [
+                "LOSE.V", 
+                1
+            ]
+        ], 
+        "Heimlich": [
+            [
+                "HEIMLICH.N", 
+                1
+            ]
+        ], 
+        "right": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "classical": [
+            [
+                "CLASSICAL.A", 
+                1
+            ]
+        ], 
+        "some": [
+            [
+                "SOME.D", 
+                1
+            ], 
+            [
+                "SOME.N", 
+                1
+            ]
+        ], 
+        "delegation": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "sure": [
+            [
+                "SURE.A", 
+                1
+            ]
+        ], 
+        "escape": [
+            [
+                "ESCAPE.V", 
+                1
+            ]
+        ], 
+        "home": [
+            [
+                "HOME.N", 
+                1
+            ]
+        ], 
+        "Mary": [
+            [
+                "\"|Mary|\"", 
+                1
+            ]
+        ], 
+        "14-pound": [
+            [
+                "POUND.N", 
+                1
+            ]
+        ], 
+        "lead": [
+            [
+                "GLASS.N", 
+                1
+            ]
+        ], 
+        "hurricane": [
+            [
+                "HURRICANE.N", 
+                1
+            ]
+        ], 
+        "Odin": [
+            [
+                "\"|Odin|\"", 
+                1
+            ]
+        ], 
+        "?": [
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "?", 
+                44
+            ]
+        ], 
+        "be": [
+            [
+                "NONE", 
+                10
+            ], 
+            [
+                "TAKE.V", 
+                1
+            ], 
+            [
+                "GIVE.V", 
+                1
+            ], 
+            [
+                "BE.V", 
+                25
+            ]
+        ], 
+        "run": [
+            [
+                "RUN.V", 
+                2
+            ], 
+            [
+                "RUNNING.A", 
+                1
+            ]
+        ], 
+        "Sweden": [
+            [
+                "\"|Sweden|\"", 
+                1
+            ]
+        ], 
+        "Davis": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "crap": [
+            [
+                "CRAP.N", 
+                1
+            ]
+        ], 
+        "by": [
+            [
+                "BY.P", 
+                2
+            ], 
+            [
+                "BY.P-ARG", 
+                2
+            ]
+        ], 
+        "on": [
+            [
+                "ON.P", 
+                6
+            ], 
+            [
+                "ON.P-ARG", 
+                5
+            ]
+        ], 
+        "about": [
+            [
+                "ABOUT.ADV-A", 
+                1
+            ], 
+            [
+                "ABOUT.P-ARG", 
+                1
+            ]
+        ], 
+        "ok": [
+            [
+                "OK.A", 
+                1
+            ]
+        ], 
+        "of": [
+            [
+                "OF.P", 
+                7
+            ], 
+            [
+                "OF.P-ARG", 
+                2
+            ], 
+            [
+                "NONE", 
+                1
+            ], 
+            [
+                "OF", 
+                1
+            ]
+        ], 
+        "act": [
+            [
+                "ACT.V", 
+                1
+            ]
+        ], 
+        "or": [
+            [
+                "OR", 
+                3
+            ]
+        ], 
+        "mommy": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "down": [
+            [
+                "DOWN.ADV-A", 
+                1
+            ]
+        ], 
+        "female": [
+            [
+                "FEMALE.N", 
+                3
+            ]
+        ], 
+        "next": [
+            [
+                "NEXT_TO.P", 
+                1
+            ]
+        ], 
+        "rely": [
+            [
+                "RELY.V", 
+                2
+            ]
+        ], 
+        "there": [
+            [
+                "THERE.PRO", 
+                2
+            ]
+        ], 
+        "fast": [
+            [
+                "FAST.A", 
+                2
+            ]
+        ], 
+        "fight": [
+            [
+                "FIGHT.V", 
+                1
+            ]
+        ], 
+        "intention": [
+            [
+                "INTENTION.N", 
+                1
+            ]
+        ], 
+        ":": [
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "buy": [
+            [
+                "BUY.V", 
+                1
+            ]
+        ], 
+        "form": [
+            [
+                "FORM.V", 
+                1
+            ]
+        ], 
+        "but": [
+            [
+                "BUT.CC", 
+                1
+            ]
+        ], 
+        "with": [
+            [
+                "WITH.P-ARG", 
+                2
+            ], 
+            [
+                "WITH.P", 
+                8
+            ]
+        ], 
+        "he": [
+            [
+                "HE.PRO", 
+                8
+            ], 
+            [
+                "HIM.PRO", 
+                3
+            ], 
+            [
+                "NONE", 
+                2
+            ]
+        ], 
+        "wish": [
+            [
+                "WISH.V", 
+                1
+            ]
+        ], 
+        "official": [
+            [
+                "OFFICIAL.A", 
+                1
+            ]
+        ], 
+        "Tony": [
+            [
+                "\"|Tony|\"", 
+                1
+            ]
+        ], 
+        "ah": [
+            [
+                "AH.X", 
+                2
+            ]
+        ], 
+        "describe": [
+            [
+                "DESCRIBED.V", 
+                1
+            ]
+        ], 
+        "''": [
+            [
+                "NONE", 
+                13
+            ]
+        ], 
+        "fly": [
+            [
+                "FLYING.A", 
+                1
+            ]
+        ], 
+        "as": [
+            [
+                "PAST", 
+                1
+            ], 
+            [
+                "AS.P-ARG", 
+                1
+            ]
+        ], 
+        "at": [
+            [
+                "AT.P", 
+                2
+            ], 
+            [
+                "AT.P-ARG", 
+                1
+            ]
+        ], 
+        "Commissioner": [
+            [
+                "\"|HighCommissioner.N|\"", 
+                1
+            ]
+        ], 
+        "when": [
+            [
+                "WHICH.PRO", 
+                1
+            ], 
+            [
+                "WHEN.PS", 
+                2
+            ], 
+            [
+                "WHEN.PRO", 
+                1
+            ]
+        ], 
+        "ourselves": [
+            [
+                "OURSELVES.PRO", 
+                1
+            ]
+        ], 
+        "Whenever": [
+            [
+                "WHENEVER.PS", 
+                1
+            ]
+        ], 
+        "book": [
+            [
+                "BOOK.N", 
+                1
+            ]
+        ], 
+        "you": [
+            [
+                "NONE", 
+                3
+            ], 
+            [
+                "YOU.PRO", 
+                43
+            ], 
+            [
+                "YOUR.D", 
+                3
+            ]
+        ], 
+        "picture": [
+            [
+                "PICTURE.V", 
+                1
+            ]
+        ], 
+        "'s": [
+            [
+                "US.PRO", 
+                1
+            ], 
+            [
+                "S", 
+                2
+            ], 
+            [
+                "NONE", 
+                1
+            ]
+        ], 
+        "stay": [
+            [
+                "STAY.V", 
+                1
+            ]
+        ], 
+        "chance": [
+            [
+                "CHANCE.N", 
+                1
+            ]
+        ], 
+        "Act": [
+            [
+                "\"|Act.N|\"", 
+                1
+            ]
+        ], 
+        "grudge": [
+            [
+                "GRUDGE.N", 
+                1
+            ]
+        ], 
+        "land": [
+            [
+                "LAND.V", 
+                1
+            ]
+        ], 
+        "for": [
+            [
+                "FOR.P-ARG", 
+                1
+            ], 
+            [
+                "FOR.P", 
+                6
+            ]
+        ], 
+        "time": [
+            [
+                "TIME.N", 
+                3
+            ]
+        ], 
+        "serious": [
+            [
+                "SERIOUS.A", 
+                1
+            ]
+        ], 
+        "original": [
+            [
+                "ORIGINAL.A", 
+                1
+            ]
+        ], 
+        "once": [
+            [
+                "ONCE.ADV-E", 
+                1
+            ]
+        ]
+    }
+}

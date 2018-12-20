@@ -162,7 +162,7 @@ def get_amr(concept_line_reprs, category_map):
             else:
                 nodeid_to_label[concept_idx] = value_repr # Should be able to add this node from its parent.
             rel_str = "NONE"
-        elif concept_l[:4] == "MULT" or concept_l[:3] == "NEG":
+        elif concept_l[:5] == "MULT_" or concept_l[:4] == "NEG_":
             # TODO: add the module for
             subgraph_repr = map_repr.split("||")[1]
             _, root_repr, nodelabel = analyse_subgraph(subgraph_repr)

@@ -6,11 +6,12 @@ from __future__ import division
 
 from ulf_align import split_ulf_atom, AnnSents, AnnToken, AnnSent
 import argparse
+import json
 
 # Generates ULF atoms from words, lemmas, and POS tags and alignment counts.
 # Uses pos2ext counts either separately or integrated with token2atomcounts
 # TODO: handle multiword -> ULF segment mappings.
-def words2atoms(annsent token2atom, lemma2atom, pos2ext):
+def words2atoms(annsent, token2atom, lemma2atom, pos2ext):
   # If this is an ner get contiguous ner and form a |...| TODO: figure out
   # how to recover original text span from the tokens... I think stanford
   # parser preserves the character spans form the original sentence.  ACTUALLY, apparent the NER files have the capitalization preserved tokens!  The original span would still be better, but this can be simple start
@@ -19,10 +20,10 @@ def words2atoms(annsent token2atom, lemma2atom, pos2ext):
   cur_ners = []
   atoms = []
   for anntoken in annsent.anntokens:
-    token = anntoken.token
-    lemma = anntoken.lemma
-    pos = anntoken.pos
-    ner = anntoken.ner
+    token = anntoken.token.decode("utf-8").encode("ascii", "ignore")
+    lemma = anntoken.lemma.decode("utf-8").encode("ascii", "ignore")
+    pos = anntoken.pos.decode("utf-8").encode("ascii", "ignore")
+    ner = anntoken.ner.decode("utf-8").encode("ascii", "ignore")
     if in_ner and ner == "O":
       # Just finished building a named entity.
       atoms.append("|{}|".format(" ".join(cur_ners)))
@@ -37,9 +38,9 @@ def words2atoms(annsent token2atom, lemma2atom, pos2ext):
       in_ner = True
     else:
       # Building normal atoms.
-      extc = pos2ext[pos]
-      latc = lemma2atom[lemma]
-      tatc = token2atom[token]
+      extc = pos2ext[pos] if pos in pos2ext else []
+      latc = [(x,y) for x, y in lemma2atom[lemma]] if lemma in lemma2atom else []
+      tatc = [(x,y) for x,y in token2atom[token]] if token in token2atom else []
       
       # TODO preprocess these counts.
       extsum = sum([e[1] for e in extc])
@@ -49,15 +50,16 @@ def words2atoms(annsent token2atom, lemma2atom, pos2ext):
       tatsum = sum([e[1] for e in tatc])
       tatmle = { tat : c / tatsum for tat, c in tatc }
 
+
       # Considered concepts.
-      ats = list(set([[e[0] for e in latc + tatc]]))
+      ats = list(set([e[0] for e in latc + tatc]))
       
       if len(ats) == 0:
         # If there are no available atoms, generate one.
         bestext = "PRO"
         bestscore = -1
         for ext, score in extmle.iteritems():
-          if score > bestscore:
+          if score > bestscore and ext:
             bestscore = score
             bestext = ext
         atoms.append(lemma.upper() + "." + bestext)
@@ -68,13 +70,13 @@ def words2atoms(annsent token2atom, lemma2atom, pos2ext):
         bestscore = -1
         for at in ats:
           base, ext = split_ulf_atom(at)
-          extscore = 1 / extsum
+          extscore = 1 / extsum if extsum > 0 else 0
           if ext in extmle:
             extscore = extmle[ext]
-          latscore = 1 / latsum
+          latscore = 1 / latsum if latsum > 0 else 0
           if at in latmle:
             latscore = latmle[at]
-          tatscore = 1 / tatsum
+          tatscore = 1 / tatsum if tatsum > 0 else 0
           if at in tatmle:
             tatscore = tatmle[at]
           score = tatscore + 0.5 * (latscore + extscore)
@@ -103,7 +105,7 @@ if __name__ == "__main__":
   
   sent_atoms = []
   for annsent in annsents.annsents:
-    atoms = words2atoms(annsent, atcounts["token2atom"], atcounts["lemma2atom"], atcoutns["pos2ext"])
+    atoms = words2atoms(annsent, atcounts["token2atom"], atcounts["lemma2atom"], atcounts["pos2ext"])
     sent_atoms.append(atoms)
 
   out = file(args.outfile, "w")

@@ -14,12 +14,12 @@ def load_alignment_file(filename):
   aligns = file(filename, 'r').read().split("\n\n")
   adata = []
   for a in aligns:
-    if a.strip() != ""
+    if a.strip() != "":
       alines = a.splitlines()
       # First line is sentenc enumber so ignore.
-      split = [l.split("|||") for l in alines[1:]]
+      split = [[e.strip() for e in l.split("|||")] for l in alines[1:]]
       # Assume alignments are just token level (so ignore the span).
-      adatum = { int(spl[0].split("-")[0]) : spl for spl in split }
+      adatum = [ [int(spl[0].split("-")[0])] + spl[1:] for spl in split ]
       adata.append(adatum)
   return adata
 
@@ -66,11 +66,11 @@ def correlation_counts(annsents, align_data):
 
   # Convert the key1 -> key2 -> count to key1 -> (key2, count)
   token2atom = { token : [(a, c) for a, c in acounts.iteritems()]\
-      for token, acounts in token2atom }
+      for token, acounts in token2atom.iteritems() }
   lemma2atom = { lemma : [(a, c) for a, c in acounts.iteritems()] \
-      for lemma, acounts in lemma2atom }
+      for lemma, acounts in lemma2atom.iteritems() }
   pos2ext = { pos : [(e, c) for e, c in ecounts.iteritems()] \
-      for pos, ecoutns in pos2ext }
+      for pos, ecounts in pos2ext.iteritems() }
   
   return { "token2atom" : token2atom, "lemma2atom" : lemma2atom, "pos2ext" : pos2ext }
 
@@ -88,5 +88,5 @@ if __name__ == "__main__":
   
   counts = correlation_counts(annsents, align_data)
   out = file(args.outfile, 'w')
-  out.write(json.dump(counts, indent=4))
+  out.write(json.dumps(counts, indent=4))
 

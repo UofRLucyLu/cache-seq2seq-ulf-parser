@@ -385,6 +385,8 @@ if __name__ == "__main__":
     argparser.add_argument("--decode", action="store_true", help="if to extract decoding examples.")
     argparser.add_argument("--uniform", action="store_true", help="if to use uniform arc features.")
     argparser.add_argument("--ulf", action="store_true", help="if this is for ULFs.")
+    #argparser.add_argument("--predicted_concepts", "store_true", help="Whether to use predicted concepts.")
+    #argparser.add_argument("--pred_concept_path", type=str, help="Path to predicted concepts.")
 
     args = argparser.parse_args()
     parser = CacheTransitionParser(args.cache_size)
@@ -392,5 +394,6 @@ if __name__ == "__main__":
         oracle_type = utils.OracleType.AAAI
     else:
         oracle_type = utils.OracleType.CL
+    #parser.OracleExtraction(args.data_dir, args.output_dir, oracle_type, args.decode, args.uniform, args.ulf, args.predicted_concepts, args.pred_concept_path)
     parser.OracleExtraction(args.data_dir, args.output_dir, oracle_type, args.decode, args.uniform, args.ulf)
 

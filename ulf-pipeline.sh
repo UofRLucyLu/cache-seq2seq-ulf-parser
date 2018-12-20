@@ -14,7 +14,8 @@ module load tensorflow/1.4.1
 #conda activate ~/anaconda2/envs/test
 
 # First split up the ULF data into sentences and ULFs.
-DATA_SEG="dev"
+DATA_SEG="test"
+CACHE_SIZE=6
 ULF_VER="12-15-${DATA_SEG}"
 ULF_DATA=ulfdata/${ULF_VER}
 
@@ -31,13 +32,13 @@ CORENLP_VER=stanford-corenlp-full-2018-10-05
 # the sentences.
 TAGGER_DIR=./tools
 # Args: [corenlp] [output dir] [input/output directory] [input file]
-#${TAGGER_DIR}/stanford-preprocess.sh ${CORENLP_VER}/ ${ULF_DATA} ${ULF_DATA} raw
+${TAGGER_DIR}/stanford-preprocess.sh ${CORENLP_VER}/ ${ULF_DATA} ${ULF_DATA} raw
 
 # NB: Here you'll need to use Lisp scripts in cycle to generate the ULF-AMR files
 #     and alignments.  TODO: actually the alignments can be done here since it uses
 #     just python.
 # Assume for now that ${ULF_DATA}/amr contains that AMR formatted ULF formulas.
-#python data_processing/ulf_align.py ${ULF_DATA} ${ULF_DATA}/amr ${ULF_DATA}/alignment.amr xiaochang t 
+python data_processing/ulf_align.py ${ULF_DATA} ${ULF_DATA}/amr ${ULF_DATA}/alignment.amr xiaochang t 
 
 # Generate the CoNLL
 # Categorize data
@@ -45,16 +46,28 @@ TAGGER_DIR=./tools
 #CONLL_GEN=data/${ULF_VER}
 CONLL_GEN=${ULF_DATA}/conll
 # TODO: rename the task since I'm not actually categorizing ULF at all...
-#python data_processing/prepareTokens.py --task categorize --data_dir ${ULF_DATA} --use_lemma --run_dir ${CONLL_GEN} --stats_dir ${CONLL_GEN}/stats --conll_file ${CONLL_GEN}/amr_conll --table_dir ${ULF_DATA}/tables
+python data_processing/prepareTokens.py --task categorize --data_dir ${ULF_DATA} --use_lemma --run_dir ${CONLL_GEN} --stats_dir ${CONLL_GEN}/stats --conll_file ${CONLL_GEN}/amr_conll --table_dir ${ULF_DATA}/tables
 cp ${ULF_DATA}/dep ${CONLL_GEN}/dep
 
-CACHE_SIZE=4
-ORACLE_DIR=ulfdata/oracle/${ULF_VER}_cache${CACHE_SIZE}
-#python ./oracle/oracle.py --data_dir ${CONLL_GEN} --output_dir ${ORACLE_DIR} --cache_size ${CACHE_SIZE} --ulf
+# Generate predicted alignments.
+python data_processing/ulf_atom_counts.py  --annsent_dir ulfdata/12-15-train \
+  --alignment_file ulfdata/12-15-train/conll/alignment \
+  --outfile ulf_atom_counts/12-15-train.ua_count
+python data_processing/predict_ulf_atoms.py --annsent_dir ${ULF_DATA} \
+  --atom_counts ulf_atom_counts/12-15-train.ua_count \
+  --outfile ulf_atom_counts/${ULF_VER}.predicted_alignment
 
+# Generate oracle
+ORACLE_DIR=ulfdata/oracle/${ULF_VER}_cache${CACHE_SIZE}
+python ./oracle/oracle.py --data_dir ${CONLL_GEN} --output_dir ${ORACLE_DIR} --cache_size ${CACHE_SIZE} --ulf
 # Generate decoding...
 python ./oracle/oracle.py --data_dir ${CONLL_GEN} --output_dir ${ORACLE_DIR} --cache_size ${CACHE_SIZE} --ulf --decode
 cp ${ORACLE_DIR}/oracle_decode.json ${ORACLE_DIR}/decode.json
+cp ${ULF_DATA}/dep ${ORACLE_DIR}/dep
+cp ${ULF_DATA}/token ${ORACLE_DIR}/token
+cp ${ULF_DATA}/pos ${ORACLE_DIR}/pos
+cp ${ULF_DATA}/lemma ${ORACLE_DIR}/lemma
+
 
 
 # Training...
