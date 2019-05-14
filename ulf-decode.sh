@@ -8,8 +8,8 @@ module load cuda/8.0 cudnn/8.0 python/2.7.12
 module load tensorflow/1.4.1
 #conda activate ~/anaconda2/envs/test
 
-
-#python ./oracle/oracle.py --data_dir ./ulfdata/12-15-dev --output_dir ./ulfdata/12-15-dev-decode --cache_size 4 --decode --ulf
+# The line below is already completed by ulf-pipline.sh
+#python ./oracle/oracle.py --data_dir ./ulfdata/12-15-dev --output_dir ./ulfdata/oracle/12-15-${split}-cache${cache_size} --cache_size 4 --decode --ulf
 
 cache_size=6
 split="test"
@@ -31,7 +31,7 @@ python NP2P_beam_decoder.py --model_prefix ${model_prefix} \
   
   
   
-  
+# GK: Below is the original AMR cache transition parser decode.sh commented out for reference.  
 #start=`date +%s`
 #declare -a beam_size=(5 10 20 1) 
 #for size in ${beam_size[@]}; do
