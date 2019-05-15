@@ -21,7 +21,6 @@ decode.*
 *train.err*
 *train.out*
 
-stanford-corenlp*
 stanford-parser*
 *.jar
 
