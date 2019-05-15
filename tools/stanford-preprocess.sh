@@ -28,7 +28,7 @@ rm "${3}/${4}.json"
 echo "Running Stanford CoreNLP..."
 java -mx20g -cp "$scriptdir/${1}*:" edu.stanford.nlp.pipeline.StanfordCoreNLP \
  -annotators "tokenize,ssplit,pos,lemma,ner,depparse" -ssplit.eolonly -file ${3}/${4} -outputFormat conll
-cp ${4}.conll ${2}/dep 
+mv ${4}.conll ${2}/dep 
 # -annotators "tokenize,ssplit,pos,lemma,ner,depparse" -ssplit.eolonly -file ${3}/${4} -outputFormat json -outputDirectory ${3}
 
 

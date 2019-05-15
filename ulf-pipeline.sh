@@ -11,12 +11,12 @@ set -e
 module load java
 module load cuda/8.0 cudnn/8.0 python/2.7.12
 module load tensorflow/1.4.1
-#conda activate ~/anaconda2/envs/test
 
 # First split up the ULF data into sentences and ULFs.
-DATA_SEG="test"
-CACHE_SIZE=6
-ULF_VER="12-15-${DATA_SEG}"
+DATA_SEG="example" # train, dev, test, or example
+CACHE_SIZE=2
+SET_NAME="5-14"
+ULF_VER="${SET_NAME}-${DATA_SEG}"
 ULF_DATA=ulfdata/${ULF_VER}
 
 # This script generates the basic files from the SQL output tsv files.
@@ -24,10 +24,9 @@ ULF_DATA=ulfdata/${ULF_VER}
 #cp ulf-preproc/result/${ULF_VER}-preproc/* ${ULF_DATA}
 
 # Move the original data to the processing dir.
-#cp initial-ulf-data/${ULF_VER} ulfdata/
+cp -r initial-ulf-data/${ULF_VER} ulfdata/
 
 # Use the stanford parser to get POS and NER tags and tokenize and lemmatize
-PARSER_DIR=./tools/stanford-parser-full-2017-06-09
 CORENLP_VER=stanford-corenlp-full-2018-10-05
 # the sentences.
 TAGGER_DIR=./tools
@@ -42,19 +41,22 @@ python data_processing/ulf_align.py ${ULF_DATA} ${ULF_DATA}/amr ${ULF_DATA}/alig
 
 # Generate the CoNLL
 # Categorize data
-#CONLL_GEN=data/ulfdata
-#CONLL_GEN=data/${ULF_VER}
 CONLL_GEN=${ULF_DATA}/conll
 # TODO: rename the task since I'm not actually categorizing ULF at all...
 python data_processing/prepareTokens.py --task categorize --data_dir ${ULF_DATA} --use_lemma --run_dir ${CONLL_GEN} --stats_dir ${CONLL_GEN}/stats --conll_file ${CONLL_GEN}/amr_conll --table_dir ${ULF_DATA}/tables
 cp ${ULF_DATA}/dep ${CONLL_GEN}/dep
 
 # Generate predicted alignments.
-python data_processing/ulf_atom_counts.py  --annsent_dir ulfdata/12-15-train \
-  --alignment_file ulfdata/12-15-train/conll/alignment \
-  --outfile ulf_atom_counts/12-15-train.ua_count
+# Only use the training set uding for generating alignments. If we're just using an example, then it doesn't matter.
+TRAIN_VER="${SET_NAME}-train"
+if [ "${DATA_SEG}" = "example" ];then
+  TRAIN_VER="${ULF_VER}"
+fi
+python data_processing/ulf_atom_counts.py  --annsent_dir ulfdata/${TRAIN_VER} \
+  --alignment_file ulfdata/${TRAIN_VER}/conll/alignment \
+  --outfile ulf_atom_counts/${TRAIN_VER}.ua_count
 python data_processing/predict_ulf_atoms.py --annsent_dir ${ULF_DATA} \
-  --atom_counts ulf_atom_counts/12-15-train.ua_count \
+  --atom_counts ulf_atom_counts/${TRAIN_VER}.ua_count \
   --outfile ulf_atom_counts/${ULF_VER}.predicted_alignment
 
 # Generate oracle
@@ -78,11 +80,11 @@ cp ${ULF_DATA}/lemma ${ORACLE_DIR}/lemma
 
 module load graphviz
 
-CONFIG_FILE=./config_files/config_ulf_cache${CACHE_SIZE}.json
+CONFIG_FILE=./config_files/config_${ULF_VER}-cache${CACHE_SIZE}.json
 #./config_files/config_uniform5.json
 # TODO: use hard attention
 #python soft_NP2P_trainer.py --config_path ${CONFIG_FILE}
-#python NP2P_trainer.py --config_path ${CONFIG_FILE}
+python NP2P_trainer.py --config_path ${CONFIG_FILE}
 
 
 
@@ -109,6 +111,7 @@ CONFIG_FILE=./config_files/config_ulf_cache${CACHE_SIZE}.json
 
 
 # Use stanford parser to get tokenized sentences.
+# PARSER_DIR=./tools/stanford-parser-full-2017-06-09
 # $PARSER_DIR/lexparser.sh ./data/dev/token dev.tmp > dev.log
 # $PARSER_DIR/grammar-structure.sh dev.tmp ./data/dev/dep.conll
 # 
