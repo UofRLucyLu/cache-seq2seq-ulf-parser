@@ -6,6 +6,16 @@ for ULFs.
 
 ## File Organization
 
+- `ulf-pipeline.sh` : The main script for preprocessing the inputs (file with sentences with corresponding ULFs) to generate the features, run the oracle, and then train the model.
+- `ulf-decode.sh` : Script to decode amr format instances from the raw decoded oracle actions.
+- `eval.sh` : Run evaluator. I don't remember exactly what is generated here. I'm pretty sure it only evaluates against the oracle action accuracy.
+- `NP2P_*.py` : Various model specific code (in the original version is was distinct from the soft attention version of the code.
+- `*_utils.py` : General utility functions in the code.
+- `oracle/` : Folder with all the code for the oracle.
+- `config_files/` : Configuration files for training.
+- `tools/` : External tools used for preprocessing (e.g. Stanford NLP Pipeline).
+- `data/vectors.txt`, `data/vectors.txt.st` : Glove word embeddings.
+
 ## BlueHive commands that need to be run before running the parser training.
 
 ```
