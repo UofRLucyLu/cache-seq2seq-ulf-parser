@@ -21,3 +21,5 @@ decode.*
 *train.err*
 *train.out*
 
+*.jar
+
