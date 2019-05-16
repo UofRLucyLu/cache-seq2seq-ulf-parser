@@ -9,7 +9,7 @@ set -e
 
 # Packages.
 module load java
-module load cuda/8.0 cudnn/8.0 python/2.7.12
+module load python/2.7.12
 module load tensorflow/1.4.1
 
 # First split up the ULF data into sentences and ULFs.
@@ -78,6 +78,8 @@ cp ${ULF_DATA}/lemma ${ORACLE_DIR}/lemma
 #SBATCH -c 1
 #SBATCH --reservation=xpeng3-may2018
 
+module load cuda/8.0
+module load cudnn/8.0
 module load graphviz
 
 CONFIG_FILE=./config_files/config_${ULF_VER}-cache${CACHE_SIZE}.json

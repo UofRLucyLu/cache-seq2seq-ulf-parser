@@ -21,6 +21,3 @@ decode.*
 *train.err*
 *train.out*
 
-stanford-parser*
-*.jar
-
