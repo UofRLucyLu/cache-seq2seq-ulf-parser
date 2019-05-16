@@ -22,4 +22,5 @@ decode.*
 *train.out*
 
 *.jar
+stanford-corenlp-*
 
