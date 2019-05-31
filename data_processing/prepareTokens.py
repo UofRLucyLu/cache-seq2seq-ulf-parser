@@ -151,7 +151,7 @@ def buildPiSeq(amr, tok_seq, all_alignments, sorted_idxes):
             continue
 
         visited.add(index)
-        pi_seq.append(index)
+        #pi_seq.append(index)
         curr_node = amr.nodes[index]
         for edge_idx in curr_node.p_edges:
             parent_edge = amr.edges[edge_idx]
@@ -163,7 +163,8 @@ def buildPiSeq(amr, tok_seq, all_alignments, sorted_idxes):
                 if leaf_seq:
                     pi_seq.extend(leaf_seq)
                     visited |= set(leaf_seq)
-
+        pi_seq.append(index)
+    
     for index in index_set:
         if index not in visited:
             pi_seq.append(index)
