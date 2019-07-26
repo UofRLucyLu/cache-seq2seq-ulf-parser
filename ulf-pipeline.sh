@@ -8,18 +8,19 @@ set -e
 #SBATCH -c 4
 
 # Packages.
-module load java
-module load python/2.7.12
-module load tensorflow/1.4.1
+# module load java
+# module load python/2.7.12
+# module load tensorflow/1.4.1
 
 # First split up the ULF data into sentences and ULFs.
 DATA_SEG="example" # train, dev, test, or example
 CACHE_SIZE=2
 SET_NAME="5-14"
-ULF_VER="${SET_NAME}-${DATA_SEG}"
+ULF_VER="${SET_NAME}-${DATA_SEG}"	# File name reading
 ULF_DATA=ulfdata/${ULF_VER}
 
 # This script generates the basic files from the SQL output tsv files.
+# Oracle part. Once done it's cool
 #python ulf-preproc/preproc-ulf.py ulf-preproc/config/${ULF_VER}-config.json
 #cp ulf-preproc/result/${ULF_VER}-preproc/* ${ULF_DATA}
 
@@ -31,7 +32,8 @@ CORENLP_VER=stanford-corenlp-full-2018-10-05
 # the sentences.
 TAGGER_DIR=./tools
 # Args: [corenlp] [output dir] [input/output directory] [input file]
-${TAGGER_DIR}/stanford-preprocess.sh ${CORENLP_VER}/ ${ULF_DATA} ${ULF_DATA} raw
+# Stanford parser
+# ${TAGGER_DIR}/stanford-preprocess.sh ${CORENLP_VER}/ ${ULF_DATA} ${ULF_DATA} raw
 
 # NB: Here you'll need to use Lisp scripts in cycle to generate the ULF-AMR files
 #     and alignments.  TODO: actually the alignments can be done here since it uses
@@ -43,6 +45,7 @@ python data_processing/ulf_align.py ${ULF_DATA} ${ULF_DATA}/amr ${ULF_DATA}/alig
 # Categorize data
 CONLL_GEN=${ULF_DATA}/conll
 # TODO: rename the task since I'm not actually categorizing ULF at all...
+# Reformatting
 python data_processing/prepareTokens.py --task categorize --data_dir ${ULF_DATA} --use_lemma --run_dir ${CONLL_GEN} --stats_dir ${CONLL_GEN}/stats --conll_file ${CONLL_GEN}/amr_conll --table_dir ${ULF_DATA}/tables
 cp ${ULF_DATA}/dep ${CONLL_GEN}/dep
 
@@ -63,12 +66,14 @@ python data_processing/predict_ulf_atoms.py --annsent_dir ${ULF_DATA} \
 ORACLE_DIR=ulfdata/oracle/${ULF_VER}_cache${CACHE_SIZE}
 python ./oracle/oracle.py --data_dir ${CONLL_GEN} --output_dir ${ORACLE_DIR} --cache_size ${CACHE_SIZE} --ulf
 # Generate decoding...
+"""
 python ./oracle/oracle.py --data_dir ${CONLL_GEN} --output_dir ${ORACLE_DIR} --cache_size ${CACHE_SIZE} --ulf --decode
 cp ${ORACLE_DIR}/oracle_decode.json ${ORACLE_DIR}/decode.json
 cp ${ULF_DATA}/dep ${ORACLE_DIR}/dep
 cp ${ULF_DATA}/token ${ORACLE_DIR}/token
 cp ${ULF_DATA}/pos ${ORACLE_DIR}/pos
 cp ${ULF_DATA}/lemma ${ORACLE_DIR}/lemma
+"""
 
 
 
@@ -82,7 +87,7 @@ module load cuda/8.0
 module load cudnn/8.0
 module load graphviz
 
-CONFIG_FILE=./config_files/config_${ULF_VER}-cache${CACHE_SIZE}.json
+# CONFIG_FILE=./config_files/config_${ULF_VER}-cache${CACHE_SIZE}.json
 #./config_files/config_uniform5.json
 # TODO: use hard attention
 #python soft_NP2P_trainer.py --config_path ${CONFIG_FILE}

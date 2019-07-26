@@ -18,7 +18,7 @@ import re
 
 import tensorflow as tf
 import NP2P_trainer
-tf.logging.set_verbosity(tf.logging.ERROR) # DEBUG, INFO, WARN, ERROR, and FATAL
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR) # DEBUG, INFO, WARN, ERROR, and FATAL
 
 def search(sess, model, vocab, batch, options, decode_mode='greedy'):
     assert False, 'not in use'
@@ -26,7 +26,7 @@ def search(sess, model, vocab, batch, options, decode_mode='greedy'):
     for greedy search, multinomial search
     '''
     # Run the encoder to get the encoder hidden states and decoder initial state
-    (phrase_representations, initial_state, encoder_features,phrase_idx, phrase_mask) = model.run_encoder(sess, batch, options)
+    (phrase_representations, initial_state, encoder_features, phrase_idx, phrase_mask) = model.run_encoder(sess, batch, options)
     # phrase_representations: [batch_size, passage_len, encode_dim]
     # initial_state: a tupel of [batch_size, gen_dim]
     # encoder_features: [batch_size, passage_len, attention_vec_size]
@@ -149,14 +149,17 @@ class Hypothesis(object):
                 oracle_action = action
             system.apply(new_config, oracle_action)
         elif new_config.phase == oracle.utils.FeatureType.PUSHIDX:
+            # Can only push after shift
             assert action_vocab.getWord(self.actions[-1]) == "SHIFT"
             assert next_cache_idx == cache_size - 2
             system.apply(new_config, action)
+        # Judge if there is an arc
         elif new_config.phase == oracle.utils.FeatureType.ARCBINARY:
             if action == "NOARC": # No arc made to current cache index
                 # next_cache_idx += 1
                 if next_cache_idx == 0: # Already the last cache index
                     next_cache_idx = 0.5
+                    # Next stage should shift or pop
                     new_config.phase = oracle.utils.FeatureType.SHIFTPOP
                     new_focus += 1
                 else:
@@ -170,6 +173,7 @@ class Hypothesis(object):
                 new_config.phase = oracle.utils.FeatureType.ARCCONNECT
         else:
             assert new_config.phase == oracle.utils.FeatureType.ARCCONNECT
+            # Perform arc connection
             oracle_action = "ARC%d:%s" % (next_cache_idx, action)
             system.apply(new_config, oracle_action)
             # next_cache_idx += 1

@@ -14,7 +14,7 @@ from NP2P_model_graph import ModelGraph
 
 FLAGS = None
 import tensorflow as tf
-tf.logging.set_verbosity(tf.logging.ERROR) # DEBUG, INFO, WARN, ERROR, and FATAL
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR) # DEBUG, INFO, WARN, ERROR, and FATAL
 
 from nltk.translate.bleu_score import SmoothingFunction, corpus_bleu, sentence_bleu
 cc = SmoothingFunction()

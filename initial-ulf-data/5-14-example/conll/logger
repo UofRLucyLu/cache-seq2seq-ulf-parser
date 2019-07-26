@@ -1,0 +1,361 @@
+Sentence #1
+Care for a smoke ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX PRES YOU.PRO
+Sentence #2
+What did you do with your camera ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX SUB COMPLEX PAST COMPLEX ADV-A *H
+Sentence #3
+If I 'd known the truth , I would 've told it to you .
+Unaligned tokens: I 'd , would told you .
+Unaligned vertices: COMPLEX COMPLEX I.PRO COMPLEX COMPLEX WILL.AUX-S COMPLEX CF CF COMPLEX PERF PERF ADV-A YOU.PRO
+Sentence #4
+Margaret , what comment can I make on the untimely extinction of this glorious spirit ?
+Unaligned tokens: ,
+Unaligned vertices: COMPLEX COMPLEX VOC SUB COMPLEX PRES NP+PREDS *H N+PREDS
+Sentence #5
+You must work more .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES
+Sentence #6
+Name a flying mammal .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX ! COMPLEX COMPLEX YOU.PRO PRES
+Sentence #7
+I 'm going to sit on the bench over there next to the street lamp .
+Unaligned tokens: 'm to .
+Unaligned vertices: COMPLEX COMPLEX PRES COMPLEX PROG ADV-A N+PREDS
+Sentence #8
+You can rely on him .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES
+Sentence #9
+What 's behind the door ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES
+Sentence #10
+Why do you want to leave today ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX SUB COMPLEX PRES COMPLEX *H
+Sentence #11
+How can anyone tell if a female had sexual intercourse ?
+Unaligned tokens: if
+Unaligned vertices: COMPLEX SUB COMPLEX PRES *H WHETHER COMPLEX COMPLEX PAST K
+Sentence #12
+`` Could you do this instead of me ? '' `` Sorry , I 'm too busy . ''
+Unaligned tokens: `` me '' `` , . ''
+Unaligned vertices: COMPLEX COMPLEX COMPLEX COMPLEX COMPLEX PRES COMPLEX PU COMPLEX PRES ME.PRO
+Sentence #13
+U.S. District Judge Gerhard Gesell is expected to act on Walsh 's request this week .
+Unaligned tokens: Gerhard Gesell is .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX COMPLEX COMPLEX COMPLEX COMPLEX PRES COMPLEX "|GerhardGesell|" PASV ADV-E IN.P COMPLEX QUOTE
+Sentence #14
+Can you prevent it ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES
+Sentence #15
+Where can I find a case on Individuals with Disabilities Education Act of 1991 ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX SUB COMPLEX PRES N+PREDS COMPLEX N+PREDS COMPLEX N+PREDS COMPLEX YEAR.N
+Sentence #16
+You can understand French , right ?
+Unaligned tokens: , right ?
+Unaligned vertices: COMPLEX COMPLEX COMPLEX .? COMPLEX PRES
+Sentence #17
+I want you to tell me the truth .
+Unaligned tokens: me .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES COMPLEX ME.PRO
+Sentence #18
+Do you believe in guiding stars ?
+Unaligned tokens: in
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES K COMPLEX PLUR
+Sentence #19
+Who is the actress Bette Davis once said she wished she looked like ?
+Unaligned tokens: Davis
+Unaligned vertices: COMPLEX SUB COMPLEX PRES = N+PREDS *H THT.REL SUB COMPLEX PAST THT COMPLEX COMPLEX PAST THT COMPLEX COMPLEX PAST *H
+Sentence #20
+The dog traced the rabbit into the forest .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX COMPLEX ADV-E PRES
+Sentence #21
+Do you think I did it ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES THT COMPLEX COMPLEX PAST
+Sentence #22
+We are what we pretend to be , so we must be careful what we pretend to be .
+Unaligned tokens: , .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX COMPLEX COMPLEX COMPLEX PRES = PRES ANS-TO SUB ANS-TO COMPLEX SUB COMPLEX COMPLEX COMPLEX COMPLEX PRETEND.V PRES COMPLEX = *H = *H
+Sentence #23
+What 's the name of my doctor ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES
+Sentence #24
+`` Maybe this time he will finally get it straight : Whenever he threatens American forces , we will defend ourselves . ''
+Unaligned tokens: `` : , . ''
+Unaligned vertices: COMPLEX REP COMPLEX COMPLEX COMPLEX ADV-S COMPLEX COMPLEX COMPLEX AT.P COMPLEX COMPLEX PRES PRES COMPLEX PRES K COMPLEX COMPLEX PLUR NP+PREDS = THT *P
+Sentence #25
+How did you like the food at that restaurant ?
+Unaligned tokens: that
+Unaligned vertices: COMPLEX SUB COMPLEX PAST THAT.D *H
+Sentence #26
+Since you look tired , you had better take a rest .
+Unaligned tokens: , had .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX COMPLEX COMPLEX COMPLEX PRES PRES
+Sentence #27
+When does Tony study ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX SUB COMPLEX PRES COMPLEX PRES *H
+Sentence #28
+Ah ! If I were rich , I 'd buy myself a house in Spain .
+Unaligned tokens: ! I , Spain .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX COMPLEX I.PRO COMPLEX PRES CF N+PREDS "|Spain|"
+Sentence #29
+Do you have a solution ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES
+Sentence #30
+I reflected for some time , and then answered as if I had discovered a new idea , '' I mean pretty well . ''
+Unaligned tokens: , I discovered , '' . ''
+Unaligned vertices: COMPLEX REP QTSYM COMPLEX QTSYM COMPLEX COMPLEX COMPLEX PAST COMPLEX PRES *P I.PRO COMPLEX PAST PERF
+Sentence #31
+`` We try very hard to keep some of the hotels in a decent state so the foreign investors can come in .
+Unaligned tokens: `` .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX COMPLEX COMPLEX COMPLEX PRES COME.V COMPLEX PRES COMPLEX PLUR ADV-A N+PREDS PLUR
+Sentence #32
+Can you miss the present moment ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES
+Sentence #33
+You can not expect much of him .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES COMPLEX K
+Sentence #34
+The CFM56s used on 737s have been in service for about five years .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX N+PREDS PRES PLUR COMPLEX PERF COMPLEX THT.REL K PASV COMPLEX K PLUR NQUAN PLUR
+Sentence #35
+I could n't say when exactly in my life it occurred to me that I would be a pilot someday .
+Unaligned tokens: me would .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES ANS-TO SUB ADV-E COMPLEX AT-TIME.P COMPLEX PAST *H NP+PREDS ME.PRO COMPLEX COMPLEX PAST WILL.AUX-S =
+Sentence #36
+Let 's try something .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX YOU.PRO
+Sentence #37
+Could you exchange it with another one ?
+Unaligned tokens: one
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES ONE.N
+Sentence #38
+If you see a man approaching you with the obvious intention of doing you good , you should run for your life .
+Unaligned tokens: you the of , .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX COMPLEX COMPLEX COMPLEX PRES PRES ADV-A N+PREDS YOUR.D ADV-A THE.D COMPLEX OF.P-ARG KA
+Sentence #39
+Name the two mystical ravens Odin has at his command .
+Unaligned tokens: two his .
+Unaligned vertices: COMPLEX ! COMPLEX COMPLEX YOU.PRO PRES N+PREDS COMPLEX THT.REL PLUR SUB COMPLEX COMPLEX PRES *H HIS.D
+Sentence #40
+What are you thinking about ? ''
+Unaligned tokens: are ''
+Unaligned vertices: COMPLEX SUB COMPLEX *H PRES PROG
+Sentence #41
+Do n't give me that crap !
+Unaligned tokens: me
+Unaligned vertices: COMPLEX COMPLEX COMPLEX YOU.PRO PRES ME.PRO
+Sentence #42
+You can rely on her .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES
+Sentence #43
+'' Ah , you see -- ''
+Unaligned tokens: '' , -- ''
+Unaligned vertices: COMPLEX COMPLEX PRES
+Sentence #44
+It was raining when we left , but by the time we arrived , it was sunny .
+Unaligned tokens: was , , .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX ADV-E COMPLEX PAST COMPLEX PROG PAST COMPLEX N+PREDS PAST COMPLEX AT.P SUB COMPLEX WHICH.REL COMPLEX PAST ADV-E *H
+Sentence #45
+Do you have any rock CDs ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES COMPLEX PLUR
+Sentence #46
+Is this your first convention ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES
+Sentence #47
+The president 's bowl rests on a 14-pound , beveled , lead glass plinth , or flat base .
+Unaligned tokens: 's , , glass , .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX COMPLEX REST.V QUOTE K S COMPLEX 14.A LEAD.N
+Sentence #48
+It said all refugee boats were permitted to land and that arrivals were taken to a special camp in cooperation with the U.N. High Commissioner for Refugees .
+Unaligned tokens: were taken the High .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PAST THT COMPLEX COMPLEX COMPLEX COMPLEX K PAST COMPLEX COMPLEX ADV-A PLUR PASV PLUR PAST TO PASV K THE.D N+PREDS COMPLEX K PLUR
+Sentence #49
+Can you keep a secret ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES
+Sentence #50
+It 's OK with me if you take that book .
+Unaligned tokens: me .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX COMPLEX ADV-A PRES COMPLEX ME.PRO COMPLEX PRES
+Sentence #51
+Be sure to put out the fire before you leave .
+Unaligned tokens: out .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX ! COMPLEX COMPLEX PRES
+Sentence #52
+How can anyone tell if a female had sexual intercourse ?
+Unaligned tokens: if
+Unaligned vertices: COMPLEX SUB COMPLEX PRES COMPLEX *H WHETHER COMPLEX COMPLEX PAST K
+Sentence #53
+Can you tell the position of the rooms ? What are those latticed windows at this end ? ''
+Unaligned tokens: the ''
+Unaligned vertices: COMPLEX COMPLEX COMPLEX COMPLEX PRES COMPLEX THE.D PRES = N+PREDS N+PREDS COMPLEX PLUR PLUR
+Sentence #54
+Name a tiger that is extinct .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX ! COMPLEX COMPLEX YOU.PRO PRES COMPLEX N+PREDS COMPLEX COMPLEX PRES
+Sentence #55
+Have you been there ?
+Unaligned tokens: Have
+Unaligned vertices: COMPLEX COMPLEX PRES PERF
+Sentence #56
+How does a hurricane form ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX SUB COMPLEX PRES *H
+Sentence #57
+It 's not serious , I do n't bear him a grudge .
+Unaligned tokens: , .
+Unaligned vertices: COMPLEX AND COMPLEX COMPLEX COMPLEX COMPLEX PRES PRES
+Sentence #58
+I could n't sleep on the plane .
+Unaligned tokens: could .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PAST CAN.AUX-V ADV-E
+Sentence #59
+Who would you use the Heimlich maneuver on ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX SUB COMPLEX PRES COMPLEX ADV-A *H
+Sentence #60
+Name the only extant trilogy of classical Greek plays .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX ! COMPLEX COMPLEX YOU.PRO PRES N+PREDS COMPLEX K COMPLEX PLUR
+Sentence #61
+We left by train .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PAST ADV-A K
+Sentence #62
+When a U.S. ambassador sat down with a PLO delegation for the first official meeting in 13 years , Sweden scored a triumph for a foreign policy variously described as magnanimous or meddlesome .
+Unaligned tokens: delegation , .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX COMPLEX COMPLEX COMPLEX PAST COMPLEX N+PREDS SIT.V COMPLEX N+POST COMPLEX "|PLO|" COMPLEX PLUR
+Sentence #63
+He has been warned on several occasions .
+Unaligned tokens: has been .
+Unaligned vertices: COMPLEX COMPLEX ADV-E COMPLEX PASV PRES PERF PLUR
+Sentence #64
+Nothing great has been achieved by playing it safe .
+Unaligned tokens: has been .
+Unaligned vertices: COMPLEX COMPLEX NP+PREDS COMPLEX COMPLEX PRES PASV PERF KA COMPLEX ADV-A
+Sentence #65
+Should he be given another chance , he would do his best .
+Unaligned tokens: given , his .
+Unaligned vertices: COMPLEX SUB COMPLEX COMPLEX COMPLEX PRES COMPLEX PRES HIS.D *H PASV REF.N
+Sentence #66
+Are you my mommy ?
+Unaligned tokens: mommy
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES MOMMY.N
+Sentence #67
+How fast he runs !
+Unaligned tokens: !
+Unaligned vertices: COMPLEX SUB COMPLEX COMPLEX PRES *H
+Sentence #68
+Will your parents let you stay home today ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES COMPLEX PLUR COMPLEX AT.P
+Sentence #69
+Has Tom been fighting with Mary ?
+Unaligned tokens: Has been
+Unaligned vertices: COMPLEX COMPLEX COMPLEX COMPLEX PRES PROG PERF
+Sentence #70
+Name a Gaelic language .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX ! COMPLEX COMPLEX YOU.PRO PRES
+Sentence #71
+Ca n't you just picture Ed in woman 's disguise ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES COMPLEX COMPLEX QUOTE K
+Sentence #72
+I managed to get in .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PAST COMPLEX REF.PRO
+Sentence #73
+'' Who has made me a judge over them ? '' was all he said , smilingly , to Alyosha .
+Unaligned tokens: '' has me '' , , .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX QTSYM PAST = QTSYM N+PREDS COMPLEX PLUR THT.REL PRES THING.N SUB COMPLEX ME.PRO = PERF COMPLEX COMPLEX N+PREDS COMPLEX ADV-A PAST *H
+Sentence #74
+How can anyone tell if a female had sexual intercourse ?
+Unaligned tokens: if
+Unaligned vertices: COMPLEX SUB COMPLEX PRES COMPLEX *H WHETHER COMPLEX COMPLEX PAST K
+Sentence #75
+Are you the runner who escaped the underground city ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES N+PREDS COMPLEX COMPLEX PAST
+Sentence #76
+You do n't worry .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES
+Sentence #77
+Do you think Tom can speak French ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES COMPLEX THT COMPLEX COMPLEX PRES
+Sentence #78
+Do you want fruit juice ?
+Unaligned tokens: juice
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES SOME.D FRUIT.N
+Sentence #79
+Name the fast food chain with the golden arches .
+Unaligned tokens: the .
+Unaligned vertices: COMPLEX ! COMPLEX COMPLEX YOU.PRO PRES N+PREDS COMPLEX THE.D COMPLEX PLUR
+Sentence #80
+Ask Trang if he 's going out this evening .
+Unaligned tokens: if 's .
+Unaligned vertices: COMPLEX ! COMPLEX COMPLEX PRES WHETHER COMPLEX PRES PROG
+Sentence #81
+What curriculum does Fadil use to teach Arabic ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES COMPLEX
+Sentence #82
+Enjoy your meal !
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES YOUR.D
+Sentence #83
+What do goldfish lose if kept in dimly-lit or running water ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX COMPLEX SUB COMPLEX COMPLEX COMPLEX REF.PRO PRES K PRES PLUR *H PASV K LIT.A
+Sentence #84
+'' You 're not asleep ? ''
+Unaligned tokens: '' ''
+Unaligned vertices: COMPLEX QTSYM QTSYM COMPLEX COMPLEX PRES
+Sentence #85
+What 's wrong with this plan ?
+Unaligned tokens: 
+Unaligned vertices: COMPLEX SUB COMPLEX REF1.N PRES COMPLEX *H
+Sentence #86
+Tom seemed somewhat annoyed by that .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PAST COMPLEX
+Sentence #87
+I ca n't believe my eyes .
+Unaligned tokens: .
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES PLUR
+Sentence #88
+How are you getting along ?
+Unaligned tokens: are along
+Unaligned vertices: COMPLEX SUB PRES *H PROG
+Sentence #89
+Can you prove which was the original language of your holy writings ?
+Unaligned tokens: your
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES COMPLEX COMPLEX PAST = N+PREDS YOUR.D COMPLEX PLUR
+Sentence #90
+Do you know of a dish that has laurel leaves in it ?
+Unaligned tokens: it
+Unaligned vertices: COMPLEX COMPLEX COMPLEX PRES NP+PREDS SUB COMPLEX PRES COMPLEX *H COMPLEX IT.PRO PLUR
+A total of 0 sentences with unaligned entities

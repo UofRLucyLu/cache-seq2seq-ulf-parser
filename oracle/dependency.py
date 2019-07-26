@@ -35,20 +35,26 @@ class DependencyTree(object):
         self.head_list.append(h)
         self.label_list.append(l)
 
+    # build dependence all the way with upper the dist upper bound
     def buildDepDist(self, upper):
         def pathLength(first_idx, second_idx):
             firstDists = {}
             firstDists[first_idx] = 0
             curr_idx = first_idx
+            # upper is basically how deep along one line one searches
             for i in range(upper):
+                # If element DNE
                 if self.head_list[curr_idx] == -1:
                     break
+                # head_list returns the head index for the NEXT token
                 curr_idx = self.head_list[curr_idx]
                 if curr_idx == second_idx:
                     return i+1
+                # Loop over to get next token starting from first_index, understandable
                 firstDists[curr_idx] = i+1
 
             curr_idx = second_idx
+            # half-way, so if could connect, able to get dist
             for i in range(upper):
                 if self.head_list[curr_idx] == -1:
                     return upper
@@ -69,6 +75,7 @@ class DependencyTree(object):
     def getDepDist(self, first_idx, second_idx):
         return self.dist_stats[(first_idx, second_idx)]
 
+    # if are directly connected
     def getDepLabel(self, first_idx, second_idx):
         if first_idx < 0 or second_idx < 0:
             return utils.NULL
@@ -78,6 +85,7 @@ class DependencyTree(object):
             return "R-" + self.getLabel(second_idx)
         return utils.NULL
 
+    # set the next token
     def setDependency(self, k, h, label):
         self.head_list[k] = h
         self.label_list[k] = label
@@ -92,6 +100,7 @@ class DependencyTree(object):
             return None
         return self.label_list[k]
 
+    # as the method name
     def getAllChildren(self, k):
         arcs = []
         for i in range(self.n):
@@ -99,6 +108,7 @@ class DependencyTree(object):
                 arcs.append(self.label_list[i])
         return arcs
 
+    #?
     def getParent(self, k):
         return self.label_list[k]
 
@@ -118,6 +128,7 @@ class DependencyTree(object):
                 n_root += 1
         return n_root == 1
 
+    # if two trees are the same
     def __eq__(self, other):
         if other.n != self.n:
             return False

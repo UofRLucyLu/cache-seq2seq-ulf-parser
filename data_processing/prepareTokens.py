@@ -21,25 +21,30 @@ def collapseTokens(tok_seq, lemma_seq, pos_seq, span_to_type, isTrain=True, span
     collapsed_pos = []
     start_to_end = {}
     # print "Original tokens:", " ".join(tok_seq)
-    for i in xrange(n_toks):
-        if i in collapsed:
+    # tok_seq just separate a sentence by space
+    for i in xrange(n_toks):    # loop over all tokens
+        if i in collapsed:  # Not dealing with collapsed (Empty at first)
             continue
-        for j in xrange(i+span_max, i, -1):
+        for j in xrange(i+span_max, i, -1): # only deal with 6 beforehand
         #for j in xrange(i+1, n_toks+1):
-            if (i, j) in span_to_type:
+            # using the span of a syntax to get the type
+            if (i, j) in span_to_type:  # span_to_type like a disctionary, collecting vector of size 3, (index, symatic, symatic)
                 node_idx, _, curr_sym = span_to_type[(i, j)]
-                aligned_set = set(xrange(i, j))
-                if len(collapsed & aligned_set) != 0:
+                aligned_set = set(xrange(i, j)) # Collection of numbers?
+                # collapsed & aligned_set means intersection of the two
+                if len(collapsed & aligned_set) != 0:   # skip non-trivial intersection case
                     continue
-                collapsed |= aligned_set
-                curr_idx = len(collapsed_seq)
+                collapsed |= aligned_set    # collapsed = collapsed | aligned_set (union)
+                curr_idx = len(collapsed_seq)   # skip those have already been collapsed
+                # pair alignment of nodes with current index in sequence?
                 new_alignment[node_idx].append((curr_idx, curr_idx+1))
+                # An array that tells the end position given input index
                 start_to_end[i] = j
                 if 'NE_' in curr_sym or 'DATE' in curr_sym or 'NUMBER' in curr_sym or curr_sym == "NE":
-                    if "NE_" in curr_sym:
+                    if "NE_" in curr_sym:   # curr_sym current symatic
                         rd = random.random()
                         if rd >= 0.9 and isTrain:
-                            curr_sym = "NE"
+                            curr_sym = "NE" # What does NE represents
                     collapsed_seq.append(curr_sym)
                     collapsed_lem.append(curr_sym)
                     if 'NE' in curr_sym:
@@ -48,16 +53,18 @@ def collapseTokens(tok_seq, lemma_seq, pos_seq, span_to_type, isTrain=True, span
                         collapsed_pos.append('DATE')
                     else:
                         collapsed_pos.append('NUMBER')
+                # This portion unchecked yet
                 elif j - i > 1:
                     # print "Categorized phrase:", tok_seq[i:j]
                     collapsed_seq.append('@'.join(tok_seq[i:j]).lower())
                     collapsed_lem.append('@'.join(lemma_seq[i:j]).lower())
                     collapsed_pos.append('PHRASE')
+                # This portion unchecked yet
                 else:
                     collapsed_seq.append(tok_seq[j-1].lower())
                     collapsed_lem.append(lemma_seq[j-1].lower())
                     collapsed_pos.append(pos_seq[j-1])
-
+        # Uncheck yet. Need input to contains brackets?
         if i not in collapsed:
             # assert i not in collapsed
             if "LRB" in tok_seq[i]:
@@ -71,14 +78,13 @@ def collapseTokens(tok_seq, lemma_seq, pos_seq, span_to_type, isTrain=True, span
             collapsed_pos.append(pos_seq[i])
             collapsed.add(i)
     try:
-        assert len(collapsed) == len(tok_seq)
+        assert len(collapsed) == len(tok_seq)   # if finish
     except:
         print "Everything should be collapsed in the new sequence: %s." % str(span_to_type)
         noncollapsed = [(k, tok) for (k, tok) in enumerate(tok_seq) if k not in collapsed]
         for k, tok in noncollapsed:
             print "Not collapsed %d : %s" % (k, tok)
         sys.exit(1)
-
     return collapsed_seq, collapsed_lem, collapsed_pos, new_alignment, start_to_end
 
 #For the unaligned concepts in the AMR graph
@@ -89,11 +95,16 @@ def unalignedOutTails(amr, all_alignments):
     visited = set()
 
     edge_list = []
+    # connects child and parent, dictionary of set, use node index as searching index
     edge_map = defaultdict(set)
 
+    # Current amr tree and ulf tree exactly the same
+    # Loop over whenever stack is non-empty
     while stack:
+        # Stack stores the index of the node
         curr_node_idx = stack.pop()
 
+        # Name of the node and name of the variable
         curr_node = amr.nodes[curr_node_idx]
         curr_var = curr_node.node_str()
 
@@ -104,16 +115,20 @@ def unalignedOutTails(amr, all_alignments):
         visited.add(curr_node_idx)
         unaligned = curr_node_idx not in all_alignments
 
+        # Why need reverse?
         for edge_idx in reversed(curr_node.v_edges):
             curr_edge = amr.edges[edge_idx]
             child_idx = curr_edge.tail
             stack.append(child_idx)
+            # if (unaligned) and (child_idex != curr_node_idx)
             if unaligned and child_idx != curr_node_idx: #Avoid self edge
+                # tail_set contains all child that are not aligned
                 tail_set[curr_node_idx].add(child_idx)
 
             edge_map[curr_node_idx].add(child_idx)
             edge_map[child_idx].add(curr_node_idx)
             edge_list.append((curr_node_idx, child_idx))
+    
     return index_set, tail_set, edge_map, edge_list
 
 def visitUnaligned(mapped_set, amr, index):
@@ -122,22 +137,27 @@ def visitUnaligned(mapped_set, amr, index):
     visited_seq = []
     visited = set()
     while stack:
-        to_remove = set()
+        # to_remove = set()
         curr_idx = stack.pop()
         if curr_idx in visited:
             continue
         visited.add(curr_idx)
 
+        # delete object as we have already visited it
         del mapped_set[curr_idx]
+        # just the order one visits the stack
         visited_seq.append(curr_idx)
 
         curr_node = amr.nodes[index]
         for edge_idx in curr_node.p_edges:
+            # Edge type are args, complex, instance edge(?)
             parent_edge = amr.edges[edge_idx]
             head_idx = parent_edge.head
             if head_idx in mapped_set:
+                # Append all its parents
                 stack.append(head_idx)
     return mapped_set, visited_seq
+
 
 def buildPiSeq(amr, tok_seq, all_alignments, sorted_idxes):
 
@@ -145,7 +165,7 @@ def buildPiSeq(amr, tok_seq, all_alignments, sorted_idxes):
 
     pi_seq = []
     visited = set()
-
+    """
     for index in sorted_idxes:
         if index in visited:
             continue
@@ -164,14 +184,32 @@ def buildPiSeq(amr, tok_seq, all_alignments, sorted_idxes):
                     pi_seq.extend(leaf_seq)
                     visited |= set(leaf_seq)
         pi_seq.append(index)
-    
+
     for index in index_set:
         if index not in visited:
             pi_seq.append(index)
+    """    
+
+    helper(amr, amr.root, pi_seq)
+
+    print "20:10 testing"
+    for i in pi_seq:
+        print "Index: %d, Node: %s" %(i, amr.nodes[i])
 
     assert len(pi_seq) == len(index_set)
 
     return pi_seq, edge_map, edge_list
+
+# dfs for the tree
+def helper(amr, node_idx, pi_seq):
+    curr_node = amr.nodes[node_idx]
+
+    pi_seq.append(node_idx)
+    for edge_idx in curr_node.v_edges:
+        curr_edge = amr.edges[edge_idx]
+        child_idx = curr_edge.tail
+        helper(amr, child_idx, pi_seq)
+    
 
 class AMR_stats(object):
     def __init__(self):

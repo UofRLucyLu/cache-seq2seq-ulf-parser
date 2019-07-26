@@ -36,7 +36,8 @@ class CacheConfiguration(object):
             self.last_action = None
             self.pop_buff = True
             self.phase = utils.FeatureType.SHIFTPOP
-            self.widTocid = {}
+            self.widTocid = {}  #?
+
         else:
             self.stack = copy.copy(config.stack)
             self.buffer = copy.copy(config.buffer)
@@ -54,6 +55,11 @@ class CacheConfiguration(object):
 
     def setGold(self, graph_):
         self.gold = graph_
+        buf = deque()
+        for i in range(len(self.gold.concepts)):
+            if self.gold.isAligned(i):
+                buf.append(self.gold.conIDToWordID[i])
+        self.buffer = buf
 
     def buildWordToConcept(self):
         assert len(self.conceptAlign) > 0
@@ -67,6 +73,8 @@ class CacheConfiguration(object):
     def getConcept(self, idx):
         return self.conceptSeq[idx]
 
+    #Get the token feature
+    # A description string for the token
     def getTokenFeats(self, idx, type):
         if idx < 0:
             return type.name + ":" + utils.NULL
@@ -119,8 +127,11 @@ class CacheConfiguration(object):
     def getTokenDistFeats(self, idx1, idx2, upper, prefix):
         if idx1 < 0 or idx2 < 0:
             return prefix + utils.NULL
-        assert idx1 < idx2, "Left token index not smaller than right"
-        token_dist = idx2 - idx1
+        #assert idx1 < idx2, "Left token index not smaller than right"
+        if idx1 < idx2:
+            token_dist = idx2 - idx1
+        else:
+            token_dist = idx1 - idx2
         if token_dist > upper:
             token_dist = upper
         return "%s%d" % (prefix, token_dist)
@@ -349,23 +360,43 @@ class CacheConfiguration(object):
         or a vertex from the cache.
         :return:
         """
+
+        """
+        # cannot just compare length, no longer true that if process all concept
+        # already one can pop
+        last_cache_word, last_cache_concept = self.cache[self.cache_size-1]
+        if last_cache_concept == -1:
+            return False
+        """
+
         last_cache_word, last_cache_concept = self.cache[self.cache_size-1]
         right_edges = self.gold.right_edges
         # print "Current last cache word %d, cache concept %d" % (last_cache_word, last_cache_concept)
         # ($, $) at last cache position.
+
+        # in the case when the cache does not store any useful information yet
         if last_cache_concept == -1:
             return False
 
         next_buffer_concept_idx = self.hypothesis.nextConceptIDX()
         num_concepts = self.gold.n
+
+        # if already taken in all concepts
         if next_buffer_concept_idx >= num_concepts:
             return True
-
+        # if the last concept does not have any right_edges, can pop and still connect
         if last_cache_concept not in right_edges:
+            # as flow changes, as long as we have not yet seen all concepts, it is possible that
+            # the child has been seen but not connected yet. Thus not pop in that situation
+            # here i use concept since this indicates an action has been selected and applied successfully
+            if len(self.hypothesis.concepts[last_cache_concept].tail_ids) < len(self.gold.concepts[last_cache_concept].tail_ids):
+                return False
             return True
-
+        
         assert next_buffer_concept_idx > last_cache_concept and num_concepts > last_cache_concept
 
+        # -1 refers to the last element in the array
+        # if all right_edges are made, pop the element out
         return right_edges[last_cache_concept][-1] < next_buffer_concept_idx
 
     def shiftBuffer(self):
@@ -387,6 +418,8 @@ class CacheConfiguration(object):
         # Then pop the last cache vertex.
         self.cache.insert(cache_idx, vertex)
         self.cache.pop()
+
+        self.cand_vertex = self.getCache(self.cache_size - 1)
         return True
 
     def connectArc(self, cand_vertex_idx, cache_vertex_idx, direction, arc_label):
@@ -426,7 +459,7 @@ class CacheConfiguration(object):
                 ret_set.add("L="+self.tree.getLabel(word_idx))
         return list(ret_set)
 
-    def bufferDepConnectionNum(self, word_idx, thre=20):
+    def bufferDepConnection(self, word_idx, thre=20):
         ret_set = self.bufferDepConnections(word_idx, thre)
         return len(ret_set)
 

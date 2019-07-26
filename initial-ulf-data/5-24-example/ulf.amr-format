@@ -1,0 +1,3 @@
+; sid: 279158
+; sentence: What did you do with your camera?
+((V0 / COMPLEX :INSTANCE (V1 / ? :ARG0 (V2 / SUB :ARG0 (V4 / WHAT.PRO) :ARG1 (V5 / COMPLEX :INSTANCE (V6 / PAST :ARG0 (V8 / DO.AUX-S)) :ARG0 (V9 / YOU.PRO) :ARG1 (V10 / COMPLEX :INSTANCE (V11 / DO.V :ARG0 (V13 / *H)) :ARG0 (V14 / ADV-A :ARG0 (V16 / WITH.P :ARG0 (V18 / YOUR.D :ARG0 (V20 / CAMERA.N))))))))))

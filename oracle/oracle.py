@@ -41,12 +41,14 @@ class CacheTransitionParser(object):
             json_output = os.path.join(output_dir, "oracle_examples.json")
 
         data_set = loadDataset(data_dir, ulfdep=for_ulf)
-        oracle_set = OracleData()
+        oracle_set = OracleData()   # Empty Oracle Data
 
         max_oracle_length = 0.0
         total_oracle_length = 0.0
 
         data_num = data_set.dataSize()
+        # A void method that generates lists and dictionaries to get tokens in sorted order and
+        # with a dictionary that takes token in and return its index
         data_set.genDictionaries()
         # data_set.genConceptMap()
 
@@ -72,7 +74,10 @@ class CacheTransitionParser(object):
 
         # Run oracle on the training data.
         with open(oracle_output, 'w') as oracle_wf:
+            # for each data, train
             for sent_idx in range(data_num):
+            #for sent_idx in range(1):
+            #for sent_idx in range(1, 2):
 
                 training_instance = data_set.getInstance(sent_idx)
                 tok_seq, lem_seq, pos_seq = training_instance[0], training_instance[1], training_instance[2]
@@ -94,6 +99,17 @@ class CacheTransitionParser(object):
 
                 # TODO: this should be the length of the concept sequence.
                 length = len(tok_seq)
+
+                # print sentence
+                sentence = ""
+                for word in tok_seq:
+                    sentence += word + " "
+                print "Sentence: %s" %sentence
+
+                conceptSentence = ""
+                for con in concept_seq:
+                    conceptSentence += con + " "
+                print "Concept Sentence: %s" %conceptSentence
 
                 c = CacheConfiguration(self.cache_size, length)
                 c.wordSeq, c.lemSeq, c.posSeq = tok_seq, lem_seq, pos_seq
@@ -124,9 +140,15 @@ class CacheTransitionParser(object):
                 # print concept_seq
                 # print amr_graph.cidToSpan
 
+                # Search Process
                 while not cache_transition.isTerminal(c):
+                    print "cache state: %s" %c
+                    # Change Oracle Action thing for a different order and see if that works better
                     oracle_action = cache_transition.getOracleAction(c)
                     # print oracle_action
+
+                    # printing statement
+                    print "Tree prior to apply %s: \n %s" %(oracle_action, c.hypothesis)
 
                     if time.time() - start_time > 4.0:
                         print >> sys.stderr, "Overtime sentence #%d" % sent_idx
@@ -141,6 +163,7 @@ class CacheTransitionParser(object):
                         parts = oracle_action.split(":")
                         arc_decisions = parts[1].split("#")
 
+                        #maximum possible number of connection
                         num_connect = c.cache_size
                         if oracle_type == utils.OracleType.CL:
                             num_connect -= 1
@@ -152,12 +175,14 @@ class CacheTransitionParser(object):
                                     temp_word_idx -= 1
 
                         word_idx, curr_concept_idx = c.getCache(num_connect)
+                    
                         # if curr_concept_idx in amr_graph.cidToSpan:
                         #     temp_word_idx = amr_graph.cidToSpan[curr_concept_idx][1] - 1
                         #if curr_concept_idx == 34:
                         #    print oracle_action
                         #    print (str(c), " ".join(tok_seq), word_idx, curr_concept_idx, concept_idx)
-                        assert curr_concept_idx == concept_idx, (str(c), " ".join(tok_seq), word_idx, curr_concept_idx, concept_idx)
+
+                        #assert curr_concept_idx == concept_idx, (str(c), " ".join(tok_seq), word_idx, curr_concept_idx, concept_idx)
 
                         # for cache_idx in range(num_connect):
                         for cache_idx in range(num_connect-1, -1, -1):
@@ -187,6 +212,8 @@ class CacheTransitionParser(object):
                                 concept_align.append(concept_idx)
 
                             cache_transition.apply(c, curr_arc_action)
+                        print "Tree after applying %s: \n %s" %(oracle_action, c.hypothesis)
+
                         if oracle_type == utils.OracleType.CL:
                             c.start_word = True
                             concept_idx += 1
@@ -196,6 +223,7 @@ class CacheTransitionParser(object):
                         if oracle_action == "conID:-NULL-":
                             assert c.phase == utils.FeatureType.SHIFTPOP
                             cache_transition.apply(c, oracle_action)
+                            print "Tree after applying %s: \n %s" %(oracle_action, c.hypothesis)
                             continue
 
                         if word_idx == -1: # The last few concepts can be unaligned.
@@ -209,6 +237,9 @@ class CacheTransitionParser(object):
                             oracle_seq.append(oracle_action)
                             concept_align.append(concept_idx)
                             if oracle_action == "POP":
+                                # modification so that maybe not get out of bound?
+                                concept_idx -= 1
+                                # block out this part
                                 feat_seq.append(c.extractFeatures(utils.FeatureType.SHIFTPOP,
                                                                   word_idx, concept_idx, uniform_arc=uniform))
                                 num_pop_actions += 1
@@ -235,6 +266,7 @@ class CacheTransitionParser(object):
                             if feat_dim == -1:
                                 feat_dim = len(feat_seq[-1])
                         cache_transition.apply(c, oracle_action)
+                        print "Tree after applying %s: \n %s" %(oracle_action, c.hypothesis)
                         if "PUSH" in oracle_action and oracle_type == utils.OracleType.AAAI:
                             c.start_word = True
 
@@ -284,6 +316,13 @@ class CacheTransitionParser(object):
                     #         curr_action = oracle_seq[idx]
                     #         print>> oracle_wf, "Action:%s  Features:%s" % (curr_action, "_#_".join(feats))
 
+                    print "visualizing hypo graph now..."
+                    print "hypo graph:" 
+                    print c.hypothesis
+                    print "visualizing gold graph now..."
+                    print "gold graph:"
+                    print c.gold
+
                     if c.gold.compare(c.hypothesis):
                         success_num += 1
                     else:
@@ -312,6 +351,9 @@ class CacheTransitionParser(object):
         print "Oracle success ratio is", success_num/ data_num
         print "feature dimensions:", feat_dim
         oracle_set.toJSON(json_output)
+
+        #print the oracle sequence
+        print "Oracle sequence: %s" %oracle_seq
 
     def isPredicate(self, s):
         length = len(s)

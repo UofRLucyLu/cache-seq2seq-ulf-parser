@@ -15,6 +15,7 @@ class CacheTransition(object):
         self.conID_actionIDs = dict()
         self.arc_actionIDs = dict()
 
+        # NE = Name Entity
         self.ne_choices = set()
         self.constInArc_choices = None
         self.constOutArc_choices = None
@@ -30,19 +31,24 @@ class CacheTransition(object):
         self.arclabel_action_set = None
         self.shiftpop_action_set = None
 
+    # return the number of specific actions appending
     def actionNum(self, action_type):
         if action_type == 0:
+            # What is the conID_actions?
             return len(self.conID_actions)
         elif action_type == 1:
             return len(self.arc_actions)
         else:
             return len(self.push_actions)
 
+    # Return all possible arc choices for a certain concept?
     def constructActionSet(self, left_concept, right_concept):
+        # What is const?
         def is_const(s):
             const_set = set(['interrogative', 'imperative', 'expressive', '-'])
             return s in const_set or s == "NUMBER"
         label_candidates = set()
+        # Take in concept on left and right of current word
         if left_concept in self.outgo_arcChoices and right_concept in self.income_arcChoices:
             label_candidates |= set(["R-%s" % l for l in (
                 self.outgo_arcChoices[left_concept] & self.income_arcChoices[right_concept])])
@@ -58,6 +64,7 @@ class CacheTransition(object):
             return self.default_arcChoices
         return label_candidates
 
+    # Return the action sequence
     def transitionActions(self, action_type):
         if action_type == 0:
             return self.conID_actions
@@ -65,6 +72,7 @@ class CacheTransition(object):
             return self.arc_actions
         return self.push_actions
 
+    # Realize what action is called
     def actionStr(self, action_type, action_idx):
         if action_type == 0:
             return self.conID_actions[action_idx]
@@ -75,6 +83,8 @@ class CacheTransition(object):
     def isTerminal(self, c):
         return c.stackSize() == 0 and c.bufferSize() == 0 and c.hypothesis.counter == len(c.conceptSeq)
 
+    # Important method
+    # Define all transition actions
     def makeTransitions(self):
         """
         Construct each type of transition actions.
@@ -82,11 +92,15 @@ class CacheTransition(object):
         :param arc_labels:
         :return:
         """
+        # Add every concept labels with NE to ne_choices
         for l in self.con_labs:
             curr_action = "conID:" + l
+            # conID_actionIDs a dictionary, utilize curr_action string as 
+            # key and len tells this is the n th action
             self.conID_actionIDs[curr_action] = len(self.conID_actions)
             self.conID_actions.append(curr_action)
             if l == "NE" or "NE_" in l:
+                # Add bunch of numbers
                 self.ne_choices.add(self.conID_actionIDs[curr_action])
 
         null_action = "conID:" + NULL
@@ -141,6 +155,7 @@ class CacheTransition(object):
                 return action == "NOARC"
 
             return action in self.arcbinary_action_set
+        #Current version does not use any category yet.
         if use_refined:
             left_concept = c.getCacheConcept(cache_idx, utils.Tokentype.CATEGORY)
             right_concept = c.getCacheConcept(self.cache_size-1, utils.Tokentype.CATEGORY)
@@ -153,13 +168,18 @@ class CacheTransition(object):
         if action == "POP": # POP action
             if not c.pop():
                 assert False, "Pop from empty stack!"
-            c.start_word = True
+            #c.start_word = True
+            # modification
+            c.start_word = False
+            c.last_action = "POP"
             c.phase = utils.FeatureType.SHIFTPOP
+
         elif action == "conID:-NULL-":
             c.popBuffer()
             c.start_word = True
             c.phase = utils.FeatureType.SHIFTPOP
         elif "conGen" in action or "conID" in action:
+        	# Get the concept name/the concept ID
             l = action.split(":")[1]
             new_concept = ConceptLabel(l)
             new_concept_idx = c.hypothesis.nextConceptIDX()
@@ -182,10 +202,10 @@ class CacheTransition(object):
             c.last_action = "conID"
         elif "ARC" in action:
             assert not c.start_word
+
             parts = action.split(":")
             cache_idx = int(parts[0][3:])
             arc_label = parts[1]
-            c.last_action = "ARC"
             _, curr_cache_concept_idx = c.getCache(cache_idx)
             c.phase = utils.FeatureType.ARCBINARY
             if self.oracle_type == utils.OracleType.AAAI:
@@ -197,12 +217,16 @@ class CacheTransition(object):
                 # if cache_idx == self.cache_size - 2:
                 if cache_idx == 0:
                     c.phase = utils.FeatureType.SHIFTPOP
+
             if arc_label == "O":
+                c.last_action = "ARC"
                 return
+            # Apply left or right arc
             elif arc_label[0] == "L":
                 c.connectArc(c.cand_vertex[1], curr_cache_concept_idx, 0, arc_label[2:])
             else:
                 c.connectArc(c.cand_vertex[1], curr_cache_concept_idx, 1, arc_label[2:])
+            c.last_action = "ARC"
             # c.start_word = False
         else: # PUSHx
             assert not c.start_word
@@ -210,7 +234,7 @@ class CacheTransition(object):
             c.pushToStack(cache_idx)
             c.moveToCache(c.cand_vertex)
 
-            # For CL oracle, only move to next concept when the
+            # OracleType?
             if self.oracle_type == utils.OracleType.CL:
                 c.hypothesis.count()
                 c.phase = utils.FeatureType.ARCBINARY
@@ -218,15 +242,20 @@ class CacheTransition(object):
                 c.phase = utils.FeatureType.SHIFTPOP
             if c.pop_buff:
                 c.popBuffer()
+            c.last_action = "PUSH"
 
+    # right_edges?
+    # choose the most distance vertex
     def chooseVertex(self, c, right_edges):
         max_dist = -1
         max_idx = -1
         next_buffer_concept_idx = c.hypothesis.nextConceptIDX()
+
         for cache_idx in range(c.cache_size):
             cache_word_idx, cache_concept_idx = c.getCache(cache_idx)
             curr_dist = 1000
             if cache_concept_idx == -1:
+                # if it is $,$
                 return cache_idx
 
             # If no connection to any future vertices.
@@ -243,31 +272,38 @@ class CacheTransition(object):
             if curr_dist > max_dist:
                 max_idx = cache_idx
                 max_dist = curr_dist
+                
         return max_idx
+        
 
-    def getOracleAction(self, c):
+    # important method subject to change
+    def getOracleAction(self, c):      
         gold_graph = c.gold
         headToTail = gold_graph.headToTail
         widToConceptID = gold_graph.widToConceptID
         # cidToWordSpan = gold_graph.cidToSpan
         right_edges = gold_graph.right_edges
+        hypo_graph = c.hypothesis
+        # start processing new word
         if c.start_word:
             word_idx = c.nextBufferElem()
+            # if somehow a not suppose to be here word appears
             if word_idx != -1 and word_idx not in widToConceptID:
                 c.last_action = "emp"
                 return "conID:-NULL-"
             if c.needsPop():
+                #c.last_action = "POP"
                 return "POP"
             # assert word_idx != -1
 
-            hypo_graph = c.hypothesis
             next_concept_idx = hypo_graph.nextConceptIDX()
             concept_size = len(gold_graph.concepts) # The total number of concepts.
-            c.last_action = "conID"
+            #c.last_action = "conID"
             if next_concept_idx < concept_size and (not gold_graph.isAligned(next_concept_idx)):
                 unaligned_label = gold_graph.conceptLabel(next_concept_idx)
                 return "conGen:" + unaligned_label
             assert word_idx in widToConceptID
+
             concept_idx = widToConceptID[word_idx]
             action = "conID:" + gold_graph.conceptLabel(concept_idx)
             if action not in self.conID_actionIDs:
@@ -275,9 +311,9 @@ class CacheTransition(object):
             return action
 
         if (self.oracle_type == utils.OracleType.AAAI and c.last_action == "conID") or (
-                    self.oracle_type == utils.OracleType.CL and c.last_action == "PUSH"):
-            arcs = []
-            c.last_action = "ARC"
+                    self.oracle_type == utils.OracleType.CL and c.last_action == "PUSH") or (
+                        self.oracle_type == utils.OracleType.CL and c.last_action == "POP"):
+
             num_connect = c.cache_size
 
             # If CL oracle, then connect from the rightmost.
@@ -286,34 +322,53 @@ class CacheTransition(object):
                 _, cand_concept_idx = c.getCache(num_connect)
             else:  # Otherwise AAAI oracle, from the generated concept.
                 cand_concept_idx = c.cand_vertex[1]
+            
+            arcs = []
+            #c.last_action = "ARC"
 
+            # for each element in the cache decides what is going on
             for cache_idx in range(num_connect):
                 cache_word_idx, cache_concept_idx = c.getCache(cache_idx)
+
                 if cache_concept_idx == -1:
                     arcs.append("O")
                     continue
 
-                # Compute the directed arc label.
                 if cache_concept_idx in headToTail[cand_concept_idx]:
-                    cand_concept = gold_graph.getConcept(cand_concept_idx)
-                    arc_label = "L-" + cand_concept.getRelStr(cache_concept_idx)
-                    if arc_label not in self.arc_actionIDs:
-                        # print >> sys.stderr, "Unseen:"+ arc_label
-                        arc_label = "L-" + UNKNOWN
-                    arcs.append(arc_label)
+                    if len(hypo_graph.headToTail[cache_concept_idx]) < len(headToTail[cache_concept_idx]):
+                        arcs.append("O")
+                    elif cache_concept_idx in hypo_graph.concepts[cand_concept_idx].tail_ids:
+                        arcs.append("O")
+                    else:
+                        cand_concept = gold_graph.getConcept(cand_concept_idx)
+                        arc_label = "L-" + cand_concept.getRelStr(cache_concept_idx)
+                        if arc_label not in self.arc_actionIDs:
+                            # print >> sys.stderr, "Unseen:"+ arc_label
+                            arc_label = "L-" + UNKNOWN
+                        arcs.append(arc_label)
+                        hypo_graph.headToTail[cand_concept_idx].add(cache_concept_idx)
+                    
                 elif cand_concept_idx in headToTail[cache_concept_idx]:
-                    cache_concept = gold_graph.getConcept(cache_concept_idx)
-                    arc_label = "R-" + cache_concept.getRelStr(cand_concept_idx)
-                    if arc_label not in self.arc_actionIDs:
-                        # print >> sys.stderr, "Unseen:" + arc_label
-                        arc_label = "R-" + UNKNOWN
-                    arcs.append(arc_label)
+                    if len(hypo_graph.headToTail[cand_concept_idx]) < len(headToTail[cand_concept_idx]):
+                        arcs.append("O")
+                    elif cand_concept_idx in hypo_graph.concepts[cache_concept_idx].tail_ids:
+                        arcs.append("O")
+                    else:
+                        cache_concept = gold_graph.getConcept(cache_concept_idx)
+                        arc_label = "R-" + cache_concept.getRelStr(cand_concept_idx)
+                        if arc_label not in self.arc_actionIDs:
+                            # print >> sys.stderr, "Unseen:" + arc_label
+                            arc_label = "R-" + UNKNOWN
+                        arcs.append(arc_label)
+                        hypo_graph.headToTail[cache_concept_idx].add(cand_concept_idx)
+
                 else:
                     arcs.append("O")
+            
             return "ARC:" + "#".join(arcs)
         if (self.oracle_type == utils.OracleType.AAAI and "ARC" in c.last_action) or (
                 self.oracle_type == utils.OracleType.CL and c.last_action == "conID"):
-            c.last_action = "PUSH"
+            #c.last_action = "PUSH"
             cache_idx = self.chooseVertex(c, right_edges)
             return "PUSH:%d" % cache_idx
         print>> sys.stderr, "Unable to proceed from last action:" + c.last_action

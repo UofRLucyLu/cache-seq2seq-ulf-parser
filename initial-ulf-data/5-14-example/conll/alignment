@@ -1,0 +1,1138 @@
+Sentence #0
+0-1 ||| Care ||| TOKEN ||| CARE.V ||| OTHER ||| NONE ||| CARE.V
+1-2 ||| for ||| TOKEN ||| FOR.P-ARG ||| OTHER ||| NONE ||| FOR.P-ARG
+2-3 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+3-4 ||| smoke ||| TOKEN ||| SMOKE.N ||| OTHER ||| NONE ||| SMOKE.N
+4-5 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #1
+0-1 ||| What ||| TOKEN ||| WHAT.PRO ||| OTHER ||| NONE ||| WHAT.PRO
+1-2 ||| did ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+2-3 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+3-4 ||| do ||| TOKEN ||| DO.V ||| OTHER ||| NONE ||| DO.V
+4-5 ||| with ||| TOKEN ||| WITH.P ||| OTHER ||| NONE ||| WITH.P
+5-6 ||| your ||| TOKEN ||| YOUR.D ||| OTHER ||| NONE ||| YOUR.D
+6-7 ||| camera ||| TOKEN ||| CAMERA.N ||| OTHER ||| NONE ||| CAMERA.N
+7-8 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #2
+0-1 ||| If ||| TOKEN ||| IF.PS ||| OTHER ||| NONE ||| IF.PS
+1-2 ||| I ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+2-3 ||| 'd ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+3-4 ||| known ||| TOKEN ||| KNOW.V ||| OTHER ||| NONE ||| KNOW.V
+4-5 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+5-6 ||| truth ||| TOKEN ||| TRUTH.N ||| OTHER ||| NONE ||| TRUTH.N
+6-7 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+7-8 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+8-9 ||| would ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+9-10 ||| 've ||| TOKEN ||| TELL.V ||| OTHER ||| NONE ||| TELL.V
+10-11 ||| told ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+11-12 ||| it ||| TOKEN ||| IT.PRO ||| OTHER ||| NONE ||| IT.PRO
+12-13 ||| to ||| TOKEN ||| TO.P ||| OTHER ||| NONE ||| TO.P
+13-14 ||| you ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+14-15 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #3
+0-1 ||| Margaret ||| TOKEN ||| "|Margaret|" ||| OTHER ||| NONE ||| "|Margaret|"
+1-2 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+2-3 ||| what ||| TOKEN ||| WHAT.D ||| OTHER ||| NONE ||| WHAT.D
+3-4 ||| comment ||| TOKEN ||| COMMENT.N ||| OTHER ||| NONE ||| COMMENT.N
+4-5 ||| can ||| TOKEN ||| CAN.AUX-S ||| OTHER ||| NONE ||| CAN.AUX-S
+5-6 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+6-7 ||| make ||| TOKEN ||| MAKE.V ||| OTHER ||| NONE ||| MAKE.V
+7-8 ||| on ||| TOKEN ||| ON.P ||| OTHER ||| NONE ||| ON.P
+8-9 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+9-10 ||| untimely ||| TOKEN ||| UNTIMELY.A ||| OTHER ||| NONE ||| UNTIMELY.A
+10-11 ||| extinction ||| TOKEN ||| EXTINCTION.N ||| OTHER ||| NONE ||| EXTINCTION.N
+11-12 ||| of ||| TOKEN ||| OF.P ||| OTHER ||| NONE ||| OF.P
+12-13 ||| this ||| TOKEN ||| THIS.D ||| OTHER ||| NONE ||| THIS.D
+13-14 ||| glorious ||| TOKEN ||| GLORIOUS.A ||| OTHER ||| NONE ||| GLORIOUS.A
+14-15 ||| spirit ||| TOKEN ||| SPIRIT.N ||| OTHER ||| NONE ||| SPIRIT.N
+15-16 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #4
+0-1 ||| You ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+1-2 ||| must ||| TOKEN ||| MUST.AUX-V ||| OTHER ||| NONE ||| MUST.AUX-V
+2-3 ||| work ||| TOKEN ||| WORK.V ||| OTHER ||| NONE ||| WORK.V
+3-4 ||| more ||| TOKEN ||| MORE.ADV-A ||| OTHER ||| NONE ||| MORE.ADV-A
+4-5 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #5
+0-1 ||| Name ||| TOKEN ||| NAME.V ||| OTHER ||| NONE ||| NAME.V
+1-2 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+2-3 ||| flying ||| TOKEN ||| FLYING.A ||| OTHER ||| NONE ||| FLYING.A
+3-4 ||| mammal ||| TOKEN ||| MAMMAL.N ||| OTHER ||| NONE ||| MAMMAL.N
+4-5 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #6
+0-1 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+1-2 ||| 'm ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+2-3 ||| going ||| TOKEN ||| GO.V ||| OTHER ||| NONE ||| GO.V
+3-4 ||| to ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+4-5 ||| sit ||| TOKEN ||| SIT.V ||| OTHER ||| NONE ||| SIT.V
+5-6 ||| on ||| TOKEN ||| ON.P ||| OTHER ||| NONE ||| ON.P
+6-7 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+7-8 ||| bench ||| TOKEN ||| BENCH.N ||| OTHER ||| NONE ||| BENCH.N
+8-9 ||| over ||| TOKEN ||| OVER.P ||| OTHER ||| NONE ||| OVER.P
+9-10 ||| there ||| TOKEN ||| THERE.PRO ||| OTHER ||| NONE ||| THERE.PRO
+10-11 ||| next ||| TOKEN ||| NEXT_TO.P ||| OTHER ||| NONE ||| NEXT_TO.P
+11-12 ||| to ||| TOKEN ||| TO ||| OTHER ||| NONE ||| TO
+12-13 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+13-14 ||| street ||| TOKEN ||| STREET.N ||| OTHER ||| NONE ||| STREET.N
+14-15 ||| lamp ||| TOKEN ||| LAMP.N ||| OTHER ||| NONE ||| LAMP.N
+15-16 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #7
+0-1 ||| You ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+1-2 ||| can ||| TOKEN ||| CAN.AUX-S ||| OTHER ||| NONE ||| CAN.AUX-S
+2-3 ||| rely ||| TOKEN ||| RELY.V ||| OTHER ||| NONE ||| RELY.V
+3-4 ||| on ||| TOKEN ||| ON.P-ARG ||| OTHER ||| NONE ||| ON.P-ARG
+4-5 ||| him ||| TOKEN ||| HIM.PRO ||| OTHER ||| NONE ||| HIM.PRO
+5-6 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #8
+0-1 ||| What ||| TOKEN ||| WHAT.PRO ||| OTHER ||| NONE ||| WHAT.PRO
+1-2 ||| 's ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+2-3 ||| behind ||| TOKEN ||| BEHIND.P ||| OTHER ||| NONE ||| BEHIND.P
+3-4 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+4-5 ||| door ||| TOKEN ||| DOOR.N ||| OTHER ||| NONE ||| DOOR.N
+5-6 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #9
+0-1 ||| Why ||| TOKEN ||| WHY.ADV-S ||| OTHER ||| NONE ||| WHY.ADV-S
+1-2 ||| do ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+2-3 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+3-4 ||| want ||| TOKEN ||| WANT.V ||| OTHER ||| NONE ||| WANT.V
+4-5 ||| to ||| TOKEN ||| TO ||| OTHER ||| NONE ||| TO
+5-6 ||| leave ||| TOKEN ||| LEAVE.V ||| OTHER ||| NONE ||| LEAVE.V
+6-7 ||| today ||| TOKEN ||| TODAY.ADV-E ||| OTHER ||| NONE ||| TODAY.ADV-E
+7-8 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #10
+0-1 ||| How ||| TOKEN ||| HOW.PQ ||| OTHER ||| NONE ||| HOW.PQ
+1-2 ||| can ||| TOKEN ||| CAN.AUX-V ||| OTHER ||| NONE ||| CAN.AUX-V
+2-3 ||| anyone ||| TOKEN ||| ANYONE.PRO ||| OTHER ||| NONE ||| ANYONE.PRO
+3-4 ||| tell ||| TOKEN ||| TELL.V ||| OTHER ||| NONE ||| TELL.V
+4-5 ||| if ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+5-6 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+6-7 ||| female ||| TOKEN ||| FEMALE.N ||| OTHER ||| NONE ||| FEMALE.N
+7-8 ||| had ||| TOKEN ||| HAVE.V ||| OTHER ||| NONE ||| HAVE.V
+8-9 ||| sexual ||| TOKEN ||| SEXUAL.A ||| OTHER ||| NONE ||| SEXUAL.A
+9-10 ||| intercourse ||| TOKEN ||| INTERCOURSE.N ||| OTHER ||| NONE ||| INTERCOURSE.N
+10-11 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #11
+0-1 ||| `` ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+1-2 ||| Could ||| TOKEN ||| COULD.AUX-S ||| OTHER ||| NONE ||| COULD.AUX-S
+2-3 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+3-4 ||| do ||| TOKEN ||| DO.V ||| OTHER ||| NONE ||| DO.V
+4-5 ||| this ||| TOKEN ||| THIS.PRO ||| OTHER ||| NONE ||| THIS.PRO
+5-6 ||| instead ||| TOKEN ||| INSTEAD.ADV-E ||| OTHER ||| NONE ||| INSTEAD.ADV-E
+6-7 ||| of ||| TOKEN ||| OF ||| OTHER ||| NONE ||| OF
+7-8 ||| me ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+8-9 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+9-10 ||| '' ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+10-11 ||| `` ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+11-12 ||| Sorry ||| TOKEN ||| SORRY.A ||| OTHER ||| NONE ||| SORRY.A
+12-13 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+13-14 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+14-15 ||| 'm ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+15-16 ||| too ||| TOKEN ||| TOO.ADV-E ||| OTHER ||| NONE ||| TOO.ADV-E
+16-17 ||| busy ||| TOKEN ||| BUSY.A ||| OTHER ||| NONE ||| BUSY.A
+17-18 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+18-19 ||| '' ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #12
+0-1 ||| U.S. ||| TOKEN ||| "|U.S.|" ||| OTHER ||| NONE ||| "|U.S.|"
+1-2 ||| District ||| TOKEN ||| DISTRICT.N ||| OTHER ||| NONE ||| DISTRICT.N
+2-3 ||| Judge ||| TOKEN ||| JUDGE.N ||| OTHER ||| NONE ||| JUDGE.N
+3-4 ||| Gerhard ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+4-5 ||| Gesell ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+5-6 ||| is ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+6-7 ||| expected ||| TOKEN ||| EXPECT.V ||| OTHER ||| NONE ||| EXPECT.V
+7-8 ||| to ||| TOKEN ||| TO ||| OTHER ||| NONE ||| TO
+8-9 ||| act ||| TOKEN ||| ACT.V ||| OTHER ||| NONE ||| ACT.V
+9-10 ||| on ||| TOKEN ||| ON.P-ARG ||| OTHER ||| NONE ||| ON.P-ARG
+10-11 ||| Walsh ||| TOKEN ||| "|Walsh|" ||| OTHER ||| NONE ||| "|Walsh|"
+11-12 ||| 's ||| TOKEN ||| S ||| OTHER ||| NONE ||| S
+12-13 ||| request ||| TOKEN ||| REQUEST.N ||| OTHER ||| NONE ||| REQUEST.N
+13-14 ||| this ||| TOKEN ||| THIS.D ||| OTHER ||| NONE ||| THIS.D
+14-15 ||| week ||| TOKEN ||| WEEK.N ||| OTHER ||| NONE ||| WEEK.N
+15-16 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #13
+0-1 ||| Can ||| TOKEN ||| CAN.AUX-S ||| OTHER ||| NONE ||| CAN.AUX-S
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| prevent ||| TOKEN ||| PREVENT.V ||| OTHER ||| NONE ||| PREVENT.V
+3-4 ||| it ||| TOKEN ||| IT.PRO ||| OTHER ||| NONE ||| IT.PRO
+4-5 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #14
+0-1 ||| Where ||| TOKEN ||| WHERE.PRO ||| OTHER ||| NONE ||| WHERE.PRO
+1-2 ||| can ||| TOKEN ||| CAN.AUX-V ||| OTHER ||| NONE ||| CAN.AUX-V
+2-3 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+3-4 ||| find ||| TOKEN ||| FIND.V ||| OTHER ||| NONE ||| FIND.V
+4-5 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+5-6 ||| case ||| TOKEN ||| CASE.N ||| OTHER ||| NONE ||| CASE.N
+6-7 ||| on ||| TOKEN ||| ON.P ||| OTHER ||| NONE ||| ON.P
+7-8 ||| Individuals ||| TOKEN ||| "|Individuals.N|" ||| OTHER ||| NONE ||| "|Individuals.N|"
+8-9 ||| with ||| TOKEN ||| WITH.P ||| OTHER ||| NONE ||| WITH.P
+9-10 ||| Disabilities ||| TOKEN ||| "|Disabilities.N|" ||| OTHER ||| NONE ||| "|Disabilities.N|"
+10-11 ||| Education ||| TOKEN ||| "|Education.N|" ||| OTHER ||| NONE ||| "|Education.N|"
+11-12 ||| Act ||| TOKEN ||| "|Act.N|" ||| OTHER ||| NONE ||| "|Act.N|"
+12-13 ||| of ||| TOKEN ||| OF.P ||| OTHER ||| NONE ||| OF.P
+13-14 ||| 1991 ||| TOKEN ||| "|1991|" ||| OTHER ||| NONE ||| "|1991|"
+14-15 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #15
+0-1 ||| You ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+1-2 ||| can ||| TOKEN ||| CAN.AUX-V ||| OTHER ||| NONE ||| CAN.AUX-V
+2-3 ||| understand ||| TOKEN ||| UNDERSTAND.V ||| OTHER ||| NONE ||| UNDERSTAND.V
+3-4 ||| French ||| TOKEN ||| "|French|" ||| OTHER ||| NONE ||| "|French|"
+4-5 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+5-6 ||| right ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+6-7 ||| ? ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #16
+0-1 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+1-2 ||| want ||| TOKEN ||| WANT.V ||| OTHER ||| NONE ||| WANT.V
+2-3 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+3-4 ||| to ||| TOKEN ||| TO ||| OTHER ||| NONE ||| TO
+4-5 ||| tell ||| TOKEN ||| TELL.V ||| OTHER ||| NONE ||| TELL.V
+5-6 ||| me ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+6-7 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+7-8 ||| truth ||| TOKEN ||| TRUTH.N ||| OTHER ||| NONE ||| TRUTH.N
+8-9 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #17
+0-1 ||| Do ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| believe ||| TOKEN ||| BELIEVE_IN.V ||| OTHER ||| NONE ||| BELIEVE_IN.V
+3-4 ||| in ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+4-5 ||| guiding ||| TOKEN ||| GUIDING.A ||| OTHER ||| NONE ||| GUIDING.A
+5-6 ||| stars ||| TOKEN ||| STAR.N ||| OTHER ||| NONE ||| STAR.N
+6-7 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #18
+0-1 ||| Who ||| TOKEN ||| WHO.PRO ||| OTHER ||| NONE ||| WHO.PRO
+1-2 ||| is ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+2-3 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+3-4 ||| actress ||| TOKEN ||| ACTRESS.N ||| OTHER ||| NONE ||| ACTRESS.N
+4-5 ||| Bette ||| TOKEN ||| "|BetteDavis|" ||| OTHER ||| NONE ||| "|BetteDavis|"
+5-6 ||| Davis ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+6-7 ||| once ||| TOKEN ||| ONCE.ADV-E ||| OTHER ||| NONE ||| ONCE.ADV-E
+7-8 ||| said ||| TOKEN ||| SAY.V ||| OTHER ||| NONE ||| SAY.V
+8-9 ||| she ||| TOKEN ||| SHE.PRO ||| OTHER ||| NONE ||| SHE.PRO
+9-10 ||| wished ||| TOKEN ||| WISH.V ||| OTHER ||| NONE ||| WISH.V
+10-11 ||| she ||| TOKEN ||| SHE.PRO ||| OTHER ||| NONE ||| SHE.PRO
+11-12 ||| looked ||| TOKEN ||| LOOK.V ||| OTHER ||| NONE ||| LOOK.V
+12-13 ||| like ||| TOKEN ||| LIKE.A ||| OTHER ||| NONE ||| LIKE.A
+13-14 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #19
+0-1 ||| The ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+1-2 ||| dog ||| TOKEN ||| DOG.N ||| OTHER ||| NONE ||| DOG.N
+2-3 ||| traced ||| TOKEN ||| TRACE.V ||| OTHER ||| NONE ||| TRACE.V
+3-4 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+4-5 ||| rabbit ||| TOKEN ||| RABBIT.N ||| OTHER ||| NONE ||| RABBIT.N
+5-6 ||| into ||| TOKEN ||| INTO.P ||| OTHER ||| NONE ||| INTO.P
+6-7 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+7-8 ||| forest ||| TOKEN ||| FOREST.N ||| OTHER ||| NONE ||| FOREST.N
+8-9 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #20
+0-1 ||| Do ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| think ||| TOKEN ||| THINK.V ||| OTHER ||| NONE ||| THINK.V
+3-4 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+4-5 ||| did ||| TOKEN ||| DO.V ||| OTHER ||| NONE ||| DO.V
+5-6 ||| it ||| TOKEN ||| IT.PRO ||| OTHER ||| NONE ||| IT.PRO
+6-7 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #21
+0-1 ||| We ||| TOKEN ||| WE.PRO ||| OTHER ||| NONE ||| WE.PRO
+1-2 ||| are ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+2-3 ||| what ||| TOKEN ||| WHAT.PRO ||| OTHER ||| NONE ||| WHAT.PRO
+3-4 ||| we ||| TOKEN ||| WE.PRO ||| OTHER ||| NONE ||| WE.PRO
+4-5 ||| pretend ||| TOKEN ||| PRETEND.V ||| OTHER ||| NONE ||| PRETEND.V
+5-6 ||| to ||| TOKEN ||| TO ||| OTHER ||| NONE ||| TO
+6-7 ||| be ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+7-8 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+8-9 ||| so ||| TOKEN ||| SO.PS ||| OTHER ||| NONE ||| SO.PS
+9-10 ||| we ||| TOKEN ||| WE.PRO ||| OTHER ||| NONE ||| WE.PRO
+10-11 ||| must ||| TOKEN ||| MUST.AUX-V ||| OTHER ||| NONE ||| MUST.AUX-V
+11-12 ||| be ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+12-13 ||| careful ||| TOKEN ||| CAREFUL.A ||| OTHER ||| NONE ||| CAREFUL.A
+13-14 ||| what ||| TOKEN ||| WHAT.PRO ||| OTHER ||| NONE ||| WHAT.PRO
+14-15 ||| we ||| TOKEN ||| WE.PRO ||| OTHER ||| NONE ||| WE.PRO
+15-16 ||| pretend ||| TOKEN ||| PRES ||| OTHER ||| NONE ||| PRES
+16-17 ||| to ||| TOKEN ||| TO ||| OTHER ||| NONE ||| TO
+17-18 ||| be ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+18-19 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #22
+0-1 ||| What ||| TOKEN ||| WHAT.PRO ||| OTHER ||| NONE ||| WHAT.PRO
+1-2 ||| 's ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+2-3 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+3-4 ||| name ||| TOKEN ||| NAME.N ||| OTHER ||| NONE ||| NAME.N
+4-5 ||| of ||| TOKEN ||| OF.P ||| OTHER ||| NONE ||| OF.P
+5-6 ||| my ||| TOKEN ||| MY.D ||| OTHER ||| NONE ||| MY.D
+6-7 ||| doctor ||| TOKEN ||| DOCTOR.N ||| OTHER ||| NONE ||| DOCTOR.N
+7-8 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #23
+0-1 ||| `` ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+1-2 ||| Maybe ||| TOKEN ||| MAYBE.ADV-S ||| OTHER ||| NONE ||| MAYBE.ADV-S
+2-3 ||| this ||| TOKEN ||| THIS.D ||| OTHER ||| NONE ||| THIS.D
+3-4 ||| time ||| TOKEN ||| TIME.N ||| OTHER ||| NONE ||| TIME.N
+4-5 ||| he ||| TOKEN ||| HE.PRO ||| OTHER ||| NONE ||| HE.PRO
+5-6 ||| will ||| TOKEN ||| WILL.AUX-S ||| OTHER ||| NONE ||| WILL.AUX-S
+6-7 ||| finally ||| TOKEN ||| FINALLY.ADV-S ||| OTHER ||| NONE ||| FINALLY.ADV-S
+7-8 ||| get ||| TOKEN ||| GET.V ||| OTHER ||| NONE ||| GET.V
+8-9 ||| it ||| TOKEN ||| IT.PRO ||| OTHER ||| NONE ||| IT.PRO
+9-10 ||| straight ||| TOKEN ||| STRAIGHT.A ||| OTHER ||| NONE ||| STRAIGHT.A
+10-11 ||| : ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+11-12 ||| Whenever ||| TOKEN ||| WHENEVER.PS ||| OTHER ||| NONE ||| WHENEVER.PS
+12-13 ||| he ||| TOKEN ||| HE.PRO ||| OTHER ||| NONE ||| HE.PRO
+13-14 ||| threatens ||| TOKEN ||| THREATEN.V ||| OTHER ||| NONE ||| THREATEN.V
+14-15 ||| American ||| TOKEN ||| "|American.A|" ||| OTHER ||| NONE ||| "|American.A|"
+15-16 ||| forces ||| TOKEN ||| FORCE.N ||| OTHER ||| NONE ||| FORCE.N
+16-17 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+17-18 ||| we ||| TOKEN ||| WE.PRO ||| OTHER ||| NONE ||| WE.PRO
+18-19 ||| will ||| TOKEN ||| WILL.AUX-V ||| OTHER ||| NONE ||| WILL.AUX-V
+19-20 ||| defend ||| TOKEN ||| DEFEND.V ||| OTHER ||| NONE ||| DEFEND.V
+20-21 ||| ourselves ||| TOKEN ||| OURSELVES.PRO ||| OTHER ||| NONE ||| OURSELVES.PRO
+21-22 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+22-23 ||| '' ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #24
+0-1 ||| How ||| TOKEN ||| HOW.ADV-A ||| OTHER ||| NONE ||| HOW.ADV-A
+1-2 ||| did ||| TOKEN ||| DO.AUX-V ||| OTHER ||| NONE ||| DO.AUX-V
+2-3 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+3-4 ||| like ||| TOKEN ||| LIKE.V ||| OTHER ||| NONE ||| LIKE.V
+4-5 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+5-6 ||| food ||| TOKEN ||| FOOD.N ||| OTHER ||| NONE ||| FOOD.N
+6-7 ||| at ||| TOKEN ||| AT.P ||| OTHER ||| NONE ||| AT.P
+7-8 ||| that ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+8-9 ||| restaurant ||| TOKEN ||| RESTAURANT.N ||| OTHER ||| NONE ||| RESTAURANT.N
+9-10 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #25
+0-1 ||| Since ||| TOKEN ||| SINCE.PS ||| OTHER ||| NONE ||| SINCE.PS
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| look ||| TOKEN ||| LOOK.V ||| OTHER ||| NONE ||| LOOK.V
+3-4 ||| tired ||| TOKEN ||| TIRED.A ||| OTHER ||| NONE ||| TIRED.A
+4-5 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+5-6 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+6-7 ||| had ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+7-8 ||| better ||| TOKEN ||| HAD_BETTER.AUX-S ||| OTHER ||| NONE ||| HAD_BETTER.AUX-S
+8-9 ||| take ||| TOKEN ||| TAKE.V ||| OTHER ||| NONE ||| TAKE.V
+9-10 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+10-11 ||| rest ||| TOKEN ||| REST.N ||| OTHER ||| NONE ||| REST.N
+11-12 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #26
+0-1 ||| When ||| TOKEN ||| WHEN.PRO ||| OTHER ||| NONE ||| WHEN.PRO
+1-2 ||| does ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+2-3 ||| Tony ||| TOKEN ||| "|Tony|" ||| OTHER ||| NONE ||| "|Tony|"
+3-4 ||| study ||| TOKEN ||| STUDY.V ||| OTHER ||| NONE ||| STUDY.V
+4-5 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #27
+0-1 ||| Ah ||| TOKEN ||| AH.X ||| OTHER ||| NONE ||| AH.X
+1-2 ||| ! ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+2-3 ||| If ||| TOKEN ||| IF.PS ||| OTHER ||| NONE ||| IF.PS
+3-4 ||| I ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+4-5 ||| were ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+5-6 ||| rich ||| TOKEN ||| RICH.A ||| OTHER ||| NONE ||| RICH.A
+6-7 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+7-8 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+8-9 ||| 'd ||| TOKEN ||| WOULD.AUX-S ||| OTHER ||| NONE ||| WOULD.AUX-S
+9-10 ||| buy ||| TOKEN ||| BUY.V ||| OTHER ||| NONE ||| BUY.V
+10-11 ||| myself ||| TOKEN ||| MYSELF.PRO ||| OTHER ||| NONE ||| MYSELF.PRO
+11-12 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+12-13 ||| house ||| TOKEN ||| HOUSE.N ||| OTHER ||| NONE ||| HOUSE.N
+13-14 ||| in ||| TOKEN ||| IN.P ||| OTHER ||| NONE ||| IN.P
+14-15 ||| Spain ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+15-16 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #28
+0-1 ||| Do ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| have ||| TOKEN ||| HAVE.V ||| OTHER ||| NONE ||| HAVE.V
+3-4 ||| a ||| TOKEN ||| A-GEN.D ||| OTHER ||| NONE ||| A-GEN.D
+4-5 ||| solution ||| TOKEN ||| SOLUTION.N ||| OTHER ||| NONE ||| SOLUTION.N
+5-6 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #29
+0-1 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+1-2 ||| reflected ||| TOKEN ||| REFLECT.V ||| OTHER ||| NONE ||| REFLECT.V
+2-3 ||| for ||| TOKEN ||| FOR.P ||| OTHER ||| NONE ||| FOR.P
+3-4 ||| some ||| TOKEN ||| SOME.D ||| OTHER ||| NONE ||| SOME.D
+4-5 ||| time ||| TOKEN ||| TIME.N ||| OTHER ||| NONE ||| TIME.N
+5-6 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+6-7 ||| and ||| TOKEN ||| AND ||| OTHER ||| NONE ||| AND
+7-8 ||| then ||| TOKEN ||| THEN.ADV-E ||| OTHER ||| NONE ||| THEN.ADV-E
+8-9 ||| answered ||| TOKEN ||| ANSWER.V ||| OTHER ||| NONE ||| ANSWER.V
+9-10 ||| as ||| TOKEN ||| PAST ||| OTHER ||| NONE ||| PAST
+10-11 ||| if ||| TOKEN ||| AS_IF.PS ||| OTHER ||| NONE ||| AS_IF.PS
+11-12 ||| I ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+12-13 ||| had ||| TOKEN ||| DISCOVER.V ||| OTHER ||| NONE ||| DISCOVER.V
+13-14 ||| discovered ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+14-15 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+15-16 ||| new ||| TOKEN ||| NEW.A ||| OTHER ||| NONE ||| NEW.A
+16-17 ||| idea ||| TOKEN ||| IDEA.N ||| OTHER ||| NONE ||| IDEA.N
+17-18 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+18-19 ||| '' ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+19-20 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+20-21 ||| mean ||| TOKEN ||| MEAN.V ||| OTHER ||| NONE ||| MEAN.V
+21-22 ||| pretty ||| TOKEN ||| PRETTY.ADV-A ||| OTHER ||| NONE ||| PRETTY.ADV-A
+22-23 ||| well ||| TOKEN ||| WELL.A ||| OTHER ||| NONE ||| WELL.A
+23-24 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+24-25 ||| '' ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #30
+0-1 ||| `` ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+1-2 ||| We ||| TOKEN ||| WE.PRO ||| OTHER ||| NONE ||| WE.PRO
+2-3 ||| try ||| TOKEN ||| TRY.V ||| OTHER ||| NONE ||| TRY.V
+3-4 ||| very ||| TOKEN ||| VERY.ADV-A ||| OTHER ||| NONE ||| VERY.ADV-A
+4-5 ||| hard ||| TOKEN ||| HARD.ADV-A ||| OTHER ||| NONE ||| HARD.ADV-A
+5-6 ||| to ||| TOKEN ||| TO ||| OTHER ||| NONE ||| TO
+6-7 ||| keep ||| TOKEN ||| KEEP.V ||| OTHER ||| NONE ||| KEEP.V
+7-8 ||| some ||| TOKEN ||| SOME.N ||| OTHER ||| NONE ||| SOME.N
+8-9 ||| of ||| TOKEN ||| OF.P ||| OTHER ||| NONE ||| OF.P
+9-10 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+10-11 ||| hotels ||| TOKEN ||| HOTEL.N ||| OTHER ||| NONE ||| HOTEL.N
+11-12 ||| in ||| TOKEN ||| IN.P ||| OTHER ||| NONE ||| IN.P
+12-13 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+13-14 ||| decent ||| TOKEN ||| DECENT.A ||| OTHER ||| NONE ||| DECENT.A
+14-15 ||| state ||| TOKEN ||| STATE.N ||| OTHER ||| NONE ||| STATE.N
+15-16 ||| so ||| TOKEN ||| SO.CC ||| OTHER ||| NONE ||| SO.CC
+16-17 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+17-18 ||| foreign ||| TOKEN ||| FOREIGN.A ||| OTHER ||| NONE ||| FOREIGN.A
+18-19 ||| investors ||| TOKEN ||| INVESTOR.N ||| OTHER ||| NONE ||| INVESTOR.N
+19-20 ||| can ||| TOKEN ||| CAN.AUX-V ||| OTHER ||| NONE ||| CAN.AUX-V
+20-21 ||| come ||| TOKEN ||| COMPLEX ||| OTHER ||| NONE ||| COMPLEX
+21-22 ||| in ||| TOKEN ||| IN.ADV-E ||| OTHER ||| NONE ||| IN.ADV-E
+22-23 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #31
+0-1 ||| Can ||| TOKEN ||| CAN.AUX-V ||| OTHER ||| NONE ||| CAN.AUX-V
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| miss ||| TOKEN ||| MISS.V ||| OTHER ||| NONE ||| MISS.V
+3-4 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+4-5 ||| present ||| TOKEN ||| PRESENT.A ||| OTHER ||| NONE ||| PRESENT.A
+5-6 ||| moment ||| TOKEN ||| MOMENT.N ||| OTHER ||| NONE ||| MOMENT.N
+6-7 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #32
+0-1 ||| You ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+1-2 ||| can ||| TOKEN ||| CAN.AUX-V ||| OTHER ||| NONE ||| CAN.AUX-V
+2-3 ||| not ||| TOKEN ||| NOT ||| OTHER ||| NONE ||| NOT
+3-4 ||| expect ||| TOKEN ||| EXPECT.V ||| OTHER ||| NONE ||| EXPECT.V
+4-5 ||| much ||| TOKEN ||| MUCH.N ||| OTHER ||| NONE ||| MUCH.N
+5-6 ||| of ||| TOKEN ||| OF.P-ARG ||| OTHER ||| NONE ||| OF.P-ARG
+6-7 ||| him ||| TOKEN ||| HIM.PRO ||| OTHER ||| NONE ||| HIM.PRO
+7-8 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #33
+0-1 ||| The ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+1-2 ||| CFM56s ||| TOKEN ||| "|CFM56.N|" ||| OTHER ||| NONE ||| "|CFM56.N|"
+2-3 ||| used ||| TOKEN ||| USE.V ||| OTHER ||| NONE ||| USE.V
+3-4 ||| on ||| TOKEN ||| ON.P-ARG ||| OTHER ||| NONE ||| ON.P-ARG
+4-5 ||| 737s ||| TOKEN ||| "|737.N|" ||| OTHER ||| NONE ||| "|737.N|"
+5-6 ||| have ||| TOKEN ||| ADV-E ||| OTHER ||| NONE ||| ADV-E
+6-7 ||| been ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+7-8 ||| in ||| TOKEN ||| IN.P ||| OTHER ||| NONE ||| IN.P
+8-9 ||| service ||| TOKEN ||| SERVICE.N ||| OTHER ||| NONE ||| SERVICE.N
+9-10 ||| for ||| TOKEN ||| FOR.P ||| OTHER ||| NONE ||| FOR.P
+10-11 ||| about ||| TOKEN ||| ABOUT.ADV-A ||| OTHER ||| NONE ||| ABOUT.ADV-A
+11-12 ||| five ||| TOKEN ||| FIVE.A ||| OTHER ||| NONE ||| FIVE.A
+12-13 ||| years ||| TOKEN ||| YEAR.N ||| OTHER ||| NONE ||| YEAR.N
+13-14 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #34
+0-1 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+1-2 ||| could ||| TOKEN ||| COULD.AUX-V ||| OTHER ||| NONE ||| COULD.AUX-V
+2-3 ||| n't ||| TOKEN ||| NOT ||| OTHER ||| NONE ||| NOT
+3-4 ||| say ||| TOKEN ||| SAY.V ||| OTHER ||| NONE ||| SAY.V
+4-5 ||| when ||| TOKEN ||| WHICH.PRO ||| OTHER ||| NONE ||| WHICH.PRO
+5-6 ||| exactly ||| TOKEN ||| EXACTLY.ADV-S ||| OTHER ||| NONE ||| EXACTLY.ADV-S
+6-7 ||| in ||| TOKEN ||| IN.P ||| OTHER ||| NONE ||| IN.P
+7-8 ||| my ||| TOKEN ||| MY.D ||| OTHER ||| NONE ||| MY.D
+8-9 ||| life ||| TOKEN ||| LIFE.N ||| OTHER ||| NONE ||| LIFE.N
+9-10 ||| it ||| TOKEN ||| IT.PRO ||| OTHER ||| NONE ||| IT.PRO
+10-11 ||| occurred ||| TOKEN ||| OCCUR.V ||| OTHER ||| NONE ||| OCCUR.V
+11-12 ||| to ||| TOKEN ||| TO.P-ARG ||| OTHER ||| NONE ||| TO.P-ARG
+12-13 ||| me ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+13-14 ||| that ||| TOKEN ||| THAT ||| OTHER ||| NONE ||| THAT
+14-15 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+15-16 ||| would ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+16-17 ||| be ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+17-18 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+18-19 ||| pilot ||| TOKEN ||| PILOT.N ||| OTHER ||| NONE ||| PILOT.N
+19-20 ||| someday ||| TOKEN ||| SOMEDAY.ADV-E ||| OTHER ||| NONE ||| SOMEDAY.ADV-E
+20-21 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #35
+0-1 ||| Let ||| TOKEN ||| LET.V ||| OTHER ||| NONE ||| LET.V
+1-2 ||| 's ||| TOKEN ||| US.PRO ||| OTHER ||| NONE ||| US.PRO
+2-3 ||| try ||| TOKEN ||| TRY.V ||| OTHER ||| NONE ||| TRY.V
+3-4 ||| something ||| TOKEN ||| SOMETHING.PRO ||| OTHER ||| NONE ||| SOMETHING.PRO
+4-5 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #36
+0-1 ||| Could ||| TOKEN ||| COULD.AUX-V ||| OTHER ||| NONE ||| COULD.AUX-V
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| exchange ||| TOKEN ||| EXCHANGE.V ||| OTHER ||| NONE ||| EXCHANGE.V
+3-4 ||| it ||| TOKEN ||| IT.PRO ||| OTHER ||| NONE ||| IT.PRO
+4-5 ||| with ||| TOKEN ||| WITH.P-ARG ||| OTHER ||| NONE ||| WITH.P-ARG
+5-6 ||| another ||| TOKEN ||| ANOTHER.D ||| OTHER ||| NONE ||| ANOTHER.D
+6-7 ||| one ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+7-8 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #37
+0-1 ||| If ||| TOKEN ||| IF.PS ||| OTHER ||| NONE ||| IF.PS
+1-2 ||| you ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+2-3 ||| see ||| TOKEN ||| SEE.V ||| OTHER ||| NONE ||| SEE.V
+3-4 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+4-5 ||| man ||| TOKEN ||| MAN.N ||| OTHER ||| NONE ||| MAN.N
+5-6 ||| approaching ||| TOKEN ||| APPROACH.V ||| OTHER ||| NONE ||| APPROACH.V
+6-7 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+7-8 ||| with ||| TOKEN ||| WITH.P ||| OTHER ||| NONE ||| WITH.P
+8-9 ||| the ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+9-10 ||| obvious ||| TOKEN ||| OBVIOUS.A ||| OTHER ||| NONE ||| OBVIOUS.A
+10-11 ||| intention ||| TOKEN ||| INTENTION.N ||| OTHER ||| NONE ||| INTENTION.N
+11-12 ||| of ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+12-13 ||| doing ||| TOKEN ||| DO.V ||| OTHER ||| NONE ||| DO.V
+13-14 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+14-15 ||| good ||| TOKEN ||| GOOD.ADV-A ||| OTHER ||| NONE ||| GOOD.ADV-A
+15-16 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+16-17 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+17-18 ||| should ||| TOKEN ||| SHOULD.AUX-V ||| OTHER ||| NONE ||| SHOULD.AUX-V
+18-19 ||| run ||| TOKEN ||| RUN.V ||| OTHER ||| NONE ||| RUN.V
+19-20 ||| for ||| TOKEN ||| FOR.P ||| OTHER ||| NONE ||| FOR.P
+20-21 ||| your ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+21-22 ||| life ||| TOKEN ||| LIFE.N ||| OTHER ||| NONE ||| LIFE.N
+22-23 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #38
+0-1 ||| Name ||| TOKEN ||| NAME.V ||| OTHER ||| NONE ||| NAME.V
+1-2 ||| the ||| TOKEN ||| TWO.D ||| OTHER ||| NONE ||| TWO.D
+2-3 ||| two ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+3-4 ||| mystical ||| TOKEN ||| MYSTICAL.A ||| OTHER ||| NONE ||| MYSTICAL.A
+4-5 ||| ravens ||| TOKEN ||| RAVEN.N ||| OTHER ||| NONE ||| RAVEN.N
+5-6 ||| Odin ||| TOKEN ||| "|Odin|" ||| OTHER ||| NONE ||| "|Odin|"
+6-7 ||| has ||| TOKEN ||| HAVE.V ||| OTHER ||| NONE ||| HAVE.V
+7-8 ||| at ||| TOKEN ||| AT.P-ARG ||| OTHER ||| NONE ||| AT.P-ARG
+8-9 ||| his ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+9-10 ||| command ||| TOKEN ||| COMMAND.N ||| OTHER ||| NONE ||| COMMAND.N
+10-11 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #39
+0-1 ||| What ||| TOKEN ||| WHAT.PRO ||| OTHER ||| NONE ||| WHAT.PRO
+1-2 ||| are ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+2-3 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+3-4 ||| thinking ||| TOKEN ||| THINK.V ||| OTHER ||| NONE ||| THINK.V
+4-5 ||| about ||| TOKEN ||| ABOUT.P-ARG ||| OTHER ||| NONE ||| ABOUT.P-ARG
+5-6 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+6-7 ||| '' ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #40
+0-1 ||| Do ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+1-2 ||| n't ||| TOKEN ||| NOT ||| OTHER ||| NONE ||| NOT
+2-3 ||| give ||| TOKEN ||| GIVE.V ||| OTHER ||| NONE ||| GIVE.V
+3-4 ||| me ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+4-5 ||| that ||| TOKEN ||| THAT.D ||| OTHER ||| NONE ||| THAT.D
+5-6 ||| crap ||| TOKEN ||| CRAP.N ||| OTHER ||| NONE ||| CRAP.N
+6-7 ||| ! ||| TOKEN ||| ! ||| OTHER ||| NONE ||| !
+
+Sentence #41
+0-1 ||| You ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+1-2 ||| can ||| TOKEN ||| CAN.AUX-S ||| OTHER ||| NONE ||| CAN.AUX-S
+2-3 ||| rely ||| TOKEN ||| RELY.V ||| OTHER ||| NONE ||| RELY.V
+3-4 ||| on ||| TOKEN ||| ON.P-ARG ||| OTHER ||| NONE ||| ON.P-ARG
+4-5 ||| her ||| TOKEN ||| HER.PRO ||| OTHER ||| NONE ||| HER.PRO
+5-6 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #42
+0-1 ||| '' ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+1-2 ||| Ah ||| TOKEN ||| AH.X ||| OTHER ||| NONE ||| AH.X
+2-3 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+3-4 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+4-5 ||| see ||| TOKEN ||| SEE.V ||| OTHER ||| NONE ||| SEE.V
+5-6 ||| -- ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+6-7 ||| '' ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #43
+0-1 ||| It ||| TOKEN ||| IT.PRO ||| OTHER ||| NONE ||| IT.PRO
+1-2 ||| was ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+2-3 ||| raining ||| TOKEN ||| RAIN.V ||| OTHER ||| NONE ||| RAIN.V
+3-4 ||| when ||| TOKEN ||| WHEN.PS ||| OTHER ||| NONE ||| WHEN.PS
+4-5 ||| we ||| TOKEN ||| WE.PRO ||| OTHER ||| NONE ||| WE.PRO
+5-6 ||| left ||| TOKEN ||| LEAVE.V ||| OTHER ||| NONE ||| LEAVE.V
+6-7 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+7-8 ||| but ||| TOKEN ||| BUT.CC ||| OTHER ||| NONE ||| BUT.CC
+8-9 ||| by ||| TOKEN ||| BY.P ||| OTHER ||| NONE ||| BY.P
+9-10 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+10-11 ||| time ||| TOKEN ||| TIME.N ||| OTHER ||| NONE ||| TIME.N
+11-12 ||| we ||| TOKEN ||| WE.PRO ||| OTHER ||| NONE ||| WE.PRO
+12-13 ||| arrived ||| TOKEN ||| ARRIVE.V ||| OTHER ||| NONE ||| ARRIVE.V
+13-14 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+14-15 ||| it ||| TOKEN ||| IT.PRO ||| OTHER ||| NONE ||| IT.PRO
+15-16 ||| was ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+16-17 ||| sunny ||| TOKEN ||| SUNNY.A ||| OTHER ||| NONE ||| SUNNY.A
+17-18 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #44
+0-1 ||| Do ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| have ||| TOKEN ||| HAVE.V ||| OTHER ||| NONE ||| HAVE.V
+3-4 ||| any ||| TOKEN ||| ANY.D ||| OTHER ||| NONE ||| ANY.D
+4-5 ||| rock ||| TOKEN ||| ROCK.N ||| OTHER ||| NONE ||| ROCK.N
+5-6 ||| CDs ||| TOKEN ||| CD.N ||| OTHER ||| NONE ||| CD.N
+6-7 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #45
+0-1 ||| Is ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+1-2 ||| this ||| TOKEN ||| THIS.PRO ||| OTHER ||| NONE ||| THIS.PRO
+2-3 ||| your ||| TOKEN ||| YOUR.D ||| OTHER ||| NONE ||| YOUR.D
+3-4 ||| first ||| TOKEN ||| FIRST.A ||| OTHER ||| NONE ||| FIRST.A
+4-5 ||| convention ||| TOKEN ||| CONVENTION.N ||| OTHER ||| NONE ||| CONVENTION.N
+5-6 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #46
+0-1 ||| The ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+1-2 ||| president ||| TOKEN ||| PRESIDENT.N ||| OTHER ||| NONE ||| PRESIDENT.N
+2-3 ||| 's ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+3-4 ||| bowl ||| TOKEN ||| BOWL.N ||| OTHER ||| NONE ||| BOWL.N
+4-5 ||| rests ||| TOKEN ||| PRES ||| OTHER ||| NONE ||| PRES
+5-6 ||| on ||| TOKEN ||| ON.P-ARG ||| OTHER ||| NONE ||| ON.P-ARG
+6-7 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+7-8 ||| 14-pound ||| TOKEN ||| POUND.N ||| OTHER ||| NONE ||| POUND.N
+8-9 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+9-10 ||| beveled ||| TOKEN ||| BEVELED.A ||| OTHER ||| NONE ||| BEVELED.A
+10-11 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+11-12 ||| lead ||| TOKEN ||| GLASS.N ||| OTHER ||| NONE ||| GLASS.N
+12-13 ||| glass ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+13-14 ||| plinth ||| TOKEN ||| PLINTH.N ||| OTHER ||| NONE ||| PLINTH.N
+14-15 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+15-16 ||| or ||| TOKEN ||| OR ||| OTHER ||| NONE ||| OR
+16-17 ||| flat ||| TOKEN ||| FLAT.A ||| OTHER ||| NONE ||| FLAT.A
+17-18 ||| base ||| TOKEN ||| BASE.N ||| OTHER ||| NONE ||| BASE.N
+18-19 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #47
+0-1 ||| It ||| TOKEN ||| IT.PRO ||| OTHER ||| NONE ||| IT.PRO
+1-2 ||| said ||| TOKEN ||| SAY.V ||| OTHER ||| NONE ||| SAY.V
+2-3 ||| all ||| TOKEN ||| ALL.D ||| OTHER ||| NONE ||| ALL.D
+3-4 ||| refugee ||| TOKEN ||| REFUGEE.A ||| OTHER ||| NONE ||| REFUGEE.A
+4-5 ||| boats ||| TOKEN ||| BOAT.N ||| OTHER ||| NONE ||| BOAT.N
+5-6 ||| were ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+6-7 ||| permitted ||| TOKEN ||| PERMIT.V ||| OTHER ||| NONE ||| PERMIT.V
+7-8 ||| to ||| TOKEN ||| TO.P-ARG ||| OTHER ||| NONE ||| TO.P-ARG
+8-9 ||| land ||| TOKEN ||| LAND.V ||| OTHER ||| NONE ||| LAND.V
+9-10 ||| and ||| TOKEN ||| AND ||| OTHER ||| NONE ||| AND
+10-11 ||| that ||| TOKEN ||| THAT ||| OTHER ||| NONE ||| THAT
+11-12 ||| arrivals ||| TOKEN ||| ARRIVAL.N ||| OTHER ||| NONE ||| ARRIVAL.N
+12-13 ||| were ||| TOKEN ||| TAKE.V ||| OTHER ||| NONE ||| TAKE.V
+13-14 ||| taken ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+14-15 ||| to ||| TOKEN ||| TO.P-ARG ||| OTHER ||| NONE ||| TO.P-ARG
+15-16 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+16-17 ||| special ||| TOKEN ||| SPECIAL.A ||| OTHER ||| NONE ||| SPECIAL.A
+17-18 ||| camp ||| TOKEN ||| CAMP.N ||| OTHER ||| NONE ||| CAMP.N
+18-19 ||| in ||| TOKEN ||| IN.P ||| OTHER ||| NONE ||| IN.P
+19-20 ||| cooperation ||| TOKEN ||| COOPERATION.N ||| OTHER ||| NONE ||| COOPERATION.N
+20-21 ||| with ||| TOKEN ||| WITH.P-ARG ||| OTHER ||| NONE ||| WITH.P-ARG
+21-22 ||| the ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+22-23 ||| U.N. ||| TOKEN ||| "|U.N..N|" ||| OTHER ||| NONE ||| "|U.N..N|"
+23-24 ||| High ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+24-25 ||| Commissioner ||| TOKEN ||| "|HighCommissioner.N|" ||| OTHER ||| NONE ||| "|HighCommissioner.N|"
+25-26 ||| for ||| TOKEN ||| FOR.P ||| OTHER ||| NONE ||| FOR.P
+26-27 ||| Refugees ||| TOKEN ||| "|Refugee.N|" ||| OTHER ||| NONE ||| "|Refugee.N|"
+27-28 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #48
+0-1 ||| Can ||| TOKEN ||| CAN.AUX-S ||| OTHER ||| NONE ||| CAN.AUX-S
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| keep ||| TOKEN ||| KEEP.V ||| OTHER ||| NONE ||| KEEP.V
+3-4 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+4-5 ||| secret ||| TOKEN ||| SECRET.N ||| OTHER ||| NONE ||| SECRET.N
+5-6 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #49
+0-1 ||| It ||| TOKEN ||| IT.PRO ||| OTHER ||| NONE ||| IT.PRO
+1-2 ||| 's ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+2-3 ||| OK ||| TOKEN ||| OK.A ||| OTHER ||| NONE ||| OK.A
+3-4 ||| with ||| TOKEN ||| WITH.P ||| OTHER ||| NONE ||| WITH.P
+4-5 ||| me ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+5-6 ||| if ||| TOKEN ||| IF.PS ||| OTHER ||| NONE ||| IF.PS
+6-7 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+7-8 ||| take ||| TOKEN ||| TAKE.V ||| OTHER ||| NONE ||| TAKE.V
+8-9 ||| that ||| TOKEN ||| THAT.D ||| OTHER ||| NONE ||| THAT.D
+9-10 ||| book ||| TOKEN ||| BOOK.N ||| OTHER ||| NONE ||| BOOK.N
+10-11 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #50
+0-1 ||| Be ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+1-2 ||| sure ||| TOKEN ||| SURE.A ||| OTHER ||| NONE ||| SURE.A
+2-3 ||| to ||| TOKEN ||| TO ||| OTHER ||| NONE ||| TO
+3-4 ||| put ||| TOKEN ||| PUT_OUT.V ||| OTHER ||| NONE ||| PUT_OUT.V
+4-5 ||| out ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+5-6 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+6-7 ||| fire ||| TOKEN ||| FIRE.N ||| OTHER ||| NONE ||| FIRE.N
+7-8 ||| before ||| TOKEN ||| BEFORE.ADV-E ||| OTHER ||| NONE ||| BEFORE.ADV-E
+8-9 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+9-10 ||| leave ||| TOKEN ||| LEAVE.V ||| OTHER ||| NONE ||| LEAVE.V
+10-11 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #51
+0-1 ||| How ||| TOKEN ||| HOW.PQ ||| OTHER ||| NONE ||| HOW.PQ
+1-2 ||| can ||| TOKEN ||| CAN.AUX-V ||| OTHER ||| NONE ||| CAN.AUX-V
+2-3 ||| anyone ||| TOKEN ||| ANYONE.PRO ||| OTHER ||| NONE ||| ANYONE.PRO
+3-4 ||| tell ||| TOKEN ||| TELL.V ||| OTHER ||| NONE ||| TELL.V
+4-5 ||| if ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+5-6 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+6-7 ||| female ||| TOKEN ||| FEMALE.N ||| OTHER ||| NONE ||| FEMALE.N
+7-8 ||| had ||| TOKEN ||| HAVE.V ||| OTHER ||| NONE ||| HAVE.V
+8-9 ||| sexual ||| TOKEN ||| SEXUAL.A ||| OTHER ||| NONE ||| SEXUAL.A
+9-10 ||| intercourse ||| TOKEN ||| INTERCOURSE.N ||| OTHER ||| NONE ||| INTERCOURSE.N
+10-11 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #52
+0-1 ||| Can ||| TOKEN ||| CAN.AUX-V ||| OTHER ||| NONE ||| CAN.AUX-V
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| tell ||| TOKEN ||| TELL.V ||| OTHER ||| NONE ||| TELL.V
+3-4 ||| the ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+4-5 ||| position ||| TOKEN ||| POSITION.N ||| OTHER ||| NONE ||| POSITION.N
+5-6 ||| of ||| TOKEN ||| OF.P ||| OTHER ||| NONE ||| OF.P
+6-7 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+7-8 ||| rooms ||| TOKEN ||| ROOM.N ||| OTHER ||| NONE ||| ROOM.N
+8-9 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+9-10 ||| What ||| TOKEN ||| WHAT.PRO ||| OTHER ||| NONE ||| WHAT.PRO
+10-11 ||| are ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+11-12 ||| those ||| TOKEN ||| THOSE.D ||| OTHER ||| NONE ||| THOSE.D
+12-13 ||| latticed ||| TOKEN ||| LATTICED.A ||| OTHER ||| NONE ||| LATTICED.A
+13-14 ||| windows ||| TOKEN ||| WINDOW.N ||| OTHER ||| NONE ||| WINDOW.N
+14-15 ||| at ||| TOKEN ||| AT.P ||| OTHER ||| NONE ||| AT.P
+15-16 ||| this ||| TOKEN ||| THIS.D ||| OTHER ||| NONE ||| THIS.D
+16-17 ||| end ||| TOKEN ||| END.N ||| OTHER ||| NONE ||| END.N
+17-18 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+18-19 ||| '' ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #53
+0-1 ||| Name ||| TOKEN ||| NAME.V ||| OTHER ||| NONE ||| NAME.V
+1-2 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+2-3 ||| tiger ||| TOKEN ||| TIGER.N ||| OTHER ||| NONE ||| TIGER.N
+3-4 ||| that ||| TOKEN ||| THAT.REL ||| OTHER ||| NONE ||| THAT.REL
+4-5 ||| is ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+5-6 ||| extinct ||| TOKEN ||| EXTINCT.A ||| OTHER ||| NONE ||| EXTINCT.A
+6-7 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #54
+0-1 ||| Have ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| been ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+3-4 ||| there ||| TOKEN ||| THERE.PRO ||| OTHER ||| NONE ||| THERE.PRO
+4-5 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #55
+0-1 ||| How ||| TOKEN ||| HOW.ADV-A ||| OTHER ||| NONE ||| HOW.ADV-A
+1-2 ||| does ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+2-3 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+3-4 ||| hurricane ||| TOKEN ||| HURRICANE.N ||| OTHER ||| NONE ||| HURRICANE.N
+4-5 ||| form ||| TOKEN ||| FORM.V ||| OTHER ||| NONE ||| FORM.V
+5-6 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #56
+0-1 ||| It ||| TOKEN ||| IT.PRO ||| OTHER ||| NONE ||| IT.PRO
+1-2 ||| 's ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+2-3 ||| not ||| TOKEN ||| NOT.ADV-S ||| OTHER ||| NONE ||| NOT.ADV-S
+3-4 ||| serious ||| TOKEN ||| SERIOUS.A ||| OTHER ||| NONE ||| SERIOUS.A
+4-5 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+5-6 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+6-7 ||| do ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+7-8 ||| n't ||| TOKEN ||| NOT.ADV-S ||| OTHER ||| NONE ||| NOT.ADV-S
+8-9 ||| bear ||| TOKEN ||| BEAR.V ||| OTHER ||| NONE ||| BEAR.V
+9-10 ||| him ||| TOKEN ||| HIM.PRO ||| OTHER ||| NONE ||| HIM.PRO
+10-11 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+11-12 ||| grudge ||| TOKEN ||| GRUDGE.N ||| OTHER ||| NONE ||| GRUDGE.N
+12-13 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #57
+0-1 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+1-2 ||| could ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+2-3 ||| n't ||| TOKEN ||| NOT ||| OTHER ||| NONE ||| NOT
+3-4 ||| sleep ||| TOKEN ||| SLEEP.V ||| OTHER ||| NONE ||| SLEEP.V
+4-5 ||| on ||| TOKEN ||| ON.P ||| OTHER ||| NONE ||| ON.P
+5-6 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+6-7 ||| plane ||| TOKEN ||| PLANE.N ||| OTHER ||| NONE ||| PLANE.N
+7-8 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #58
+0-1 ||| Who ||| TOKEN ||| WHO.PRO ||| OTHER ||| NONE ||| WHO.PRO
+1-2 ||| would ||| TOKEN ||| WOULD.AUX-S ||| OTHER ||| NONE ||| WOULD.AUX-S
+2-3 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+3-4 ||| use ||| TOKEN ||| USE.V ||| OTHER ||| NONE ||| USE.V
+4-5 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+5-6 ||| Heimlich ||| TOKEN ||| HEIMLICH.N ||| OTHER ||| NONE ||| HEIMLICH.N
+6-7 ||| maneuver ||| TOKEN ||| MANEUVER.N ||| OTHER ||| NONE ||| MANEUVER.N
+7-8 ||| on ||| TOKEN ||| ON.P ||| OTHER ||| NONE ||| ON.P
+8-9 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #59
+0-1 ||| Name ||| TOKEN ||| NAME.V ||| OTHER ||| NONE ||| NAME.V
+1-2 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+2-3 ||| only ||| TOKEN ||| ONLY.A ||| OTHER ||| NONE ||| ONLY.A
+3-4 ||| extant ||| TOKEN ||| EXTANT.A ||| OTHER ||| NONE ||| EXTANT.A
+4-5 ||| trilogy ||| TOKEN ||| TRILOGY.N ||| OTHER ||| NONE ||| TRILOGY.N
+5-6 ||| of ||| TOKEN ||| OF.P ||| OTHER ||| NONE ||| OF.P
+6-7 ||| classical ||| TOKEN ||| CLASSICAL.A ||| OTHER ||| NONE ||| CLASSICAL.A
+7-8 ||| Greek ||| TOKEN ||| "|Greek.N|" ||| OTHER ||| NONE ||| "|Greek.N|"
+8-9 ||| plays ||| TOKEN ||| PLAY.N ||| OTHER ||| NONE ||| PLAY.N
+9-10 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #60
+0-1 ||| We ||| TOKEN ||| WE.PRO ||| OTHER ||| NONE ||| WE.PRO
+1-2 ||| left ||| TOKEN ||| LEAVE.V ||| OTHER ||| NONE ||| LEAVE.V
+2-3 ||| by ||| TOKEN ||| BY.P ||| OTHER ||| NONE ||| BY.P
+3-4 ||| train ||| TOKEN ||| TRAIN.N ||| OTHER ||| NONE ||| TRAIN.N
+4-5 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #61
+0-1 ||| When ||| TOKEN ||| WHEN.PS ||| OTHER ||| NONE ||| WHEN.PS
+1-2 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+2-3 ||| U.S. ||| TOKEN ||| "|U.S..N|" ||| OTHER ||| NONE ||| "|U.S..N|"
+3-4 ||| ambassador ||| TOKEN ||| AMBASSADOR.N ||| OTHER ||| NONE ||| AMBASSADOR.N
+4-5 ||| sat ||| TOKEN ||| PAST ||| OTHER ||| NONE ||| PAST
+5-6 ||| down ||| TOKEN ||| DOWN.ADV-A ||| OTHER ||| NONE ||| DOWN.ADV-A
+6-7 ||| with ||| TOKEN ||| WITH.P ||| OTHER ||| NONE ||| WITH.P
+7-8 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+8-9 ||| PLO ||| TOKEN ||| DELEGATION.N ||| OTHER ||| NONE ||| DELEGATION.N
+9-10 ||| delegation ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+10-11 ||| for ||| TOKEN ||| FOR.P ||| OTHER ||| NONE ||| FOR.P
+11-12 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+12-13 ||| first ||| TOKEN ||| FIRST.A ||| OTHER ||| NONE ||| FIRST.A
+13-14 ||| official ||| TOKEN ||| OFFICIAL.A ||| OTHER ||| NONE ||| OFFICIAL.A
+14-15 ||| meeting ||| TOKEN ||| MEETING.N ||| OTHER ||| NONE ||| MEETING.N
+15-16 ||| in ||| TOKEN ||| IN.P-ARG ||| OTHER ||| NONE ||| IN.P-ARG
+16-17 ||| 13 ||| TOKEN ||| "|13|" ||| OTHER ||| NONE ||| "|13|"
+17-18 ||| years ||| TOKEN ||| YEAR.N ||| OTHER ||| NONE ||| YEAR.N
+18-19 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+19-20 ||| Sweden ||| TOKEN ||| "|Sweden|" ||| OTHER ||| NONE ||| "|Sweden|"
+20-21 ||| scored ||| TOKEN ||| SCORE.V ||| OTHER ||| NONE ||| SCORE.V
+21-22 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+22-23 ||| triumph ||| TOKEN ||| TRIUMPH.N ||| OTHER ||| NONE ||| TRIUMPH.N
+23-24 ||| for ||| TOKEN ||| FOR.P ||| OTHER ||| NONE ||| FOR.P
+24-25 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+25-26 ||| foreign ||| TOKEN ||| FOREIGN.A ||| OTHER ||| NONE ||| FOREIGN.A
+26-27 ||| policy ||| TOKEN ||| POLICY.N ||| OTHER ||| NONE ||| POLICY.N
+27-28 ||| variously ||| TOKEN ||| VARIOSLY.ADV-A ||| OTHER ||| NONE ||| VARIOSLY.ADV-A
+28-29 ||| described ||| TOKEN ||| DESCRIBED.V ||| OTHER ||| NONE ||| DESCRIBED.V
+29-30 ||| as ||| TOKEN ||| AS.P-ARG ||| OTHER ||| NONE ||| AS.P-ARG
+30-31 ||| magnanimous ||| TOKEN ||| MAGNANIMOUS.A ||| OTHER ||| NONE ||| MAGNANIMOUS.A
+31-32 ||| or ||| TOKEN ||| OR ||| OTHER ||| NONE ||| OR
+32-33 ||| meddlesome ||| TOKEN ||| MEDDLESOME.A ||| OTHER ||| NONE ||| MEDDLESOME.A
+33-34 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #62
+0-1 ||| He ||| TOKEN ||| HE.PRO ||| OTHER ||| NONE ||| HE.PRO
+1-2 ||| has ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+2-3 ||| been ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+3-4 ||| warned ||| TOKEN ||| WARN.V ||| OTHER ||| NONE ||| WARN.V
+4-5 ||| on ||| TOKEN ||| ON.P ||| OTHER ||| NONE ||| ON.P
+5-6 ||| several ||| TOKEN ||| SEVERAL.D ||| OTHER ||| NONE ||| SEVERAL.D
+6-7 ||| occasions ||| TOKEN ||| OCCASION.N ||| OTHER ||| NONE ||| OCCASION.N
+7-8 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #63
+0-1 ||| Nothing ||| TOKEN ||| NOTHING.PRO ||| OTHER ||| NONE ||| NOTHING.PRO
+1-2 ||| great ||| TOKEN ||| GREAT.A ||| OTHER ||| NONE ||| GREAT.A
+2-3 ||| has ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+3-4 ||| been ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+4-5 ||| achieved ||| TOKEN ||| ACHIEVE.V ||| OTHER ||| NONE ||| ACHIEVE.V
+5-6 ||| by ||| TOKEN ||| BY.P-ARG ||| OTHER ||| NONE ||| BY.P-ARG
+6-7 ||| playing ||| TOKEN ||| PLAY.V ||| OTHER ||| NONE ||| PLAY.V
+7-8 ||| it ||| TOKEN ||| IT.PRO ||| OTHER ||| NONE ||| IT.PRO
+8-9 ||| safe ||| TOKEN ||| SAFE.A ||| OTHER ||| NONE ||| SAFE.A
+9-10 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #64
+0-1 ||| Should ||| TOKEN ||| SHOULD.AUX-S ||| OTHER ||| NONE ||| SHOULD.AUX-S
+1-2 ||| he ||| TOKEN ||| HE.PRO ||| OTHER ||| NONE ||| HE.PRO
+2-3 ||| be ||| TOKEN ||| GIVE.V ||| OTHER ||| NONE ||| GIVE.V
+3-4 ||| given ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+4-5 ||| another ||| TOKEN ||| ANOTHER.A ||| OTHER ||| NONE ||| ANOTHER.A
+5-6 ||| chance ||| TOKEN ||| CHANCE.N ||| OTHER ||| NONE ||| CHANCE.N
+6-7 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+7-8 ||| he ||| TOKEN ||| HE.PRO ||| OTHER ||| NONE ||| HE.PRO
+8-9 ||| would ||| TOKEN ||| WOULD.AUX-S ||| OTHER ||| NONE ||| WOULD.AUX-S
+9-10 ||| do ||| TOKEN ||| DO.V ||| OTHER ||| NONE ||| DO.V
+10-11 ||| his ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+11-12 ||| best ||| TOKEN ||| BEST.A ||| OTHER ||| NONE ||| BEST.A
+12-13 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #65
+0-1 ||| Are ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| my ||| TOKEN ||| MY.D ||| OTHER ||| NONE ||| MY.D
+3-4 ||| mommy ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+4-5 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #66
+0-1 ||| How ||| TOKEN ||| HOW.ADV-A ||| OTHER ||| NONE ||| HOW.ADV-A
+1-2 ||| fast ||| TOKEN ||| FAST.A ||| OTHER ||| NONE ||| FAST.A
+2-3 ||| he ||| TOKEN ||| HE.PRO ||| OTHER ||| NONE ||| HE.PRO
+3-4 ||| runs ||| TOKEN ||| RUN.V ||| OTHER ||| NONE ||| RUN.V
+4-5 ||| ! ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #67
+0-1 ||| Will ||| TOKEN ||| WILL.AUX-S ||| OTHER ||| NONE ||| WILL.AUX-S
+1-2 ||| your ||| TOKEN ||| YOUR.D ||| OTHER ||| NONE ||| YOUR.D
+2-3 ||| parents ||| TOKEN ||| PARENT.N ||| OTHER ||| NONE ||| PARENT.N
+3-4 ||| let ||| TOKEN ||| LET.V ||| OTHER ||| NONE ||| LET.V
+4-5 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+5-6 ||| stay ||| TOKEN ||| STAY.V ||| OTHER ||| NONE ||| STAY.V
+6-7 ||| home ||| TOKEN ||| HOME.N ||| OTHER ||| NONE ||| HOME.N
+7-8 ||| today ||| TOKEN ||| TODAY.ADV-E ||| OTHER ||| NONE ||| TODAY.ADV-E
+8-9 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #68
+0-1 ||| Has ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+1-2 ||| Tom ||| TOKEN ||| "|Tom|" ||| OTHER ||| NONE ||| "|Tom|"
+2-3 ||| been ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+3-4 ||| fighting ||| TOKEN ||| FIGHT.V ||| OTHER ||| NONE ||| FIGHT.V
+4-5 ||| with ||| TOKEN ||| WITH.P ||| OTHER ||| NONE ||| WITH.P
+5-6 ||| Mary ||| TOKEN ||| "|Mary|" ||| OTHER ||| NONE ||| "|Mary|"
+6-7 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #69
+0-1 ||| Name ||| TOKEN ||| NAME.V ||| OTHER ||| NONE ||| NAME.V
+1-2 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+2-3 ||| Gaelic ||| TOKEN ||| GAELIC.A ||| OTHER ||| NONE ||| GAELIC.A
+3-4 ||| language ||| TOKEN ||| LANGUAGE.N ||| OTHER ||| NONE ||| LANGUAGE.N
+4-5 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #70
+0-1 ||| Ca ||| TOKEN ||| CAN.AUX-V ||| OTHER ||| NONE ||| CAN.AUX-V
+1-2 ||| n't ||| TOKEN ||| NOT ||| OTHER ||| NONE ||| NOT
+2-3 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+3-4 ||| just ||| TOKEN ||| JUST.ADV-S ||| OTHER ||| NONE ||| JUST.ADV-S
+4-5 ||| picture ||| TOKEN ||| PICTURE.V ||| OTHER ||| NONE ||| PICTURE.V
+5-6 ||| Ed ||| TOKEN ||| "|Ed|" ||| OTHER ||| NONE ||| "|Ed|"
+6-7 ||| in ||| TOKEN ||| IN.P ||| OTHER ||| NONE ||| IN.P
+7-8 ||| woman ||| TOKEN ||| WOMAN.N ||| OTHER ||| NONE ||| WOMAN.N
+8-9 ||| 's ||| TOKEN ||| S ||| OTHER ||| NONE ||| S
+9-10 ||| disguise ||| TOKEN ||| DISGUISE.N ||| OTHER ||| NONE ||| DISGUISE.N
+10-11 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #71
+0-1 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+1-2 ||| managed ||| TOKEN ||| MANAGE.V ||| OTHER ||| NONE ||| MANAGE.V
+2-3 ||| to ||| TOKEN ||| TO ||| OTHER ||| NONE ||| TO
+3-4 ||| get ||| TOKEN ||| GET.V ||| OTHER ||| NONE ||| GET.V
+4-5 ||| in ||| TOKEN ||| IN.P ||| OTHER ||| NONE ||| IN.P
+5-6 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #72
+0-1 ||| '' ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+1-2 ||| Who ||| TOKEN ||| WHO.PRO ||| OTHER ||| NONE ||| WHO.PRO
+2-3 ||| has ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+3-4 ||| made ||| TOKEN ||| MADE.V ||| OTHER ||| NONE ||| MADE.V
+4-5 ||| me ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+5-6 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+6-7 ||| judge ||| TOKEN ||| JUDGE.N ||| OTHER ||| NONE ||| JUDGE.N
+7-8 ||| over ||| TOKEN ||| OVER.P ||| OTHER ||| NONE ||| OVER.P
+8-9 ||| them ||| TOKEN ||| THEM.PRO ||| OTHER ||| NONE ||| THEM.PRO
+9-10 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+10-11 ||| '' ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+11-12 ||| was ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+12-13 ||| all ||| TOKEN ||| ALL.D ||| OTHER ||| NONE ||| ALL.D
+13-14 ||| he ||| TOKEN ||| HE.PRO ||| OTHER ||| NONE ||| HE.PRO
+14-15 ||| said ||| TOKEN ||| SAY.V ||| OTHER ||| NONE ||| SAY.V
+15-16 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+16-17 ||| smilingly ||| TOKEN ||| SMILINGLY.ADV-A ||| OTHER ||| NONE ||| SMILINGLY.ADV-A
+17-18 ||| , ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+18-19 ||| to ||| TOKEN ||| TO.P ||| OTHER ||| NONE ||| TO.P
+19-20 ||| Alyosha ||| TOKEN ||| "|Alyosha|" ||| OTHER ||| NONE ||| "|Alyosha|"
+20-21 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #73
+0-1 ||| How ||| TOKEN ||| HOW.PQ ||| OTHER ||| NONE ||| HOW.PQ
+1-2 ||| can ||| TOKEN ||| CAN.AUX-V ||| OTHER ||| NONE ||| CAN.AUX-V
+2-3 ||| anyone ||| TOKEN ||| ANYONE.PRO ||| OTHER ||| NONE ||| ANYONE.PRO
+3-4 ||| tell ||| TOKEN ||| TELL.V ||| OTHER ||| NONE ||| TELL.V
+4-5 ||| if ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+5-6 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+6-7 ||| female ||| TOKEN ||| FEMALE.N ||| OTHER ||| NONE ||| FEMALE.N
+7-8 ||| had ||| TOKEN ||| HAVE.V ||| OTHER ||| NONE ||| HAVE.V
+8-9 ||| sexual ||| TOKEN ||| SEXUAL.A ||| OTHER ||| NONE ||| SEXUAL.A
+9-10 ||| intercourse ||| TOKEN ||| INTERCOURSE.N ||| OTHER ||| NONE ||| INTERCOURSE.N
+10-11 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #74
+0-1 ||| Are ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+3-4 ||| runner ||| TOKEN ||| RUNNER.N ||| OTHER ||| NONE ||| RUNNER.N
+4-5 ||| who ||| TOKEN ||| WHO.REL ||| OTHER ||| NONE ||| WHO.REL
+5-6 ||| escaped ||| TOKEN ||| ESCAPE.V ||| OTHER ||| NONE ||| ESCAPE.V
+6-7 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+7-8 ||| underground ||| TOKEN ||| UNDERGROUND.A ||| OTHER ||| NONE ||| UNDERGROUND.A
+8-9 ||| city ||| TOKEN ||| CITY.N ||| OTHER ||| NONE ||| CITY.N
+9-10 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #75
+0-1 ||| You ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+1-2 ||| do ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+2-3 ||| n't ||| TOKEN ||| NOT ||| OTHER ||| NONE ||| NOT
+3-4 ||| worry ||| TOKEN ||| WORRY.V ||| OTHER ||| NONE ||| WORRY.V
+4-5 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #76
+0-1 ||| Do ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| think ||| TOKEN ||| THINK.V ||| OTHER ||| NONE ||| THINK.V
+3-4 ||| Tom ||| TOKEN ||| "|Tom|" ||| OTHER ||| NONE ||| "|Tom|"
+4-5 ||| can ||| TOKEN ||| CAN.AUX-V ||| OTHER ||| NONE ||| CAN.AUX-V
+5-6 ||| speak ||| TOKEN ||| SPEAK.V ||| OTHER ||| NONE ||| SPEAK.V
+6-7 ||| French ||| TOKEN ||| "|French.N|" ||| OTHER ||| NONE ||| "|French.N|"
+7-8 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #77
+0-1 ||| Do ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| want ||| TOKEN ||| WANT.V ||| OTHER ||| NONE ||| WANT.V
+3-4 ||| fruit ||| TOKEN ||| JUICE.N ||| OTHER ||| NONE ||| JUICE.N
+4-5 ||| juice ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+5-6 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #78
+0-1 ||| Name ||| TOKEN ||| NAME.V ||| OTHER ||| NONE ||| NAME.V
+1-2 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+2-3 ||| fast ||| TOKEN ||| FAST.A ||| OTHER ||| NONE ||| FAST.A
+3-4 ||| food ||| TOKEN ||| FOOD.N ||| OTHER ||| NONE ||| FOOD.N
+4-5 ||| chain ||| TOKEN ||| CHAIN.N ||| OTHER ||| NONE ||| CHAIN.N
+5-6 ||| with ||| TOKEN ||| WITH.P ||| OTHER ||| NONE ||| WITH.P
+6-7 ||| the ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+7-8 ||| golden ||| TOKEN ||| GOLDEN.A ||| OTHER ||| NONE ||| GOLDEN.A
+8-9 ||| arches ||| TOKEN ||| ARCH.N ||| OTHER ||| NONE ||| ARCH.N
+9-10 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #79
+0-1 ||| Ask ||| TOKEN ||| ASK.V ||| OTHER ||| NONE ||| ASK.V
+1-2 ||| Trang ||| TOKEN ||| "|Trang|" ||| OTHER ||| NONE ||| "|Trang|"
+2-3 ||| if ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+3-4 ||| he ||| TOKEN ||| HE.PRO ||| OTHER ||| NONE ||| HE.PRO
+4-5 ||| 's ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+5-6 ||| going ||| TOKEN ||| GO_OUT.V ||| OTHER ||| NONE ||| GO_OUT.V
+6-7 ||| out ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+7-8 ||| this ||| TOKEN ||| THIS.D ||| OTHER ||| NONE ||| THIS.D
+8-9 ||| evening ||| TOKEN ||| EVENING.N ||| OTHER ||| NONE ||| EVENING.N
+9-10 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #80
+0-1 ||| What ||| TOKEN ||| WHAT.D ||| OTHER ||| NONE ||| WHAT.D
+1-2 ||| curriculum ||| TOKEN ||| CURRICULUM.N ||| OTHER ||| NONE ||| CURRICULUM.N
+2-3 ||| does ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+3-4 ||| Fadil ||| TOKEN ||| "|Fadil|" ||| OTHER ||| NONE ||| "|Fadil|"
+4-5 ||| use ||| TOKEN ||| USE.V ||| OTHER ||| NONE ||| USE.V
+5-6 ||| to ||| TOKEN ||| TO ||| OTHER ||| NONE ||| TO
+6-7 ||| teach ||| TOKEN ||| TEACH.V ||| OTHER ||| NONE ||| TEACH.V
+7-8 ||| Arabic ||| TOKEN ||| "|Arabic|" ||| OTHER ||| NONE ||| "|Arabic|"
+8-9 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #81
+0-1 ||| Enjoy ||| TOKEN ||| ENJOY.V ||| OTHER ||| NONE ||| ENJOY.V
+1-2 ||| your ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| meal ||| TOKEN ||| MEAL.N ||| OTHER ||| NONE ||| MEAL.N
+3-4 ||| ! ||| TOKEN ||| ! ||| OTHER ||| NONE ||| !
+
+Sentence #82
+0-1 ||| What ||| TOKEN ||| WHAT.PRO ||| OTHER ||| NONE ||| WHAT.PRO
+1-2 ||| do ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+2-3 ||| goldfish ||| TOKEN ||| GOLDFISH.N ||| OTHER ||| NONE ||| GOLDFISH.N
+3-4 ||| lose ||| TOKEN ||| LOSE.V ||| OTHER ||| NONE ||| LOSE.V
+4-5 ||| if ||| TOKEN ||| IF.PS ||| OTHER ||| NONE ||| IF.PS
+5-6 ||| kept ||| TOKEN ||| KEEP.V ||| OTHER ||| NONE ||| KEEP.V
+6-7 ||| in ||| TOKEN ||| IN.P ||| OTHER ||| NONE ||| IN.P
+7-8 ||| dimly-lit ||| TOKEN ||| DIMLY.ADV-A ||| OTHER ||| NONE ||| DIMLY.ADV-A
+8-9 ||| or ||| TOKEN ||| OR ||| OTHER ||| NONE ||| OR
+9-10 ||| running ||| TOKEN ||| RUNNING.A ||| OTHER ||| NONE ||| RUNNING.A
+10-11 ||| water ||| TOKEN ||| WATER.N ||| OTHER ||| NONE ||| WATER.N
+11-12 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #83
+0-1 ||| '' ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+1-2 ||| You ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| 're ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+3-4 ||| not ||| TOKEN ||| NOT.P-ARG ||| OTHER ||| NONE ||| NOT.P-ARG
+4-5 ||| asleep ||| TOKEN ||| ASLEEP.A ||| OTHER ||| NONE ||| ASLEEP.A
+5-6 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+6-7 ||| '' ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #84
+0-1 ||| What ||| TOKEN ||| WHAT.D ||| OTHER ||| NONE ||| WHAT.D
+1-2 ||| 's ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+2-3 ||| wrong ||| TOKEN ||| WRONG.A ||| OTHER ||| NONE ||| WRONG.A
+3-4 ||| with ||| TOKEN ||| WITH.P ||| OTHER ||| NONE ||| WITH.P
+4-5 ||| this ||| TOKEN ||| THIS.D ||| OTHER ||| NONE ||| THIS.D
+5-6 ||| plan ||| TOKEN ||| PLAN.N ||| OTHER ||| NONE ||| PLAN.N
+6-7 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #85
+0-1 ||| Tom ||| TOKEN ||| "|Tom|" ||| OTHER ||| NONE ||| "|Tom|"
+1-2 ||| seemed ||| TOKEN ||| SEEM.V ||| OTHER ||| NONE ||| SEEM.V
+2-3 ||| somewhat ||| TOKEN ||| SOMEWHAT.ADV-A ||| OTHER ||| NONE ||| SOMEWHAT.ADV-A
+3-4 ||| annoyed ||| TOKEN ||| ANNOYED.A ||| OTHER ||| NONE ||| ANNOYED.A
+4-5 ||| by ||| TOKEN ||| BY.P-ARG ||| OTHER ||| NONE ||| BY.P-ARG
+5-6 ||| that ||| TOKEN ||| THAT.PRO ||| OTHER ||| NONE ||| THAT.PRO
+6-7 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #86
+0-1 ||| I ||| TOKEN ||| I.PRO ||| OTHER ||| NONE ||| I.PRO
+1-2 ||| ca ||| TOKEN ||| CAN.AUX-V ||| OTHER ||| NONE ||| CAN.AUX-V
+2-3 ||| n't ||| TOKEN ||| NOT ||| OTHER ||| NONE ||| NOT
+3-4 ||| believe ||| TOKEN ||| BELIEVE.V ||| OTHER ||| NONE ||| BELIEVE.V
+4-5 ||| my ||| TOKEN ||| MY.D ||| OTHER ||| NONE ||| MY.D
+5-6 ||| eyes ||| TOKEN ||| EYE.N ||| OTHER ||| NONE ||| EYE.N
+6-7 ||| . ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+
+Sentence #87
+0-1 ||| How ||| TOKEN ||| HOW.ADV-S ||| OTHER ||| NONE ||| HOW.ADV-S
+1-2 ||| are ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+2-3 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+3-4 ||| getting ||| TOKEN ||| GET_ALONG.V ||| OTHER ||| NONE ||| GET_ALONG.V
+4-5 ||| along ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+5-6 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #88
+0-1 ||| Can ||| TOKEN ||| CAN.AUX-V ||| OTHER ||| NONE ||| CAN.AUX-V
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| prove ||| TOKEN ||| PROVE.V ||| OTHER ||| NONE ||| PROVE.V
+3-4 ||| which ||| TOKEN ||| WHICH.PRO ||| OTHER ||| NONE ||| WHICH.PRO
+4-5 ||| was ||| TOKEN ||| BE.V ||| OTHER ||| NONE ||| BE.V
+5-6 ||| the ||| TOKEN ||| THE.D ||| OTHER ||| NONE ||| THE.D
+6-7 ||| original ||| TOKEN ||| ORIGINAL.A ||| OTHER ||| NONE ||| ORIGINAL.A
+7-8 ||| language ||| TOKEN ||| LANGUAGE.N ||| OTHER ||| NONE ||| LANGUAGE.N
+8-9 ||| of ||| TOKEN ||| OF.P ||| OTHER ||| NONE ||| OF.P
+9-10 ||| your ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+10-11 ||| holy ||| TOKEN ||| HOLY.A ||| OTHER ||| NONE ||| HOLY.A
+11-12 ||| writings ||| TOKEN ||| WRITING.N ||| OTHER ||| NONE ||| WRITING.N
+12-13 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+
+Sentence #89
+0-1 ||| Do ||| TOKEN ||| DO.AUX-S ||| OTHER ||| NONE ||| DO.AUX-S
+1-2 ||| you ||| TOKEN ||| YOU.PRO ||| OTHER ||| NONE ||| YOU.PRO
+2-3 ||| know ||| TOKEN ||| KNOW.V ||| OTHER ||| NONE ||| KNOW.V
+3-4 ||| of ||| TOKEN ||| OF.P-ARG ||| OTHER ||| NONE ||| OF.P-ARG
+4-5 ||| a ||| TOKEN ||| A.D ||| OTHER ||| NONE ||| A.D
+5-6 ||| dish ||| TOKEN ||| DISH.N ||| OTHER ||| NONE ||| DISH.N
+6-7 ||| that ||| TOKEN ||| THAT.REL ||| OTHER ||| NONE ||| THAT.REL
+7-8 ||| has ||| TOKEN ||| HAVE.V ||| OTHER ||| NONE ||| HAVE.V
+8-9 ||| laurel ||| TOKEN ||| LAUREL.A ||| OTHER ||| NONE ||| LAUREL.A
+9-10 ||| leaves ||| TOKEN ||| LEAF.N ||| OTHER ||| NONE ||| LEAF.N
+10-11 ||| in ||| TOKEN ||| IN.P ||| OTHER ||| NONE ||| IN.P
+11-12 ||| it ||| NONE ||| NONE ||| NONE ||| NONE ||| NONE
+12-13 ||| ? ||| TOKEN ||| ? ||| OTHER ||| NONE ||| ?
+

@@ -179,7 +179,7 @@ class Dataset(object):
         """
         return
 
-
+# Return a list rather than a dictionary?
 def generateDictionary(label_list, thre=1):
     counts = defaultdict(int)
     for l in label_list:

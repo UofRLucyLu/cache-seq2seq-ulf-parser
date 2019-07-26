@@ -83,6 +83,7 @@ class AMRGraph(object):
         self.concepts = []
         self.counter = 0
         self.widToConceptID = {}
+        self.conIDToWordID = {}
         self.cidToSpan = {}
         self.right_edges = defaultdict(list)
         self.toks = None
@@ -177,6 +178,7 @@ class AMRGraph(object):
         for (i, concept) in enumerate(self.concepts):
             for word_idx in concept.alignments:
                 self.widToConceptID[word_idx] = i
+                self.conIDToWordID[i] = word_idx
             span = concept.span
             if span is not None:
                 self.cidToSpan[i] = span
@@ -194,18 +196,22 @@ class AMRGraph(object):
         return ret
 
     def buildEdgeMap(self):
+        # map an index to a list(right_edges list)
         right_edges_list = defaultdict(list)
+        # for each concept index and the concept itself that is included in the array
         for (i, concept) in enumerate(self.concepts):
+            # check on what concept does
             for tail_v in concept.tail_ids:
                 self.headToTail[i].add(tail_v)
                 if tail_v > i:
                     right_edges_list[i].append(tail_v)
                 elif tail_v < i:
                     right_edges_list[tail_v].append(i)
+
         for left_idx in right_edges_list:
             sorted_right_list = sorted(right_edges_list[left_idx])
             assert sorted_right_list[0] > left_idx
-            self.right_edges[left_idx] = sorted_right_list
+            self.right_edges[left_idx] = sorted_right_list 
 
     def addConcept(self, c):
         self.concepts.append(c)
