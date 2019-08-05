@@ -82,16 +82,17 @@ cp ${ULF_DATA}/lemma ${ORACLE_DIR}/lemma
 #SBATCH --mem=35GB
 #SBATCH -c 1
 #SBATCH --reservation=xpeng3-may2018
-
+"""
 module load cuda/8.0
 module load cudnn/8.0
 module load graphviz
 
-# CONFIG_FILE=./config_files/config_${ULF_VER}-cache${CACHE_SIZE}.json
+CONFIG_FILE=./config_files/config_${ULF_VER}-cache${CACHE_SIZE}.json
 #./config_files/config_uniform5.json
 # TODO: use hard attention
 #python soft_NP2P_trainer.py --config_path ${CONFIG_FILE}
 python NP2P_trainer.py --config_path ${CONFIG_FILE}
+"""
 
 
 

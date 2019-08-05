@@ -117,6 +117,9 @@ class CacheTransitionParser(object):
                 c.tree = dep_tree
                 c.conceptSeq = concept_seq
                 c.categorySeq = category_seq
+
+                c.buildConceptToTypes()
+
                 assert len(concept_seq) == len(category_seq)
 
                 c.setGold(amr_graph)

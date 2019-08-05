@@ -13,4 +13,4 @@ if __name__ == "__main__":
     
     type1 = sys.argv[1]
     type2 = sys.argv[2]
-    sys.stdout.write(compose_types(type1, type2))  
+    sys.stdout.write(compose_types(type1, type2)+'\n')  

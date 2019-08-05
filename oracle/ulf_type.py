@@ -12,4 +12,4 @@ if __name__ == "__main__":
     ulf_type = lisp.function('ulf-lib::str-ulf-type-string?')
     
     atom = sys.argv[1]
-    sys.stdout.write(ulf_type(atom))
+    sys.stdout.write(ulf_type(atom)+'\n')

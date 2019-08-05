@@ -101,6 +101,7 @@ class SeqEncoder(object):
             input_dim = options.compress_input_dim
 
         if is_training:
+            # for potentially disconnect certain neuron
             in_passage_repres = tf.nn.dropout(in_passage_repres, (1 - options.dropout_rate))
         else:
             in_passage_repres = tf.multiply(in_passage_repres, (1 - options.dropout_rate))

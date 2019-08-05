@@ -89,6 +89,7 @@ def main(_):
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
 
+    # supply the multiple directories and etc.
     path_prefix = log_dir + "/NP2P.{}".format(FLAGS.suffix)
     log_file_path = path_prefix + ".log"
     print('Log file path: {}'.format(log_file_path))
@@ -123,6 +124,7 @@ def main(_):
     action_vocab = None
     has_pretrained_model = False
     best_path = path_prefix + ".best.model"
+    # if already has a model that works for this sentence
     if os.path.exists(best_path + ".index"):
         has_pretrained_model = True
         print('!!Existing pretrained model. Loading vocabs.')
@@ -138,6 +140,7 @@ def main(_):
         print('feat_vocab: {}'.format(feat_vocab.word_vecs.shape))
         action_vocab = Vocab(path_prefix + ".action_vocab", fileformat='txt2')
         print('action_vocab: {}'.format(action_vocab.word_vecs.shape))
+    # Otherwise
     else:
         print('Collecting vocabs.')
         (allWords, allChars, allPOSs, allFeats, allActions) = NP2P_data_stream.collect_vocabs(trainset)
@@ -329,7 +332,7 @@ if __name__ == '__main__':
     print("CUDA_VISIBLE_DEVICES " + os.environ['CUDA_VISIBLE_DEVICES'])
     FLAGS, unparsed = parser.parse_known_args()
 
-
+    # obtain the config_path from the configuration file
     if FLAGS.config_path is not None:
         print('Loading the configuration from ' + FLAGS.config_path)
         FLAGS = namespace_utils.load_namespace(FLAGS.config_path)

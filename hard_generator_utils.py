@@ -129,6 +129,7 @@ class HardAttnGen:
                 if i > 0:
                     variable_scope.get_variable_scope().reuse_variables()
 
+                # state search
                 (state_t, context_input_t, context_concept_t, output_t) = \
                         self.one_step_decoder(state_t_1, context_input_t_1, context_concept_t_1, word_t, featidx_t, wid_t, cid_t,
                                 input_states, input_mask, concept_states, concept_mask)

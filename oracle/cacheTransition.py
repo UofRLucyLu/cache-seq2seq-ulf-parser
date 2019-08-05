@@ -1,5 +1,6 @@
 import sys, os
 from cacheConfiguration import *
+from composition import *
 NULL = "-NULL-"
 UNKNOWN = "-UNK-"
 class CacheTransition(object):
@@ -30,6 +31,10 @@ class CacheTransition(object):
         self.arcbinary_action_set = None
         self.arclabel_action_set = None
         self.shiftpop_action_set = None
+
+        # for type checking 
+        self.compose_types = Composition('compose_types')
+
 
     # return the number of specific actions appending
     def actionNum(self, action_type):
@@ -136,6 +141,20 @@ class CacheTransition(object):
             return self.push_actionIDs[action]
         return -1
 
+    # helper method for composition checking
+    def canApplyArc(self, c, concept_idx, cache_idx):
+        # already have a type for all concepts that are aligned to word
+        type1 = c.con2type[concept_idx]
+        type2 = c.con2type[cache_idx]
+        if type1 == '...' and type2 == '...':
+            return False
+        next_compose_type = self.compose_types(type1, type2)
+        if next_compose_type == '...':
+            return False
+        c.next_compose_type = next_compose_type
+        return True
+
+
     # Currently only support CL oracle.
     def canApply(self, c, action, concept_idx=-1, use_refined=False, cache_idx=-1):
         if c.phase == utils.FeatureType.SHIFTPOP: # Can only shift or pop.
@@ -154,7 +173,14 @@ class CacheTransition(object):
             if left_concept_idx == -1:
                 return action == "NOARC"
 
-            return action in self.arcbinary_action_set
+            # if the tree asks to compose two things that cannot be composed
+            # check if the arction is NOARC
+            if self.canApplyArc(c, concept_idx, left_concept_idx):
+                return action in self.arcbinary_action_set
+            else:
+                return action == "NOARC"
+
+
         #Current version does not use any category yet.
         if use_refined:
             left_concept = c.getCacheConcept(cache_idx, utils.Tokentype.CATEGORY)

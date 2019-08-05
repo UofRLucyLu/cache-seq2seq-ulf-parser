@@ -274,6 +274,7 @@ def run_beam_search(sess, trans_system, model, feat_vocab, action_vocab, batch, 
     initial_config.categorySeq = concept_categories
     initial_config.tree = sent_anno.tree
     initial_config.buildWordToConcept()
+    initial_config.buildConceptToTypes()
     print (sent_anno.tok)
     print (concept_seq)
     print (concept_categories)

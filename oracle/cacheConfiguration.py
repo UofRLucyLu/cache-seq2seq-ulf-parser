@@ -5,6 +5,9 @@ from AMRGraph import *
 import copy
 import utils
 # from utils import Tokentype
+# for type checking
+from composition import *
+
 class CacheConfiguration(object):
     def __init__(self, size, length, config=None):
         """
@@ -38,6 +41,12 @@ class CacheConfiguration(object):
             self.phase = utils.FeatureType.SHIFTPOP
             self.widTocid = {}  #?
 
+            # dictionary so that one can get the types all at once without consulting cl4py each time
+            # as that takes time
+            self.con2type = {} 
+            self.ulf_type = Composition('ulf_type')
+            self.next_compose_type = None
+
         else:
             self.stack = copy.copy(config.stack)
             self.buffer = copy.copy(config.buffer)
@@ -52,6 +61,9 @@ class CacheConfiguration(object):
             self.pop_buff = config.pop_buff
             self.last_action = config.last_action
             self.widTocid = config.widTocid
+            self.con2type = config.con2type
+            self.ulf_type = config.ulf_type
+            self.next_compose_type = config.next_compose_type
 
     def setGold(self, graph_):
         self.gold = graph_
@@ -66,6 +78,18 @@ class CacheConfiguration(object):
         for (cidx, aligned_widx) in enumerate(self.conceptAlign):
             if aligned_widx != -1:
                 self.widTocid[aligned_widx] = cidx
+
+    # for type system checking
+    # as unknown type will be ..., just uses that as the type temporarily
+    def buildConceptToTypes(self):
+        sentence = ""
+        for i in range(len(self.conceptSeq)):
+            concept = self.conceptSeq[i]
+            label = '(' + concept + ')'
+            self.con2type[concept] = self.ulf_type.eval(label)
+            sentence += "Index: %d, Concept: %s, Type: %s \n" %(i, concept, self.con2type[concept])
+        print sentence
+
 
     def isUnalign(self, idx):
         return self.conceptAlign[idx] == -1
@@ -438,11 +462,15 @@ class CacheConfiguration(object):
             cand_c.rels.append(arc_label)
             cache_c.parent_ids.append(cand_vertex_idx)
             cache_c.parent_rels.append(arc_label)
+            # move the type to the parent
+            self.con2type[cand_c] = self.next_compose_type
         else:
             cand_c.parent_ids.append(cache_vertex_idx)
             cand_c.parent_rels.append(arc_label)
             cache_c.tail_ids.append(cand_vertex_idx)
             cache_c.rels.append(arc_label)
+            # same as above
+            self.con2type[cache_c] = self.next_compose_type
 
     def bufferDepConnections(self, word_idx, thre=20):
         ret_set = set()
