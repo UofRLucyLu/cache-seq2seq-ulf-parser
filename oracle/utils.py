@@ -118,16 +118,16 @@ def mergeToks(orig_toks, tokenized_seq, all_alignments, sent_index):
             if i < end:
                 curr_span = "".join(orig_toks[i: end])
                 if allSymbols(curr_span):
-                    print curr_span, wiki_label
+                    print(curr_span, wiki_label)
                     break
 
                 (new_start, new_end) = searchSeq(curr_span, tokenized_seq, matched_index)
                 if new_start == -1:
-                    print ("Something wrong here in %d" % sent_index)
-                    print curr_span
-                    print orig_toks
-                    print tokenized_seq
-                    print matched_index, tokenized_seq[matched_index]
+                    print("Something wrong here in %d" % sent_index)
+                    print(curr_span)
+                    print(orig_toks)
+                    print(tokenized_seq)
+                    print(matched_index, tokenized_seq[matched_index])
 
                     sys.exit(1)
                 visited |= set(xrange(i, end))

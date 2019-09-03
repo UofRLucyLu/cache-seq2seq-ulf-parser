@@ -9,7 +9,7 @@ from constants import *
 from date_extraction import *
 from utils import *
 import ml_utils
-from oracle_data import *
+from soracle_data import *
 
 def collapseTokens(tok_seq, lemma_seq, pos_seq, span_to_type, isTrain=True, span_max=6):
     n_toks = len(tok_seq)
@@ -80,10 +80,10 @@ def collapseTokens(tok_seq, lemma_seq, pos_seq, span_to_type, isTrain=True, span
     try:
         assert len(collapsed) == len(tok_seq)   # if finish
     except:
-        print "Everything should be collapsed in the new sequence: %s." % str(span_to_type)
+        print("Everything should be collapsed in the new sequence: %s." % str(span_to_type))
         noncollapsed = [(k, tok) for (k, tok) in enumerate(tok_seq) if k not in collapsed]
         for k, tok in noncollapsed:
-            print "Not collapsed %d : %s" % (k, tok)
+            print("Not collapsed %d : %s" % (k, tok))
         sys.exit(1)
     return collapsed_seq, collapsed_lem, collapsed_pos, new_alignment, start_to_end
 
@@ -192,9 +192,9 @@ def buildPiSeq(amr, tok_seq, all_alignments, sorted_idxes):
 
     helper(amr, amr.root, pi_seq)
 
-    print "20:10 testing"
+    print("20:10 testing")
     for i in pi_seq:
-        print "Index: %d, Node: %s" %(i, amr.nodes[i])
+        print("Index: %d, Node: %s" %(i, amr.nodes[i]))
 
     assert len(pi_seq) == len(index_set)
 
@@ -324,17 +324,17 @@ def realign(input_file, tokenized_file, alignment_file, alignment_output):
                 orig_tok = orig_seq[orig_idx]
                 (new_start, new_end) = searchSeq(orig_tok, tokenized_seq, new_idx)
                 if new_start == -1:
-                    print "Something wrong with sentence %d" % sent_idx
-                    print orig_seq
-                    print tokenized_seq
-                    print orig_idx, orig_tok
-                    print new_idx, tokenized_seq[new_idx]
+                    print("Something wrong with sentence %d" % sent_idx)
+                    print(orig_seq)
+                    print(tokenized_seq)
+                    print(orig_idx, orig_tok)
+                    print(new_idx, tokenized_seq[new_idx])
                     sys.exit(1)
                 elif "".join(tokenized_seq[new_start:new_end]) != orig_tok:
-                    print "Changes made from #%s# to #%s#" % (orig_tok, " ".join(tokenized_seq[new_start:new_end]))
+                    print("Changes made from #%s# to #%s#" % (orig_tok, " ".join(tokenized_seq[new_start:new_end])))
 
                 if new_end - new_start > 1:
-                    print "Align to multiple: #%s# to #%s#" % (orig_tok, " ".join(tokenized_seq[new_start:new_end]))
+                    print("Align to multiple: #%s# to #%s#" % (orig_tok, " ".join(tokenized_seq[new_start:new_end])))
 
                 for idx in range(new_start, new_end):
                     for curr_align in align_set:
@@ -728,7 +728,7 @@ def linearize_amr(args):
         print >> tok_wf, (" ".join(collapsed_toks))
         print >> lemma_wf, (" ".join(collapsed_lem))
         print >> pos_wf, (" ".join(collapsed_pos))
-        print str(new_amr)
+        print(str(new_amr))
 
         origToNew = {}
         for (i, index) in enumerate(pi_seq):
@@ -794,12 +794,12 @@ def linearize_amr(args):
         if len(sorted_map_counts) > 0 and len(sorted_map_counts[0]) > 0:
           mle_map[tok_s] = tuple(sorted_map_counts[0][0].split("||"))
 
-    print '######NUMBERS#######'
+    print('######NUMBERS#######')
     for lemma_s in lemma2counts:
         sorted_map_counts = sorted(lemma2counts[lemma_s].items(), key=lambda x:-x[1])
         mleLemmaMap[lemma_s] = tuple(sorted_map_counts[0][0].split("||"))
         if mleLemmaMap[lemma_s][0] == 'NUMBER':
-            print lemma_s
+            print(lemma_s)
 
     # Then dump all the training statistics.
     # First edges statistics.
@@ -876,7 +876,7 @@ def loadMLECount(file):
                 concept = curr.split(':')[0]
                 count = int(curr.split(':')[1])
                 if concept == '-NULL-' and count < 20:
-                    print word, count
+                    print(word, count)
                 else:
                     if word not in mleCounts:
                         mleCounts[word] = defaultdict(int)
@@ -980,18 +980,18 @@ def linearizeData(args, data_dir, freq_path, output_dir, save_mode=False):
 
                 (new_start, new_end) = searchSeq(date_repr.replace(" ", ""), tokenized, new_idx)
                 if new_start == -1:
-                    print "Something wrong with sentence %d" % sent_idx
-                    print date_repr
-                    print tokenized
+                    print("Something wrong with sentence %d" % sent_idx)
+                    print(date_repr)
+                    print(tokenized)
                     sys.exit(1)
                 if new_end - new_start == 1:
                     single_dates[start] = new_start
                 else:
                     if new_end < len(tokenized) and tokenized[new_end] in date_suffixes:
                         new_end += 1
-                        print "newly generated:", "_".join(tokenized[new_start:new_end])
+                        print("newly generated:", "_".join(tokenized[new_start:new_end]))
                     new_date_spans.append("%d-%d####%s" % (new_start, new_end, "_".join(tokenized[new_start:new_end])))
-                    print "Date:", " ".join(tokenized[new_start:new_end])
+                    print("Date:", " ".join(tokenized[new_start:new_end]))
                     new_idx = new_end
 
                     aligned_set |= set(range(start, end))
@@ -1015,7 +1015,7 @@ def linearizeData(args, data_dir, freq_path, output_dir, save_mode=False):
                     new_name = replaceSymbol(entity_name)
                     if new_name != entity_name:
                         entity_name = new_name
-                        print "Replaced:", entity_name
+                        print("Replaced:", entity_name)
 
                 if entity_name in mle_map:
                     entity_typ = mle_map[entity_name]
@@ -1023,12 +1023,12 @@ def linearizeData(args, data_dir, freq_path, output_dir, save_mode=False):
                     if not "NE_" in entity_typ[0] and entity_name.lower() in mle_map:
                         entity_typ = mle_map[entity_name.lower()]
                         if not "NE_" in entity_typ[0]:
-                            print "Removed discovered entity:", entity_name
+                            print("Removed discovered entity:", entity_name)
                             continue
                     elif entity_typ[0] == "NONE":
                         entity_typ = ("NE", "-")
                     if entity_typ in aligned_repr:
-                        print "Removed duplicate entity", entity_name
+                        print("Removed duplicate entity", entity_name)
                         entity_typ = ("REENT", "-")
                         ret_ent = True
                     aligned_repr.add(entity_typ)
@@ -1036,7 +1036,7 @@ def linearizeData(args, data_dir, freq_path, output_dir, save_mode=False):
                 elif start == 0 and entity_name.lower() in mle_map:
                     entity_typ = mle_map[entity_name.lower()]
                     if not "NE_" in entity_typ[0]:
-                        print "Removed discovered entity:", entity_name
+                        print("Removed discovered entity:", entity_name)
                         continue
                     aligned_repr.add(entity_typ)
 
@@ -1051,27 +1051,27 @@ def linearizeData(args, data_dir, freq_path, output_dir, save_mode=False):
                         assert start - 2 in lasttok_to_repr
                         abbrev_to_fullname[entity_repr] = lasttok_to_repr[start-2]
                     except:
-                        print "sentence index", sent_idx
-                        print entities_in_sent
-                        print lasttok_to_repr
+                        print("sentence index", sent_idx)
+                        print(entities_in_sent)
+                        print(lasttok_to_repr)
                         sys.exit(1)
-                    print "Pruned abbreviation: %s" % (" ".join(tok_seq[start:end]))
+                    print("Pruned abbreviation: %s" % (" ".join(tok_seq[start:end])))
                     entity_typ = ("ABBREV", "-")
                     abbrev = True
                 entity_tok_set |= set(range(start, end))
                 (new_start, new_end) = searchSeq(entity_repr.replace(" ", ""), tokenized, new_idx, aligned_new)
                 if new_start == -1:
-                    print "Here", new_idx
-                    print "Something wrong with sentence %d" % sent_idx
-                    print entity_repr
-                    print tokenized
+                    print("Here", new_idx)
+                    print("Something wrong with sentence %d" % sent_idx)
+                    print(entity_repr)
+                    print(tokenized)
                     sys.exit(1)
                 map_repr = "%s##%s" % (entity_typ[0], entity_typ[1])
                 # print new_start, new_end, map_repr
                 lasttok_to_repr[end-1] = map_repr
 
                 new_entity_spans.append("%d-%d####%s" % (new_start, new_end, map_repr))
-                print "NER:", " ".join(tokenized[new_start:new_end])
+                print("NER:", " ".join(tokenized[new_start:new_end]))
                 # print aligned_repr
                 curr_aligned = set(range(new_start, new_end))
                 assert len(aligned_new & curr_aligned) == 0
@@ -1088,12 +1088,12 @@ def linearizeData(args, data_dir, freq_path, output_dir, save_mode=False):
                     aligned_set.add(0)
                     (new_start, new_end) = searchSeq(first_tok, tokenized, new_idx)
                     if new_start == -1:
-                        print "Something wrong with sentence %d" % sent_idx
-                        print entity_repr
-                        print tokenized
+                        print("Something wrong with sentence %d" % sent_idx)
+                        print(entity_repr)
+                        print(tokenized)
                         sys.exit(1)
                     new_entity_spans.append("%d-%d####%s##%s" % (new_start, new_end, entity_typ[0], entity_typ[1]))
-                    print "NER:", " ".join(tokenized[new_start:new_end])
+                    print("NER:", " ".join(tokenized[new_start:new_end]))
 
                     aligned_new |= set(range(new_start, new_end))
 
@@ -1115,28 +1115,28 @@ def linearizeData(args, data_dir, freq_path, output_dir, save_mode=False):
                             new_name = replaceSymbol(entity_repr)
                             if new_name != entity_repr:
                                 entity_repr = new_name
-                                print "Replaced:", entity_repr
+                                print("Replaced:", entity_repr)
 
                         if entity_repr in mle_map:
                             entity_typ = mle_map[entity_repr]
                             if entity_typ in aligned_repr:
-                                print "Removed duplicate entity", entity_name
+                                print("Removed duplicate entity", entity_name)
                                 entity_typ = ("REENT", "-")
                             aligned_repr.add(entity_typ)
                             if not "NE_" in entity_typ[0] and entity_repr.lower() in mle_map:
                                 entity_typ = mle_map[entity_repr.lower()]
                                 if "NE_" not in entity_typ[0]:
-                                    print "Removed discovered entity:", entity_repr
+                                    print("Removed discovered entity:", entity_repr)
                                     continue
                             elif entity_typ[0] == "NONE":
-                                print "Unaligned token:", entity_repr
+                                print("Unaligned token:", entity_repr)
                                 continue
 
                         elif start == 0 and entity_repr.lower() in mle_map:
                             entity_typ = mle_map[entity_repr.lower()]
                             assert entity_typ not in aligned_repr
                             if not "NE_" in entity_typ[0]:
-                                print "Removed discovered entity:", entity_name
+                                print("Removed discovered entity:", entity_name)
                                 continue
                         else:
                             assert entity_repr in entity_map
@@ -1149,10 +1149,10 @@ def linearizeData(args, data_dir, freq_path, output_dir, save_mode=False):
                         entity_repr = " ".join(tok_seq[start: end])
                         (new_start, new_end) = searchSeq(entity_repr.replace(" ", ""), tokenized, new_idx, aligned_new)
                         if new_start == -1:
-                            print "Here", new_idx
-                            print "Something wrong with sentence %d" % sent_idx
-                            print entity_repr
-                            print tokenized
+                            print("Here", new_idx)
+                            print("Something wrong with sentence %d" % sent_idx)
+                            print(entity_repr)
+                            print(tokenized)
                             sys.exit(1)
                         new_entity_spans.append("%d-%d####%s##%s" % (new_start, new_end, entity_typ[0], entity_typ[1]))
                         # print "NER:", " ".join(tokenized[new_start:new_end])
@@ -1168,9 +1168,9 @@ def linearizeData(args, data_dir, freq_path, output_dir, save_mode=False):
                 if idx not in aligned_set:
                     assert new_idx not in aligned_new
                     new_date_spans.append("%d-%d####%s" % (new_idx, new_idx+1, tokenized[new_idx]))
-                    print "Single dates: %s" % tokenized[new_idx]
+                    print("Single dates: %s" % tokenized[new_idx])
                 else:
-                    print "Filtered dates: %s, %s" % (tokenized[new_idx], tokenized)
+                    print("Filtered dates: %s, %s" % (tokenized[new_idx], tokenized))
 
             all_date_spans.append(new_date_spans)
             all_ner_spans.append(new_entity_spans)
@@ -1218,8 +1218,8 @@ def linearizeData(args, data_dir, freq_path, output_dir, save_mode=False):
             and_structure = check_and_sentences(" ".join(tok_seq))
             multi_tok_and = check_and_sentences(" ".join(tok_seq), tok_num=3)
             if and_structure:
-                print "sentence index %d" % sent_idx
-                print " ".join(tok_seq)
+                print("sentence index %d" % sent_idx)
+                print(" ".join(tok_seq))
 
             # else:
             #     continue
@@ -1348,7 +1348,7 @@ def linearizeData(args, data_dir, freq_path, output_dir, save_mode=False):
                     else:
                         subgraph = VERB_LIST[curr_lem][0]
                     subgraph_repr = alignment_utils.subgraph_str(subgraph)
-                    print "Retrieved: %s -> %s" % (curr_tok, subgraph_repr)
+                    print("Retrieved: %s -> %s" % (curr_tok, subgraph_repr))
                     root_repr = subgraph_repr.split()[0].strip()
                     category = "MULT_%s" % root_repr
                     span_to_type[(tok_idx, tok_idx+1)] = (-1, subgraph_repr, category)

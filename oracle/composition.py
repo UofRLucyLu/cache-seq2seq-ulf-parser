@@ -33,11 +33,17 @@ class Composition():
                 output.append(line)
                 #print(line, end='')
         
-        return output[-1].strip()
+        results = []
+        size = len(args)
+        for i in range(1, size + 1):
+            results.append(output[-(size + 1 - i)].strip())
+        return results
 
 if __name__ == "__main__":
     ulf_type = Composition('ulf_type')
-    type1 = ulf_type.eval('(dog.n)')
+    type1 = ulf_type.eval(['(dog.n)', '(bark.v)'])
+    """
     type2 = ulf_type.eval('(cat.n)')
     compose_types = Composition('compose_types')
     print('***res='+compose_types.eval([type1, type2]))
+    """

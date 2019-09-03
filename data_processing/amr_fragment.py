@@ -1,6 +1,6 @@
 #!/usr/bin/env python2.7
 import sys
-import bitarray
+from bitstring import bitarray
 import copy
 from bitarray import bitarray
 #Each fragment is simply two vectors of bits, for edges and boundary nodes

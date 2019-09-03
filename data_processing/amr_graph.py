@@ -181,7 +181,7 @@ class AMRNode(object):
             for op_edge_index in name_node.v_edges:
                 curr_op_edge = self.graph.edges[op_edge_index]
                 if curr_op_edge.label[:2] != 'op':
-                    print 'Extra operand: %s' % curr_op_edge.label
+                    print('Extra operand: %s' % curr_op_edge.label)
                     continue
 
                 op_index = int(curr_op_edge.label[2:])
@@ -523,7 +523,7 @@ class AMRGraph(object):
         assert False, 'not fully tested, don\'t use'
         assert n1 < len(self.nodes) and n2 < len(self.nodes)
 
-        print '---------------', n1, n2
+        print('---------------', n1, n2)
         set_n1 = set([n1,])
         labels_n1 = []
         while len(self.nodes[n1].p_edges) > 0:
@@ -531,7 +531,7 @@ class AMRGraph(object):
             n1_prime = edge.head
             if n1_prime in set_n1:
                 break
-            print 'n1 part', (n1, n1_prime, edge.label)
+            print('n1 part', (n1, n1_prime, edge.label))
             labels_n1.append((n1_prime, edge.label))
             n1 = n1_prime
 
@@ -542,7 +542,7 @@ class AMRGraph(object):
             n2_prime = edge.head
             if n2_prime in set_n2:
                 break
-            print 'n2 part', (n2, n2_prime, edge.label)
+            print('n2 part', (n2, n2_prime, edge.label))
             labels_n2.append((n2_prime, edge.label))
             n2 = n2_prime
 
@@ -551,7 +551,7 @@ class AMRGraph(object):
             if n1 != n2:
                 result.append(label)
         result = result + [x[1] for x in labels_n2]
-        print result
+        print(result)
         return result
 
 
@@ -584,8 +584,8 @@ class AMRGraph(object):
             try:
                 assert 'wiki' in edge_label_set
             except:
-                print 'ill-formed entity found'
-                print str(self)
+                print('ill-formed entity found')
+                print(str(self))
                 return False
             return True
         return False
@@ -627,16 +627,16 @@ class AMRGraph(object):
 
     def print_info(self):
         #print all nodes info
-        print 'Nodes information:'
-        print 'Number of nodes: %s' % len(self.nodes)
+        print('Nodes information:')
+        print('Number of nodes: %s' % len(self.nodes))
         for node in self.node_dict.keys():
-            print str(node), ',', self.node_dict[node]
+            print(str(node), ',', self.node_dict[node])
 
         #print all edges info
-        print 'Edges information'
-        print 'Number of edges: %s' % len(self.edges)
+        print('Edges information')
+        print('Number of edges: %s' % len(self.edges))
         for edge in self.edge_dict.keys():
-            print edge.label, ',', self.edge_dict[edge]
+            print(edge.label, ',', self.edge_dict[edge])
 
     def check_self_cycle(self):
         visited_nodes = set()
@@ -769,7 +769,7 @@ class AMRGraph(object):
                 category_name = "DATE"
             elif category == "NUMBER":
                 if not amr.is_number(curr_node):
-                    print "Non-number align to number", curr_node.node_str()
+                    print("Non-number align to number", curr_node.node_str())
                     category_name = root_repr
                 else:
                     category_name = "NUMBER"
@@ -818,7 +818,7 @@ class AMRGraph(object):
 
             else:
                 exclude_rels, curr_sym, categorized = [], curr_var, False
-                print 'unseen: %s' % curr_var
+                print('unseen: %s' % curr_var)
 
             if curr_node.is_var_node(): #Register the node, and its constant edge
                 var_name = curr_node.node_label()
@@ -1178,9 +1178,9 @@ class AMRGraph(object):
             try:
                 assert len(integer_concepts[i]) == curr_depth+1, 'A relation has across more than 1 layer in just one step'
             except:
-                print integer_concepts
-                print integer_concepts[i]
-                print curr_depth
+                print(integer_concepts)
+                print(integer_concepts[i])
+                print(curr_depth)
                 #sys.exit(-1)
                 #logger.writeln(integer_concepts)
                 return None
@@ -1238,8 +1238,8 @@ class AMRGraph(object):
                     #print curr_node.v_edges
                     curr_edge_index = curr_node.v_edges[curr_index]
                 except:
-                    print "Exception in amr_graph.py get_concept_relation()"
-                    print s_rep
+                    print("Exception in amr_graph.py get_concept_relation()")
+                    print(s_rep)
                     sys.exit(1)
                 if i + 1 != len(path) and path[i+1] == 'r': #It's a relation
                     return ('r', curr_edge_index)
@@ -1247,8 +1247,8 @@ class AMRGraph(object):
                 curr_node_idx = curr_edge.tail
                 if i + 1 != len(path):
                     curr_node = self.nodes[curr_node_idx]
-                    print "curr_index {}".format(curr_index)
-                    print "curr_node: {}".format(curr_node)
+                    print("curr_index {}".format(curr_index))
+                    print("curr_node: {}".format(curr_node))
                     
 
         return ('c', curr_node_idx)
@@ -1415,7 +1415,7 @@ class AMRGraph(object):
                             s += "(%s" % entity_tag #Single entity
                     else:
                         s += "%s_copy" % entity_tag
-                        print "impossible here!"
+                        print("impossible here!")
                 else:
                     if depth < dep_rec:  #If the current layer is smaller than the current depth, then the previous few variables have finished traverse, print out the corresponding ) as finish
                         s += "%s" % ((dep_rec- depth) * ')')
@@ -1465,7 +1465,7 @@ class AMRGraph(object):
             s += '/'
             s += self.dict[var]
             s += ' '
-        print s
+        print(s)
 
 #unaligned_words are formatted as tuples of (position, word)
 def match_word(label, unaligned_words, lemma_map, stop_words):
@@ -1501,5 +1501,5 @@ if __name__ == '__main__':
     amr_line = '(f / foolish :condition (d / do-02  :ARG0 i) :domain (i / i))'
     #amr_line = '(e / establish-01:ARG1 (m / model:mod (i / innovate-01:ARG1 (i2 / industry))))'
     g = AMRGraph(amr_line)
-    print str(g)
+    print(str(g))
 

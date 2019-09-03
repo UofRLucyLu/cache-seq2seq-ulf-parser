@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import cPickle
+import _pickle as cPickle
 import sys
 import os
 import amr_graph

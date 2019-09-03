@@ -280,8 +280,8 @@ def loadDependency(path, tok_seqs, align=False, ulfdep=False):
             try:
                 assert tok_idx == len(tok_seq)
             except:
-                print tok_seq
-                print dep_seq
+                print(tok_seq)
+                print(dep_seq)
                 sys.exit(1)
             # print align_map
             align_maps.append(align_map)
@@ -371,7 +371,7 @@ def loadAMRConll(path):
                 try:
                     assert root_num == 1, "Sentence %d" % sent_idx
                 except:
-                    print "cycle at sentence %d" % sent_idx
+                    print("cycle at sentence %d" % sent_idx)
 
                 graph = AMRGraph()
                 root_num = 0

@@ -83,12 +83,17 @@ class CacheConfiguration(object):
     # as unknown type will be ..., just uses that as the type temporarily
     def buildConceptToTypes(self):
         sentence = ""
+        labels = []
         for i in range(len(self.conceptSeq)):
             concept = self.conceptSeq[i]
-            label = '(' + concept + ')'
-            self.con2type[concept] = self.ulf_type.eval(label)
-            sentence += "Index: %d, Concept: %s, Type: %s \n" %(i, concept, self.con2type[concept])
-        print sentence
+            labels.append('(' + concept + ') ')
+        
+        # obtain types all at once
+        types = ulf_type.eval(labels)
+        # create the dictionary using the keys and values
+        self.con2type = dict(zip(self.conceptSeq, types))
+        # checker method.
+        print(self.con2types)
 
 
     def isUnalign(self, idx):
