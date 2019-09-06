@@ -108,16 +108,16 @@ def mergeToks(orig_toks, tokenized_seq, all_alignments, sent_index):
             if i < end:
                 curr_span = "".join(orig_toks[i: end])
                 if allSymbols(curr_span):
-                    print curr_span, wiki_label
+                    print(curr_span, wiki_label)
                     break
 
                 (new_start, new_end) = searchSeq(curr_span, tokenized_seq, matched_index)
                 if new_start == -1:
-                    print ("Something wrong here in %d" % sent_index)
-                    print curr_span
-                    print orig_toks
-                    print tokenized_seq
-                    print matched_index, tokenized_seq[matched_index]
+                    print("Something wrong here in %d" % sent_index)
+                    print(curr_span)
+                    print(orig_toks)
+                    print(tokenized_seq)
+                    print(matched_index, tokenized_seq[matched_index])
 
                     sys.exit(1)
                 visited |= set(xrange(i, end))
@@ -142,9 +142,9 @@ def saveMLE(counts, dists, path, used_set=None, verify=False):
             sorted_repr = sorted(dists[item].items(), key=lambda x: -x[1])
             dist_repr = ";".join(["%s:%d" % (s, c) for (s, c) in sorted_repr])
             if used_set and item not in used_set:
-                print "Filtered phrase:", item
+                print("Filtered phrase:", item)
                 continue
-            print >>wf, "%s\t%d\t%s" % (item, count, dist_repr)
+            print("%s\t%d\t%s" % (item, count, dist_repr), file=wf)
         wf.close()
 
 def loadCountTable(path, max_len=3):
@@ -154,7 +154,7 @@ def loadCountTable(path, max_len=3):
             if line.strip():
                 fields = line.strip().split("\t")
                 if len(fields[0].split()) > max_len:
-                    print "Pruned phrase:", fields[0]
+                    print("Pruned phrase:", fields[0])
                     continue
                 counts[fields[0]] = int(fields[1])
     return counts
@@ -163,13 +163,13 @@ def saveCounter(counts, path):
     sorted_items = sorted(counts.items(), key=lambda x: -x[1])
     with open(path, "w") as wf:
         for (item ,count) in sorted_items:
-            print >>wf, "%s\t%d" % (item, count)
+            print("%s\t%d" % (item, count), file=wf)
         wf.close()
 
 def saveSetorList(entities, path):
     with open(path, "w") as wf:
         for item in entities:
-            print >>wf, item
+            print(item, file=wf)
         wf.close()
 
 def loadMLEFile(path):
@@ -214,8 +214,8 @@ def loadMap(map_file):
                         node_repr = fields[3]
                         category = fields[-1]
                     except:
-                        print spans, line
-                        print fields
+                        print(spans, line)
+                        print(fields)
                         sys.exit(1)
                     if toks not in span_to_cate:
                         span_to_cate[toks] = defaultdict(int)
@@ -232,7 +232,7 @@ def loadMap(map_file):
 def dumpMap(mle_map, result_file):
     with open(result_file, 'w') as wf:
         for toks in mle_map:
-            print >>wf, ('%s####%s##%s' % (toks, mle_map[toks][0], mle_map[toks][1]))
+            print(('%s####%s##%s' % (toks, mle_map[toks][0], mle_map[toks][1])), file=wf)
 
 def dateMap(dateFile):
     dates_in_lines = []
@@ -256,7 +256,7 @@ def alignDates(tok_file, dateFile):
         for sp in dates:
             start = int(sp.split("-")[0])
             end = int(sp.split("-")[1])
-            print " ".join(toks[start:end])
+            print(" ".join(toks[start:end]))
 
 def check_tokenizer(input_file, tokenized_file):
     with open(input_file, 'r') as input_f:
@@ -267,8 +267,8 @@ def check_tokenizer(input_file, tokenized_file):
                     input_repr = "".join(input_line.strip().split()).replace("\"", "").replace("\'", "")
                     tokenized_repr = "".join(tokenized_line.strip().split()).replace("\'", "")
                     if input_repr != tokenized_repr:
-                        print "original tokens:", input_line.strip()
-                        print "tokenized:", tokenized_line.strip()
+                        print("original tokens:", input_line.strip())
+                        print("tokenized:", tokenized_line.strip())
 
 def loadFrequentSet(path):
     concept_path = os.path.join(path, "concept_counts.txt")
@@ -331,7 +331,7 @@ def saveSpanMap(span_lists, path, delimiter="####"):
         for span_seq in span_lists:
             new_span_seq = sorted([(int(s.split(delimiter)[0].split("-")[0]),
                                     int(s.split(delimiter)[0].split("-")[1]), s) for s in span_seq])
-            print >> wf, "\t".join([s for (_, _, s) in new_span_seq])
+            print("\t".join([s for (_, _, s) in new_span_seq]), file=wf)
         wf.close()
 
 def loadSpanMap(path, delimiter="\t", type="NER"):

@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import re, sys, os
-import cPickle
+import pickle
 from identify_entity import entities_inline
 
 def identify_entities(tok_file, ner_file, mle_map):
@@ -63,7 +63,7 @@ def identify_entities(tok_file, ner_file, mle_map):
 
                             if curr_str in entities:
                                 if toks[start] in stop_words or toks[end-1] in stop_words:
-                                    print "entities with stopword:", curr_str
+                                    print("entities with stopword:", curr_str)
                                 curr_set = set(xrange(start, end))
                                 aligned_toks |= curr_set
                                 # print curr_str

@@ -129,12 +129,12 @@ class Dataset(object):
 
         self.generateIDs()
 
-        print>> sys.stderr, "#Tokens: %d" % len(self.known_toks)
-        print>> sys.stderr, "#Lemmas: %d" % len(self.known_lems)
-        print>> sys.stderr, "#POSs: %d" % len(self.known_poss)
-        print>> sys.stderr, "#Dependency labels: %d" % len(self.known_deps)
-        print>> sys.stderr, "#Concepts: %d" % len(self.known_concepts)
-        print>> sys.stderr, "#Relations: %d" % len(self.known_rels)
+        print("#Tokens: %d" % len(self.known_toks), file=sys.stderr)
+        print("#Lemmas: %d" % len(self.known_lems), file=sys.stderr)
+        print("#POSs: %d" % len(self.known_poss), file=sys.stderr)
+        print("#Dependency labels: %d" % len(self.known_deps), file=sys.stderr)
+        print("#Concepts: %d" % len(self.known_concepts), file=sys.stderr)
+        print("#Relations: %d" % len(self.known_rels), file=sys.stderr)
 
     def generateIDs(self):
         for idx, tok in enumerate(self.known_toks):
@@ -383,8 +383,8 @@ def loadAMRConll(path):
             else:
                 # Parse graph line.
                 if len(splits) != 8:
-                    print>> sys.stderr, "Length inconsistent in conll format %s" % len(splits)
-                    print>> sys.stderr, " ".join(splits)
+                    print("Length inconsistent in conll format %s" % len(splits), file=sys.stderr)
+                    print(" ".join(splits), file=sys.stderr)
                     sys.exit(1)
                 #print "splits {}".format(splits)
                 concept_idx = int(splits[0])
@@ -408,7 +408,7 @@ def loadAMRConll(path):
                     #print "word_idx {}".format(word_idx)
                     word_span = word_idx.split("-")
                     start, end = int(word_span[0]), int(word_span[1])
-                    curr_set = set(xrange(start, end))
+                    curr_set = set(range(start, end))
                     # TODO: there can be repeated spans.
                     # assert len(visited & curr_set) == 0, "\nVisited span: %d-%d\n" % (start, end)
                     if len(visited & curr_set) != 0:

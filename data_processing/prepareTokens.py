@@ -9,7 +9,7 @@ from constants import *
 from date_extraction import *
 from utils import *
 import ml_utils
-from soracle_data import *
+from oracle_data import *
 
 def collapseTokens(tok_seq, lemma_seq, pos_seq, span_to_type, isTrain=True, span_max=6):
     n_toks = len(tok_seq)
@@ -22,15 +22,15 @@ def collapseTokens(tok_seq, lemma_seq, pos_seq, span_to_type, isTrain=True, span
     start_to_end = {}
     # print "Original tokens:", " ".join(tok_seq)
     # tok_seq just separate a sentence by space
-    for i in xrange(n_toks):    # loop over all tokens
+    for i in range(n_toks):    # loop over all tokens
         if i in collapsed:  # Not dealing with collapsed (Empty at first)
             continue
-        for j in xrange(i+span_max, i, -1): # only deal with 6 beforehand
-        #for j in xrange(i+1, n_toks+1):
+        for j in range(i+span_max, i, -1): # only deal with 6 beforehand
+        #for j in range(i+1, n_toks+1):
             # using the span of a syntax to get the type
             if (i, j) in span_to_type:  # span_to_type like a disctionary, collecting vector of size 3, (index, symatic, symatic)
                 node_idx, _, curr_sym = span_to_type[(i, j)]
-                aligned_set = set(xrange(i, j)) # Collection of numbers?
+                aligned_set = set(range(i, j)) # Collection of numbers?
                 # collapsed & aligned_set means intersection of the two
                 if len(collapsed & aligned_set) != 0:   # skip non-trivial intersection case
                     continue
@@ -249,7 +249,7 @@ class AMR_stats(object):
         def dump_file(f, dict):
             sorted_dict = sorted(dict.items(), key=lambda k:(-k[1], k[0]))
             for (item, count) in sorted_dict:
-                print >>f, '%s %d' % (item, count)
+                print('%s %d' % (item, count))
             f.close()
 
         pred_f = open(os.path.join(dir, 'pred'), 'w')
@@ -341,7 +341,7 @@ def realign(input_file, tokenized_file, alignment_file, alignment_output):
                         new_align = "%d-%s" % (idx, curr_align)
                         new_alignment.append(new_align)
                 new_idx = new_end
-            print >> wf, " ".join(new_alignment)
+            print(" ".join(new_alignment), file=wf)
         wf.close()
 
 def dependency_align(dep_file, token_file, output_dep_file=None):
@@ -515,7 +515,7 @@ def linearize_amr(args):
             alignment_seq, amr, concept_align_map, relation_align_map)
         alignment_utils.outputEdgeAlignment(tok_seq, amr, edge_to_toks, tok2rels)
 
-        temp_unaligned = set(xrange(len(pos_seq))) - temp_aligned
+        temp_unaligned = set(range(len(pos_seq))) - temp_aligned
 
         aligned_toks = set()
 
@@ -539,7 +539,7 @@ def linearize_amr(args):
         # print "All alignments:", str(all_alignments)
 
         ##Based on the alignment from node index to spans in the string
-        unaligned_set = set(xrange(len(pos_seq))) - aligned_toks
+        unaligned_set = set(range(len(pos_seq))) - aligned_toks
         unaligned_idxs = sorted(list(unaligned_set))
         logger.writeln("Unaligned tokens: %s" % (" ".join([tok_seq[i] for i in unaligned_idxs])))
 
@@ -558,7 +558,7 @@ def linearize_amr(args):
                 node_map[span[0]] = amr.nodes[node_idx].node_str()
 
         # Save the old alignment.
-        print >> old_align_wf, "Sentence #%d" % sent_idx
+        print(old_align_wf, "Sentence #%d" % sent_idx)
         for (tok_idx, curr_tok) in enumerate(tok_seq):
             concept_l = "NONE"
             if tok_idx in concept_align_map:
@@ -570,8 +570,8 @@ def linearize_amr(args):
             attrs.append(curr_tok)
             attrs.append(concept_l)
             attrs.append(relation_l)
-            print >> old_align_wf, " ||| ".join(attrs)
-        print >> old_align_wf, ""
+            print(old_align_wf, " ||| ".join(attrs))
+        print(old_align_wf, "")
 
         visited_idxs = set()
 
@@ -631,7 +631,7 @@ def linearize_amr(args):
             tok_seq, lemma_seq, pos_seq, span_to_type, True)
 
         # Save the new alignments.
-        print >> alignment_wf, "Sentence #%d" % sent_idx
+        print("Sentence #%d" % sent_idx, file=alignment_wf)
         for (tok_idx, curr_tok) in enumerate(tok_seq):
 
             if tok_idx in visited_idxs:
@@ -673,8 +673,8 @@ def linearize_amr(args):
             conceptID_seq.append((tok_str, lem_str, in_bracket(start, end, tok_seq), wiki_l,
                                   concept_str, concept_category))
 
-            print >> alignment_wf, " ||| ".join(attrs)
-        print >> alignment_wf, ""
+            print(" ||| ".join(attrs), file=alignment_wf)
+        print("", file=alignment_wf)
 
         assert len(conceptID_seq) == len(collapsed_toks), "%s\n%s\n" % (str(conceptID_seq), str(collapsed_toks))
 
@@ -704,7 +704,7 @@ def linearize_amr(args):
             else:
                 feats.append("inbracket=false")
 
-            print >> concept_example_wf, "\t".join(feats)
+            print("\t".join(feats), file=concept_example_wf)
 
         assert len(tok_seq) == len(pos_seq)
 
@@ -724,10 +724,10 @@ def linearize_amr(args):
         pi_seq, edge_map, edge_list = buildPiSeq(new_amr, collapsed_toks, new_alignment, sorted_idxes)
         assert len(pi_seq) == len(new_amr.nodes)
 
-        print >> conll_wf, 'sentence %d' % sent_idx
-        print >> tok_wf, (" ".join(collapsed_toks))
-        print >> lemma_wf, (" ".join(collapsed_lem))
-        print >> pos_wf, (" ".join(collapsed_pos))
+        print('sentence %d' % sent_idx, file=conll_wf)
+        print(" ".join(collapsed_toks), file=tok_wf)
+        print(" ".join(collapsed_lem), file=lemma_wf)
+        print(" ".join(collapsed_pos), file=pos_wf)
         print(str(new_amr))
 
         origToNew = {}
@@ -749,7 +749,7 @@ def linearize_amr(args):
                 subgraph_repr = "%s||%s" % (tok_repr, subgraph_repr)
 
                 for (start, end) in new_alignment[index]:
-                    for tok_id in xrange(start, end + 1):
+                    for tok_id in range(start, end + 1):
                         word_indices.append(tok_id)
 
             var_bit = '1' if curr_node.is_var_node() else '0'
@@ -776,8 +776,8 @@ def linearize_amr(args):
             line_reps.append(parent_repr)
             line_reps.append(concept_category)
             line_reps.append(subgraph_repr)
-            print >> conll_wf, ('\t'.join(line_reps))
-        print >> conll_wf, ''
+            print('\t'.join(line_reps), file=conll_wf)
+        print('', file=conll_wf)
 
     logger.writeln("A total of %d sentences with unaligned entities" % unaligned_sents)
 
@@ -1004,7 +1004,7 @@ def linearizeData(args, data_dir, freq_path, output_dir, save_mode=False):
             lasttok_to_repr = {}
             for (start, end, entity_typ) in entities_in_sent:
                 # print 'entity:', ' '.join(tok_seq[start:end]), entity_typ
-                new_aligned = set(xrange(start, end))
+                new_aligned = set(range(start, end))
                 if len(aligned_set & new_aligned) != 0:
                     continue
                 abbrev = False
@@ -1284,8 +1284,8 @@ def linearizeData(args, data_dir, freq_path, output_dir, save_mode=False):
                     continue
 
                 # Then we further check if there is any multi-token representations.
-                for end_idx in xrange(n_toks, tok_idx, -1):
-                    covered = set(xrange(tok_idx, end_idx))
+                for end_idx in range(n_toks, tok_idx, -1):
+                    covered = set(range(tok_idx, end_idx))
                     if len(visited & covered) != 0:
                         continue
 
@@ -1380,16 +1380,16 @@ def linearizeData(args, data_dir, freq_path, output_dir, save_mode=False):
             assert len(concept_seq) == len(map_info_seq)
             assert len(concept_seq) == len(concept_to_word)
 
-            print >> tok_wf, (" ".join(collapsed_toks))
-            print >> lemma_wf, (" ".join(collapsed_lem))
-            print >> pos_wf, (" ".join(collapsed_pos))
-            print >> conll_wf, 'sentence %d' % sent_idx
+            print(" ".join(collapsed_toks), file=tok_wf)
+            print(" ".join(collapsed_lem), file=lemma_wf)
+            print(" ".join(collapsed_pos), file=pos_wf)
+            print('sentence %d' % sent_idx, file=conll_wf)
             for (concept_idx, concept) in enumerate(concept_seq):
                 align_widx = concept_to_word[concept_idx]
-                print >> conll_wf, "%d\t%s\t%s\t%s\t%s" % (
+                print("%d\t%s\t%s\t%s\t%s" % (
                     concept_idx, concept, category_seq[concept_idx], map_info_seq[concept_idx],
-                    collapsed_toks[align_widx])
-            print >> conll_wf, ""
+                    collapsed_toks[align_widx]), file=conll_wf)
+            print("", file=conll_wf)
 
             # Next we prepare the input files for the decoder.
             oracle_seq = ["SHIFT", "POP"] * len(concept_seq)

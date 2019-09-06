@@ -89,7 +89,7 @@ class CacheConfiguration(object):
             labels.append('(' + concept + ') ')
         
         # obtain types all at once
-        types = ulf_type.eval(labels)
+        types = self.ulf_type.eval(labels)
         # create the dictionary using the keys and values
         self.con2type = dict(zip(self.conceptSeq, types))
         # checker method.

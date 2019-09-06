@@ -23,9 +23,9 @@ ORACLE_DIR=ulfdata/oracle/${ULF_VER}_cache${CACHE_SIZE}
 model_prefix=./logs_cache_size${CACHE_SIZE}_${ULF_VER}/NP2P.base_separate
 
 # The line below is already completed by ulf-pipline.sh
-python ./oracle/oracle.py --data_dir ${ULF_DATA}/conll --output_dir ${ORACLE_DIR} --cache_size ${CACHE_SIZE} --decode --ulf
+python3 ./oracle/oracle.py --data_dir ${ULF_DATA}/conll --output_dir ${ORACLE_DIR} --cache_size ${CACHE_SIZE} --decode --ulf
 
-python NP2P_beam_decoder.py --model_prefix ${model_prefix} \
+python3 NP2P_beam_decoder.py --model_prefix ${model_prefix} \
         --in_path ${ORACLE_DIR} \
         --out_path decode_results/ulf/decode_cache_size${CACHE_SIZE}_${ULF_VER}_instance.amr \
         --mode beam_decode \

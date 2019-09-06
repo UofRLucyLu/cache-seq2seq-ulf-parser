@@ -135,7 +135,7 @@ def dateRepr(toks):
         elif tok in seasons:
             rels.append(('season', tok))
     if not rels:
-        print 'weird: %s' % (' '.join(toks))
+        print('weird: %s' % (' '.join(toks)))
     return rels
 
 def loadTemplates(file):
@@ -222,7 +222,7 @@ def extractDates(file, template_file):
             dates_in_line = mergeDates(dates_in_line, toks)
             dates_in_line = ['%d-%d' % (start ,end) for (start, end) in dates_in_line]
 
-            print ' '.join(dates_in_line)
+            print(' '.join(dates_in_line))
 
 # if __name__ == '__main__':
 #     extractAllDate(sys.argv[1])

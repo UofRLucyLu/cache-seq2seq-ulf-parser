@@ -1,6 +1,6 @@
 from collections import defaultdict
 import csv
-import cPickle
+import pickle
 from numpy import zeros, ones, array, tile
 import sys, os, re
 def read_toks(filename):
@@ -97,10 +97,10 @@ def loadCandidateMap(conceptIDFile, lemConceptIDFile, labelIndexer, delimiter="\
                     target = concept.split("||")[0]
 
                 if ignore and target == "NONE":
-                    print "Disallow mapping %s to NONE" % word
+                    print("Disallow mapping %s to NONE" % word)
 
                 if target not in labelIndexer:
-                    print "not in label indexer:", word, target
+                    print("not in label indexer:", word, target)
                     continue
 
                 l = labelIndexer[target]
@@ -127,10 +127,10 @@ def loadCandidateMap(conceptIDFile, lemConceptIDFile, labelIndexer, delimiter="\
                 if concept[:3] == "NE_":
                     target = concept.split("||")[0]
                 if ignore and target == "NONE":
-                    print "Disallow mapping %s to NONE" % lemma
+                    print("Disallow mapping %s to NONE" % lemma)
 
                 if target not in labelIndexer:
-                    print "not in label indexer:", word, target
+                    print("not in label indexer:", word, target)
                     continue
 
                 l = labelIndexer[target]
@@ -253,9 +253,9 @@ def viterbi(x, emissionWeights, transitionWeights, firstWeights, tags):
     try:
         scores[0] = firstWeights + emissionWeights[x[0]]
     except:
-        print scores
-        print firstWeights
-        print emissionWeights[x[0]]
+        print(scores)
+        print(firstWeights)
+        print(emissionWeights[x[0]])
         sys.exit(-1)
 
     # For each observation (word) in sequence

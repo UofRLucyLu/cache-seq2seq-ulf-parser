@@ -10,8 +10,8 @@ import json
 
 # I'm pretty sure there's already a function that does this, but I couldn't 
 # find it.
-def load_alignment_file(filename):
-  aligns = file(filename, 'r').read().split("\n\n")
+def load_alignment_open(filename):
+  aligns = open(filename, 'r').read().split("\n\n")
   adata = []
   for a in aligns:
     if a.strip() != "":
@@ -65,12 +65,12 @@ def correlation_counts(annsents, align_data):
       lemma2atom[lemma][atom] += 1
 
   # Convert the key1 -> key2 -> count to key1 -> (key2, count)
-  token2atom = { token : [(a, c) for a, c in acounts.iteritems()]\
-      for token, acounts in token2atom.iteritems() }
-  lemma2atom = { lemma : [(a, c) for a, c in acounts.iteritems()] \
-      for lemma, acounts in lemma2atom.iteritems() }
-  pos2ext = { pos : [(e, c) for e, c in ecounts.iteritems()] \
-      for pos, ecounts in pos2ext.iteritems() }
+  token2atom = { token : [(a, c) for a, c in acounts.items()]\
+      for token, acounts in token2atom.items() }
+  lemma2atom = { lemma : [(a, c) for a, c in acounts.items()] \
+      for lemma, acounts in lemma2atom.items() }
+  pos2ext = { pos : [(e, c) for e, c in ecounts.items()] \
+      for pos, ecounts in pos2ext.items() }
   
   return { "token2atom" : token2atom, "lemma2atom" : lemma2atom, "pos2ext" : pos2ext }
 
@@ -84,9 +84,9 @@ if __name__ == "__main__":
   args, unparsed_args = parser.parse_known_args()
   
   annsents = AnnSents(args.annsent_dir)
-  align_data = load_alignment_file(args.alignment_file)
+  align_data = load_alignment_open(args.alignment_file)
   
   counts = correlation_counts(annsents, align_data)
-  out = file(args.outfile, 'w')
+  out = open(args.outfile, 'w')
   out.write(json.dumps(counts, indent=4))
 

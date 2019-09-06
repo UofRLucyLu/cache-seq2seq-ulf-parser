@@ -13,7 +13,7 @@ from el_amr import AMR
 from amr_graph import *
 
 import os
-from Queue import PriorityQueue
+from queue import PriorityQueue
 import sys
 
 AnnToken = namedtuple('AnnToken', ['token', 'lemma', 'pos', 'ner'])
@@ -43,14 +43,14 @@ class AnnSents:
   # separated by tabs.
   @staticmethod
   def loadTokens(filename):
-    lines = [l for l in file(filename, 'r').read().splitlines() if l.strip() != ""]
+    lines = [l for l in open(filename, 'r').read().splitlines() if l.strip() != ""]
     return [l.split(" ") for l in lines]
 
   # NER files separate sentences with two newlines, each word is on its own line 
   # in the format [word]\t[NER label].
   @staticmethod
   def loadNER(filename):
-    sents = [s for s in file(filename, 'r').read().split("\n\n") if s.strip() != ""]
+    sents = [s for s in open(filename, 'r').read().split("\n\n") if s.strip() != ""]
     ners = [[l.split("\t")[1] for l in s.splitlines()] for s in sents]
     return ners
 
@@ -93,7 +93,7 @@ class Alignment:
       assert alabels[curidx] == curlabel
       # For each child of the current index, add the label and recurse.
       finalidx = 0
-      for chd, val in ulfamr.relations[curidx].iteritems():
+      for chd, val in ulfamr.relations[curidx].items():
         chdidx = ulfamr.nodes.index(chd) 
         newlabel = "{}.{}".format(curlabel, finalidx)
 
@@ -148,7 +148,7 @@ class Alignment:
     if self.__alignment_string:
       return self.__alignment_string
     strpieces = []
-    for s, nidxs in self.__span2nodes.iteritems():
+    for s, nidxs in self.__span2nodes.items():
       spanstr = "{}-{}".format(s[0],s[1])
       nlabels = [self.__node_labels[n] for n in nidxs]
       nlabels.sort()
@@ -295,7 +295,7 @@ class ULFAMRAligner:
     #print "n2w: {}".format(n2w)
 
     # For each node, construct a span of words it aligns with.
-    n2s = { n : (min(ws), max(ws)+1) for n, ws in n2w.iteritems() }
+    n2s = { n : (min(ws), max(ws)+1) for n, ws in n2w.items() }
     mergespans = []
     if self.__merge_nodes:
       # Merge overlapping spans and get a union of nodes.
@@ -315,7 +315,7 @@ class ULFAMRAligner:
         # Update remaining spans to those that weren't merged.
         remainspans = newremainspans
     else:
-      mergespans = [v for k, v in n2s.iteritems()]
+      mergespans = [v for k, v in n2s.items()]
 
     # Get union of nodes from this span.
     s2n = {}
@@ -431,15 +431,15 @@ class ULFAMRAligner:
     # TODO: generalize the merging to ignore COMPLEX nodes, i.e. two nodes with
     #       a path consisting only of COMPLEX nodes is considered adjacent.
     # For each node, construct a span of words it aligns with.
-    n2s = { n : (min(ws), max(ws)+1) for n, ws in n2w.iteritems() }
+    n2s = { n : (min(ws), max(ws)+1) for n, ws in n2w.items() }
     mergespans = []
     if self.__merge_nodes:
       # Merge overlapping spans and get a union of nodes.
       spans = n2s.values()
-      spans.sort()
+      list(spans).sort()
       remainspans = spans
       while len(remainspans) > 0:
-        mergespan = remainspans.pop(0)
+        mergespan = list(remainspans).pop(0)
         newremainspans = []
         for span2 in remainspans:
           # If both maxes are greater than the other's min, it must overlap.
@@ -451,7 +451,7 @@ class ULFAMRAligner:
         # Update remaining spans to those that weren't merged.
         remainspans = newremainspans
     else:
-      mergespans = [v for k, v in n2s.iteritems()]
+      mergespans = [v for k, v in n2s.items()]
 
     # Get union of nodes from this span.
     s2n = {}
@@ -495,9 +495,9 @@ if __name__ == "__main__":
     raise Exception
 
   # Load data.
-  print "Reading annotated sentence data..."
+  print("Reading annotated sentence data...")
   annsents = AnnSents(sys.argv[1])
-  print "Loading ULF AMRs..."
+  print("Loading ULF AMRs...")
   ulfamrs = []
   for line in open(sys.argv[2]):
     cur_line = line.strip()
@@ -516,7 +516,7 @@ if __name__ == "__main__":
   assert annsents.size() == len(ulfamrs)
   
   # Get alignments.
-  print "Computing alignments..." 
+  print("Computing alignments...")
   alignouts = []
   for annsent, ulfamr in zip(annsents.annsents, ulfamrs):
     aligner = ULFAMRAligner(annsent, ulfamr, amrtype=amrtype, merge_nodes=merge_nodes_flag)
@@ -524,9 +524,9 @@ if __name__ == "__main__":
     alignouts.append(aligner.amr_align_format())
   
   # Output results.
-  print "Writing results..."
-  out = file(sys.argv[3], 'w')
+  print("Writing results...")
+  out = open(sys.argv[3], 'w')
   out.write("\n".join(alignouts))
   out.close()
-  print "Done!"
+  print("Done!")
 

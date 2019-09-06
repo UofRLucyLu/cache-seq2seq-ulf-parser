@@ -20,10 +20,10 @@ def words2atoms(annsent, token2atom, lemma2atom, pos2ext):
   cur_ners = []
   atoms = []
   for anntoken in annsent.anntokens:
-    token = anntoken.token.decode("utf-8").encode("ascii", "ignore")
-    lemma = anntoken.lemma.decode("utf-8").encode("ascii", "ignore")
-    pos = anntoken.pos.decode("utf-8").encode("ascii", "ignore")
-    ner = anntoken.ner.decode("utf-8").encode("ascii", "ignore")
+    token = anntoken.token.encode("ascii", "ignore")
+    lemma = anntoken.lemma.encode("ascii", "ignore")
+    pos = anntoken.pos.encode("ascii", "ignore")
+    ner = anntoken.ner.encode("ascii", "ignore")
     if in_ner and ner == "O":
       # Just finished building a named entity.
       atoms.append("|{}|".format(" ".join(cur_ners)))
@@ -101,14 +101,14 @@ if __name__ == "__main__":
   args, unparsed_args = parser.parse_known_args()
 
   annsents = AnnSents(args.annsent_dir)
-  atcounts = json.loads(file(args.atom_counts, 'r').read())
+  atcounts = json.loads(open(args.atom_counts, 'r').read())
   
   sent_atoms = []
   for annsent in annsents.annsents:
     atoms = words2atoms(annsent, atcounts["token2atom"], atcounts["lemma2atom"], atcounts["pos2ext"])
     sent_atoms.append(atoms)
 
-  out = file(args.outfile, "w")
+  out = open(args.outfile, "w")
   out.write("\n".join(["\t".join(atoms) for atoms in sent_atoms]))
   out.close()
 
